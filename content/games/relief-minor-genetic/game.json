@@ -1,0 +1,36 @@
+{
+	"gradeId": "9",
+	"topicSlug": "relieful-minor",
+	"slug": "tipul-genetic-si-formele-lui",
+	"title": "Tipul genetic și formele lui",
+	"description": "Asociază fiecare tip genetic de relief cu o formă specifică.",
+	"position": 21,
+	"assets": [],
+	"body": {
+		"kind": "asociere",
+		"rounds": [
+			{
+				"title": "Runda 1",
+				"pairs": [
+					{ "left": { "text": "Relief fluvial" }, "right": { "text": "Luncă" }, "group": "fluvial" },
+					{ "left": { "text": "Relief glaciar" }, "right": { "text": "Circ glaciar" }, "group": "glaciar" },
+					{ "left": { "text": "Relief carstic" }, "right": { "text": "Dolină" }, "group": "carstic" },
+					{ "left": { "text": "Relief eolian" }, "right": { "text": "Dune" }, "group": "eolian" },
+					{ "left": { "text": "Relief de pluviodenudare" }, "right": { "text": "Rigolă" }, "group": "pluvio" },
+					{ "left": { "text": "Relief litoral" }, "right": { "text": "Faleză" }, "group": "litoral" }
+				]
+			},
+			{
+				"title": "Runda 2",
+				"pairs": [
+					{ "left": { "text": "Relief fluvial" }, "right": { "text": "Terase" }, "group": "fluvial" },
+					{ "left": { "text": "Relief glaciar" }, "right": { "text": "Morene" }, "group": "glaciar" },
+					{ "left": { "text": "Relief carstic" }, "right": { "text": "Peșteră" }, "group": "carstic" },
+					{ "left": { "text": "Relief eolian" }, "right": { "text": "Ciuperci eoliene" }, "group": "eolian" },
+					{ "left": { "text": "Relief de pluviodenudare" }, "right": { "text": "Ravenă" }, "group": "pluvio" },
+					{ "left": { "text": "Relief litoral" }, "right": { "text": "Plajă" }, "group": "litoral" }
+				]
+			}
+		]
+	}
+}

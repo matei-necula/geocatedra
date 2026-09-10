@@ -1,0 +1,161 @@
+{
+  "gradeId": "9",
+  "topicSlug": "tipuri-de-roci",
+  "slug": "minerale-de-zi-cu-zi",
+  "title": "Mineralul din spatele lucrurilor",
+  "description": "Pornind de la obiecte și situații obișnuite, deduci ce mineral se ascunde în ele și de ce tocmai acela.",
+  "position": 23,
+  "status": "published",
+  "body": {
+    "kind": "grila",
+    "rounds": [
+      {
+        "title": "Runda 1 — Ce se ascunde în casă",
+        "questions": [
+          {
+            "text": "Pui sare în ciorbă. Ai în mână un mineral scos din mină sau evaporat din apa mării. Care este?",
+            "hint": "Numele lui vine din grecescul „hals” — sare.",
+            "options": [
+              "Gips, un sulfat",
+              "Halit, o halogenură",
+              "Calcit, un carbonat",
+              "Cuarț, un silicat"
+            ],
+            "answer": 1
+          },
+          {
+            "text": "O placă de gips-carton se rupe ușor și lasă o pulbere albă. De ce e potrivit acest mineral pentru pereți despărțitori?",
+            "hint": "Un material moale se toarnă ușor în forme și se întărește singur.",
+            "options": [
+              "E moale, ușor și se toarnă simplu",
+              "Rezistă la temperaturi foarte mari",
+              "E cel mai dur mineral cunoscut",
+              "E greu și oprește bine zgomotul"
+            ],
+            "answer": 0
+          },
+          {
+            "text": "Geamul ferestrei se face din nisip topit. Nisipul de sticlărie e format aproape numai dintr-un mineral. Care?",
+            "hint": "E cel mai răspândit silicat din scoarță și nu se alterează.",
+            "options": [
+              "Feldspat",
+              "Calcit",
+              "Cuarț",
+              "Mica"
+            ],
+            "answer": 2
+          },
+          {
+            "text": "Fierul dintr-un vas de bucătărie a fost scos dintr-un minereu roșcat-negricios. Ce mineral și ce categorie?",
+            "hint": "Numele vine din grecescul „haima” — sânge, după urma pe care o lasă.",
+            "options": [
+              "Hematit, un oxid",
+              "Apatit, un fosfat",
+              "Malachit, un carbonat",
+              "Pirită, o sulfură"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "title": "Runda 2 — La bijutier",
+        "questions": [
+          {
+            "text": "Un inel are o piatră roșie și una albastră, amândouă foarte dure. Bijutierul spune că sunt același mineral. Care?",
+            "hint": "Rubinul și safirul sunt varietăți colorate ale aceluiași oxid.",
+            "options": [
+              "Fluorină",
+              "Cuarț",
+              "Corindon",
+              "Turcoaz"
+            ],
+            "answer": 2
+          },
+          {
+            "text": "Doi copii găsesc în pârâu cristale cubice, aurii, cu luciu metalic, și strigă „am găsit aur!”. De ce se înșală?",
+            "hint": "Aurul e element nativ: moale, se îndoaie, nu face cuburi.",
+            "options": [
+              "E aur, dar de puritate mică",
+              "E galenă, care are aceeași culoare",
+              "E pirită: face cuburi și e casantă",
+              "E corindon galben, varietate rară"
+            ],
+            "answer": 2
+          },
+          {
+            "text": "O brățară are pietre albastru-verzui, opace, cu vinișoare negre. Se poartă din Egiptul antic. Ce piatră este?",
+            "hint": "E un fosfat, nu un silicat — și nu e transparentă.",
+            "options": [
+              "Ametist",
+              "Safir",
+              "Smarald",
+              "Turcoaz"
+            ],
+            "answer": 3
+          },
+          {
+            "text": "Diamantul și mina creionului sunt amândouă carbon pur. De ce unul e cel mai dur mineral, iar celălalt se sfărâmă?",
+            "hint": "Categoria spune din ce sunt făcute, nu cum sunt aranjate.",
+            "options": [
+              "Diamantul e oxid, nu element",
+              "Atomii sunt aranjați altfel",
+              "Grafitul s-a format mai la cald",
+              "Diamantul are impurități dure"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": "Runda 3 — Decizii pe teren",
+        "questions": [
+          {
+            "text": "Un geolog picură acid diluat pe o rocă albicioasă și aceasta face spume. Ce categorie de mineral conține?",
+            "hint": "Efervescența în acid e testul clasic pentru o anumită grupare.",
+            "options": [
+              "Halogenuri — e sare",
+              "Silicați — e gresie",
+              "Sulfați — e gips",
+              "Carbonați — e calcar"
+            ],
+            "answer": 3
+          },
+          {
+            "text": "O firmă caută piatră de construcție rezistentă la ploi acide, an după an. Ce ar trebui să evite?",
+            "hint": "Ce se întâmplă cu un carbonat udat mereu de apă ușor acidă?",
+            "options": [
+              "Calcarul, fiindcă se dizolvă",
+              "Bazaltul, s-a răcit repede",
+              "Granitul, are cristale mari",
+              "Gnaisul, fiindcă e metamorfic"
+            ],
+            "answer": 0
+          },
+          {
+            "text": "Într-o zonă se găsesc din belșug apatit și fosforite. Ce industrie are cele mai mari șanse să se dezvolte acolo?",
+            "hint": "Fosforul e unul dintre elementele de care are nevoie orice plantă.",
+            "options": [
+              "Producția de aluminiu",
+              "Extracția sării",
+              "Îngrășăminte agricole",
+              "Fabricarea sticlei"
+            ],
+            "answer": 2
+          },
+          {
+            "text": "Un elev spune: „granitul e un mineral”. Profesoara îl corectează. De ce nu e corect?",
+            "hint": "Privește un granit cu lupa: vezi cristale de culori diferite.",
+            "options": [
+              "E o rocă, din mai multe minerale",
+              "E mineral doar dacă are cristale",
+              "E minereu, nu mineral",
+              "E mineral, din grupa silicaților"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ]
+  }
+}

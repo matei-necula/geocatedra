@@ -1,0 +1,41 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "solurile-terrei",
+		"slug": "solurile-terrei-pedosfera",
+		"images": [
+			{
+				"file": "../content/galerii/soluri/1-profilul-solului.webp",
+				"caption": "Profilul solului, de sus în jos: litiera (O), orizontul cu humus (A), orizontul eluvial (E), cel iluvial, de acumulare a argilei (B), orizontul carbonatic (C) și materialul parental — roca-mamă (R)"
+			},
+			{
+				"file": "../content/galerii/soluri/2-factori-pedogenetici.webp",
+				"caption": "Factorii care fac solul: clima, roca maternă, relieful, apa freatică, vegetația și lumea animală, timpul și activitatea omului"
+			},
+			{
+				"file": "../content/galerii/soluri/3-compozitia-solului.webp",
+				"caption": "Compoziția solului: jumătate spațiu poros — 25% aer și 25% apă — și jumătate material solid, din care 45–48% mineral și doar 2–5% organic"
+			},
+			{
+				"file": "../content/galerii/soluri/4-componentele-solului.webp",
+				"caption": "Ce se află într-un sol: nisip, praf și argilă, aer și apă în pori și, peste tot, viețuitoare — bacterii, fungi, insecte și râme"
+			},
+			{
+				"file": "../content/galerii/soluri/5-structura-solului.webp",
+				"caption": "Structura solului — felul în care particulele se leagă în agregate: grăunțoasă, prismatică, lamelară, columnară, poliedrică și în pană"
+			},
+			{
+				"file": "../content/galerii/soluri/6-textura-solului.webp",
+				"caption": "Textura solului, după mărimea particulelor: nisipoasă (grosieră), argiloasă (medie) și lutoasă (fină)"
+			},
+			{
+				"file": "../content/galerii/soluri/7-tipuri-zonale-1.webp",
+				"caption": "Tipuri zonale de sol și peisajele lor: gelisol de tundră, spodosol sub pădurea de conifere, argiluvisol sub pădurea de foioase și molisol de stepă"
+			},
+			{
+				"file": "../content/galerii/soluri/8-tipuri-zonale-2.webp",
+				"caption": "Tipuri zonale de sol: sol brun de semipustiu, sol cenușiu de pustiu, crasnoziom de pădure subtropicală și solonceac — solul sărăturat"
+			}
+		]
+	}
+]

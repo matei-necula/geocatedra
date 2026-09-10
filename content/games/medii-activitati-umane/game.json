@@ -1,0 +1,47 @@
+{
+	"gradeId": "9",
+	"topicSlug": "mediile-naturale-terestre",
+	"slug": "activitati-umane-pe-harta-mediilor",
+	"title": "Activități umane pe harta mediilor",
+	"description": "Fiecare fotografie arată o activitate omenească. Așaz-o pe harta mediilor terestre, acolo unde mediul o face posibilă. Două runde a câte șase.",
+	"position": 10,
+	"status": "published",
+	"assets": [
+		"harta-medii.webp",
+		"petrol-desert-tropical.webp",
+		"bananieri-ecuatorial.webp",
+		"grau-temperat.webp",
+		"statie-polara.webp",
+		"reni-tundra.webp",
+		"orez-musonic.webp",
+		"lemn-taiga.webp",
+		"maslini-mediteranean.webp",
+		"hidrocentrala-montan.webp",
+		"nomazi-desert-temperat.webp",
+		"bumbac-subecuatorial.webp",
+		"solar-desert-tropical.webp"
+	],
+	"body": {
+		"kind": "plaseaza-pe-harta",
+		"map": 0,
+		"reveal": "below",
+		"targets": [
+			{ "id": "petrol", "x": 49.25, "y": 44.75, "label": "Exploatare petrolieră — mediu deșertic tropical", "img": 1 },
+			{ "id": "bananieri", "x": 30.0, "y": 56.75, "label": "Cultură de bananieri — mediul pădurilor ecuatoriale", "img": 2 },
+			{ "id": "grau", "x": 68.0, "y": 30.75, "label": "Cultură de grâu — mediul de stepă și silvostepă", "img": 3 },
+			{ "id": "polara", "x": 40.75, "y": 9.5, "label": "Stațiune de cercetare — mediul polar glaciar", "img": 4 },
+			{ "id": "reni", "x": 69.25, "y": 11.5, "label": "Păstorit nomad de reni — mediul subpolar de tundră", "img": 5 },
+			{ "id": "orez", "x": 71.5, "y": 46.5, "label": "Agroterase de orez — mediul pădurilor musonice", "img": 6 },
+			{ "id": "lemn", "x": 79.0, "y": 21.0, "label": "Exploatare forestieră — mediul temperat rece al pădurilor de conifere (taiga)", "img": 7 },
+			{ "id": "maslini", "x": 49.75, "y": 40.5, "label": "Cultură de măslini — mediu subtropical mediteraneean", "img": 8 },
+			{ "id": "hidrocentrala", "x": 73.0, "y": 41.75, "label": "Hidrocentrală — mediile etajelor montane", "img": 9 },
+			{ "id": "nomazi", "x": 64.75, "y": 36.0, "label": "Păstorit nomad — mediu deșertic temperat", "img": 10 },
+			{ "id": "bumbac", "x": 50.25, "y": 50.25, "label": "Cultură de bumbac — mediul de savană (subecuatorial)", "img": 11 },
+			{ "id": "solar", "x": 55.75, "y": 45.0, "label": "Centrală solară — mediu deșertic tropical", "img": 12 }
+		],
+		"rounds": [
+			["petrol", "bananieri", "grau", "polara", "reni", "orez"],
+			["lemn", "maslini", "hidrocentrala", "nomazi", "bumbac", "solar"]
+		]
+	}
+}

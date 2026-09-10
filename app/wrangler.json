@@ -1,0 +1,162 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "catedra",
+  "main": "./workers/app.ts",
+  "compatibility_date": "2025-10-08",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "INSTANCE_ID": "geografie",
+    "REQUIRE_EMAIL_VERIFICATION": "false",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAEqKdREeruIz4qwH",
+    "SITE_MODE": "clase"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "catedra",
+      "database_id": "dd033979-a6b5-4c11-b331-921b54bb3adc",
+      "migrations_dir": "drizzle/migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "catedra-media"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "LOGIN_LIMITER",
+      "namespace_id": "1001",
+      "simple": {
+        "limit": 8,
+        "period": 60
+      }
+    },
+    {
+      "name": "TOKEN_LIMITER",
+      "namespace_id": "1002",
+      "simple": {
+        "limit": 12,
+        "period": 60
+      }
+    },
+    {
+      "name": "PRACTICE_LIMITER",
+      "namespace_id": "1003",
+      "simple": {
+        "limit": 60,
+        "period": 60
+      }
+    },
+    {
+      "name": "NICK_LIMITER",
+      "namespace_id": "1004",
+      "simple": {
+        "limit": 10,
+        "period": 60
+      }
+    },
+    {
+      "name": "DEMO_LIMITER",
+      "namespace_id": "1005",
+      "simple": {
+        "limit": 20,
+        "period": 60
+      }
+    },
+    {
+      "name": "REVIEW_LIMITER",
+      "namespace_id": "1006",
+      "simple": {
+        "limit": 3,
+        "period": 60
+      }
+    }
+  ],
+  "env": {
+    "liber": {
+      "vars": {
+        "INSTANCE_ID": "geografie",
+        "REQUIRE_EMAIL_VERIFICATION": "false",
+        "TURNSTILE_SITE_KEY": "0x4AAAAAAEqKdInId-L17FEZ",
+        "SITE_MODE": "liber",
+        "CF_BEACON_TOKEN": "4595a389e04f409187d69d054fb800da"
+      },
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "catedra",
+          "database_id": "dd033979-a6b5-4c11-b331-921b54bb3adc",
+          "migrations_dir": "drizzle/migrations"
+        }
+      ],
+      "r2_buckets": [
+        {
+          "binding": "MEDIA",
+          "bucket_name": "catedra-media"
+        }
+      ],
+      "ratelimits": [
+        {
+          "name": "LOGIN_LIMITER",
+          "namespace_id": "1001",
+          "simple": {
+            "limit": 8,
+            "period": 60
+          }
+        },
+        {
+          "name": "TOKEN_LIMITER",
+          "namespace_id": "1002",
+          "simple": {
+            "limit": 12,
+            "period": 60
+          }
+        },
+        {
+          "name": "PRACTICE_LIMITER",
+          "namespace_id": "1003",
+          "simple": {
+            "limit": 60,
+            "period": 60
+          }
+        },
+        {
+          "name": "NICK_LIMITER",
+          "namespace_id": "1004",
+          "simple": {
+            "limit": 10,
+            "period": 60
+          }
+        },
+        {
+          "name": "DEMO_LIMITER",
+          "namespace_id": "1005",
+          "simple": {
+            "limit": 20,
+            "period": 60
+          }
+        },
+        {
+          "name": "REVIEW_LIMITER",
+          "namespace_id": "1006",
+          "simple": {
+            "limit": 3,
+            "period": 60
+          }
+        }
+      ],
+      "observability": {
+        "enabled": true
+      },
+      "upload_source_maps": true
+    }
+  }
+}

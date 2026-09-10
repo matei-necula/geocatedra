@@ -1,0 +1,210 @@
+{
+	"gradeId": "9",
+	"topicSlug": "tipuri-de-roci",
+	"slug": "ancheta-pe-teren",
+	"title": "Ancheta pe teren",
+	"description": "Cinci anchete pornite din situații adevărate, din natură și din viața satului sau a orașului. Nu ți se spune numele rocii: îl deduci din ce se vede și explici de ce.",
+	"position": 21,
+	"status": "published",
+	"assets": [],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Ancheta 1 — Două monumente, același oraș",
+				"questions": [
+					{
+						"hint": "Două monumente stau de 100 de ani unul lângă altul. Cel din granit are inscripția perfect lizibilă. Cel din calcar are literele aproape șterse și suprafața ciupită.",
+						"text": "De ce s-a degradat mult mai repede monumentul din calcar?",
+						"options": [
+							"Fiindcă e mai puțin dur, iar vântul l-a șlefuit mult mai repede.",
+							"Fiindcă apa de ploaie, ușor acidă, dizolvă chimic calcarul.",
+							"Fiindcă a fost sculptat mai târziu, cu unelte mult mai slabe.",
+							"Fiindcă a stat în soare, iar cel din granit a stat mereu la umbră."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Duritatea contează la zgâriere, dar aici distrugerea e chimică, nu mecanică.",
+							"Corect! Ploaia încarcă dioxid de carbon și devine slab acidă; calcarul se dizolvă, granitul nu.",
+							"Fals. Enunțul spune că amândouă monumentele au aceeași vechime.",
+							"Fals. Soarele ar da dilatări și contracții, nu o ștergere atât de netedă."
+						]
+					},
+					{
+						"hint": "Aceeași anchetă.",
+						"text": "Ce fenomen natural de mare întindere este produs de exact același proces?",
+						"options": [
+							"Formarea peșterilor și a dolinelor în masivele de calcar.",
+							"Formarea dunelor de nisip în deșerturile calde și uscate.",
+							"Formarea văilor glaciare în formă de U, la mare altitudine.",
+							"Formarea conurilor vulcanice din lava răcită la suprafață."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Este același carst: apa slab acidă dizolvă calcarul, la suprafață și în adânc.",
+							"Fals. Dunele sunt opera vântului, un proces pur mecanic.",
+							"Fals. Văile în U sunt săpate mecanic de gheață, nu prin dizolvare.",
+							"Fals. Vulcanii țin de agenții interni, nu de acțiunea apei."
+						]
+					}
+				]
+			},
+			{
+				"title": "Ancheta 2 — Două pietre din aceeași magmă",
+				"questions": [
+					{
+						"hint": "Un vulcan a scos lavă la suprafață, dar o parte din magmă a rămas blocată în adânc și s-a răcit acolo. Prima rocă are cristale cât bobul de orez. A doua e neagră, lucioasă, fără niciun cristal vizibil.",
+						"text": "De ce arată atât de diferit, deși provin din aceeași magmă?",
+						"options": [
+							"Fiindcă a doua a fost reîncălzită, iar cristalele ei s-au topit.",
+							"Fiindcă viteza de răcire diferă, iar cristalele au nevoie de timp.",
+							"Fiindcă prima conține mult mai mult fier decât conține a doua.",
+							"Fiindcă a doua s-a format sub apă, iar prima s-a format pe uscat."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. O reîncălzire ar da o rocă metamorfică, cu benzi, nu sticlă vulcanică.",
+							"Corect! Răcirea lentă lasă cristalele să crească; cea bruscă nu le dă timp.",
+							"Fals. Compoziția schimbă culoarea, dar nu explică lipsa totală a cristalelor.",
+							"Fals. Și lava răcită sub apă se răcește brusc, deci tot fără cristale mari."
+						]
+					},
+					{
+						"hint": "Aceeași anchetă.",
+						"text": "Cum se numesc, în ordine, cele două roci descrise?",
+						"options": [
+							"Granit, cea cu cristale, și obsidian, cea sticloasă.",
+							"Obsidian, cea cu cristale, și granit, cea sticloasă.",
+							"Gresie, cea cu cristale, și calcar, cea sticloasă.",
+							"Marmură, cea cu cristale, și gnais, cea sticloasă."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Granitul e magmatic intruziv, obsidianul magmatic efuziv.",
+							"Fals. Numele sunt inversate.",
+							"Fals. Gresia și calcarul sunt roci sedimentare, nu magmatice.",
+							"Fals. Marmura și gnaisul sunt roci metamorfice."
+						]
+					}
+				]
+			},
+			{
+				"title": "Ancheta 3 — Scoici la 2000 de metri altitudine",
+				"questions": [
+					{
+						"hint": "Într-o drumeție pe creasta unui munte, la 2000 m altitudine, elevii găsesc în stâncă urme clare de scoici și de melci de mare.",
+						"text": "Care este explicația corectă?",
+						"options": [
+							"Roca s-a format pe fundul mării și a fost înălțată mai târziu.",
+							"Scoicile au fost duse acolo de păsări, de-a lungul mileniilor.",
+							"Scoicile acelea trăiesc și azi în lacurile glaciare de munte.",
+							"Marea a ajuns cândva până la 2000 m, apoi s-a retras complet."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Este calcar organogen, format în mare și ridicat prin coliziunea plăcilor.",
+							"Fals. Fosilele sunt prinse în interiorul rocii, nu împrăștiate la suprafață.",
+							"Fals. Sunt specii marine, care nu pot trăi într-un lac de munte.",
+							"Fals. Nivelul mării n-a crescut niciodată cu 2000 m; muntele s-a ridicat."
+						]
+					},
+					{
+						"hint": "Aceeași descoperire.",
+						"text": "Din ce grupă face parte roca și ce dovedesc fosilele din ea?",
+						"options": [
+							"Magmatică; fosilele dovedesc o erupție vulcanică foarte veche.",
+							"Sedimentară organogenă; s-a format din resturi de viețuitoare.",
+							"Metamorfică; fosilele dovedesc temperaturi foarte ridicate.",
+							"Sedimentară detritică; fosilele dovedesc transportul prin vânt."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Nicio fosilă n-ar supraviețui în magmă topită.",
+							"Corect! Calcarul organogen se face din cochilii și schelete adunate pe fundul mării.",
+							"Fals. Metamorfismul intens distruge de obicei fosilele.",
+							"Fals. Rocile detritice sunt din fragmente de rocă, nu din resturi de viețuitoare."
+						]
+					}
+				]
+			},
+			{
+				"title": "Ancheta 4 — Casa care crapă și fântâna sărată",
+				"questions": [
+					{
+						"hint": "Într-un sat, o casă nouă a început să crape după doi ani. Terenul de sub ea se umflă când plouă și se strânge pe secetă, lăsând crăpături late în pământ.",
+						"text": "Pe ce fel de rocă a fost ridicată casa?",
+						"options": [
+							"Pe argilă, o rocă ce absoarbe apa și își schimbă volumul.",
+							"Pe granit, o rocă foarte dură și complet nepermeabilă.",
+							"Pe bazalt, o rocă vulcanică ce se răcește și se dilată.",
+							"Pe gresie, o rocă cimentată, folosită mult la construcții."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Argila e plastică: se umflă îmbibată cu apă și crapă la uscare.",
+							"Fals. Granitul e cel mai stabil teren de fundare, nu unul care se mișcă.",
+							"Fals. Bazaltul nu își schimbă volumul în funcție de ploaie.",
+							"Fals. Gresia e permeabilă: apa trece prin ea, nu o umflă."
+						]
+					},
+					{
+						"hint": "În același sat, o fântână veche dă apă atât de sărată încât nu poate fi băută, deși marea e la sute de kilometri.",
+						"text": "Ce explică cel mai bine apa sărată din fântână?",
+						"options": [
+							"Apa a spălat un zăcământ de sare gemă aflat în subsol.",
+							"Apa a fost sărată intenționat de localnici, pentru animale.",
+							"Sarea a fost adusă de vânt dinspre mare, peste sute de km.",
+							"Apa a dizolvat granitul, iar acesta eliberează multă sare."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Sarea gemă e o rocă sedimentară de precipitare, rămasă din mări de demult.",
+							"Fals. Nimeni nu ar strica intenționat singura sursă de apă a gospodăriei.",
+							"Fals. Vântul poartă sare doar câțiva kilometri de la țărm.",
+							"Fals. Granitul nu se dizolvă în apă și nu conține sare."
+						]
+					}
+				]
+			},
+			{
+				"title": "Ancheta 5 — Ce piatră alegi pentru lucrare",
+				"questions": [
+					{
+						"hint": "O primărie vrea să pietruiască o alee dintr-un parc, într-un oraș cu ierni geroase și cu multe zile de îngheț-dezgheț.",
+						"text": "Care rocă rezistă cel mai bine și de ce?",
+						"options": [
+							"Granitul, fiindcă e dur și nu absoarbe aproape deloc apă.",
+							"Calcarul, fiindcă e ieftin și se taie foarte ușor în plăci.",
+							"Gresia friabilă, fiindcă lasă apa să treacă prin ea repede.",
+							"Argila arsă, fiindcă se găsește peste tot și e foarte ieftină."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Fără pori care să rețină apă, înghețul nu are ce să spargă din interior.",
+							"Fals. Calcarul e poros și se și dizolvă în apa de ploaie ușor acidă.",
+							"Fals. Roca friabilă se sfărâmă tocmai fiindcă apa îngheață în porii ei.",
+							"Fals. Argila arsă crapă la cicluri repetate de îngheț și dezgheț."
+						]
+					},
+					{
+						"hint": "Aceeași lucrare. Sculptorul cere marmură pentru statuia din mijlocul aleii.",
+						"text": "De ce marmură și nu calcarul din care provine ea?",
+						"options": [
+							"Fiindcă marmura e mai ieftină decât calcarul de carieră.",
+							"Fiindcă marmura are cristale strâns unite, deci se lustruiește.",
+							"Fiindcă marmura nu e atacată deloc de ploaia ușor acidă.",
+							"Fiindcă marmura conține fosile, care dau un aspect frumos."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Fiind rocă metamorfică, marmura este de regulă mai scumpă.",
+							"Corect! Recristalizarea a strâns granulele, de aceea marmura ia luciu și ține detaliul.",
+							"Fals. Este tot carbonat de calciu, deci ploaia acidă o atacă și pe ea.",
+							"Fals. Metamorfismul distruge fosilele: marmura nu are."
+						]
+					}
+				]
+			}
+		]
+	}
+}

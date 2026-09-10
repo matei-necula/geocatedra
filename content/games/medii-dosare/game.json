@@ -1,0 +1,178 @@
+{
+	"gradeId": "9",
+	"topicSlug": "mediile-naturale-terestre",
+	"slug": "dosarele-pamantului",
+	"title": "Detectivul climatic: dosarele Pământului",
+	"description": "Primești un dosar fără nume: o climogramă, un areal pe glob, un profil de sol și o specie. Din cele patru indicii deduci despre ce mediu terestru e vorba. Opt dosare, în două runde.",
+	"position": 14,
+	"status": "published",
+	"assets": [
+		"dosar-1-ecuatorial.webp",
+		"dosar-2-savana.webp",
+		"dosar-3-desert.webp",
+		"dosar-4-mediteranean.webp",
+		"dosar-5-foioase.webp",
+		"dosar-6-stepa.webp",
+		"dosar-7-taiga.webp",
+		"dosar-8-tundra.webp"
+	],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Runda 1 — dosarele din zona caldă",
+				"questions": [
+					{
+						"img": 0,
+						"text": "Dosarul 1. Citește cele patru indicii și spune despre ce mediu este vorba.",
+						"hint": "Uită-te întâi la climogramă: există vreo lună fără ploaie? Există vreo lună rece?",
+						"options": [
+							"Mediul pădurii ecuatoriale",
+							"Mediul pădurii musonice",
+							"Mediul de savană",
+							"Mediul pădurii de foioase"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Nicio lună secetoasă și nicio lună rece: 26–27 °C și ploaie în fiecare lună. Solul lateritic roșcat, sărac tocmai pentru că ploaia îl spală, și lianele confirmă pădurea ecuatorială.",
+							"Pădurea musonică are un sezon uscat limpede — luni aproape fără ploaie. Aici plouă în toate cele douăsprezece.",
+							"Savana are un sezon ploios și unul secetos bine despărțite. Climograma de aici nu coboară niciodată aproape de zero.",
+							"Pădurea de foioase cere un sezon rece, cu luni sub 10 °C. Aici nicio lună nu scade sub 26 °C."
+						]
+					},
+					{
+						"img": 1,
+						"text": "Dosarul 2. Ce mediu se ascunde în spatele acestor patru indicii?",
+						"hint": "Compară vara cu iarna în climogramă și caută arealul pe hartă: unde stă, față de Ecuator?",
+						"options": [
+							"Mediul de savană",
+							"Mediul pădurii ecuatoriale",
+							"Mediul deșertic tropical",
+							"Mediul de stepă"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Ploaia se strânge în câteva luni și lipsește complet în rest, temperatura rămâne ridicată tot anul, iar arealul formează brâul din jurul pădurii ecuatoriale. Girafa este specia-cheie.",
+							"În mediul ecuatorial plouă în toate lunile. Aici există luni cu 0 mm — un sezon secetos net.",
+							"Deșertul ar avea precipitații mici în toate lunile. Aici vârful sezonului ploios trece de 250 mm.",
+							"Stepa este un mediu temperat, cu iarnă geroasă. Aici nicio lună nu coboară sub 25 °C."
+						]
+					},
+					{
+						"img": 2,
+						"text": "Dosarul 3. Identifică mediul.",
+						"hint": "Barele albastre ale precipitațiilor sunt aproape invizibile. Ce înseamnă asta pentru sol și pentru plante?",
+						"options": [
+							"Mediul deșertic tropical",
+							"Mediul de savană",
+							"Mediul subtropical mediteraneean",
+							"Mediul de stepă"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Precipitații aproape nule în fiecare lună, veri peste 34 °C, sol nisipos fără humus, iar curmalul este planta oazelor.",
+							"Savana are un sezon ploios bogat. Aici nu există nicio lună cu ploaie însemnată.",
+							"Mediul mediteraneean are ierni ploioase. În dosarul acesta și iarna este uscată.",
+							"Stepa primește 250–450 mm pe an și are ierni geroase; aici sunt câțiva milimetri și ierni blânde."
+						]
+					},
+					{
+						"img": 3,
+						"text": "Dosarul 4. Ce mediu este?",
+						"hint": "Atenție la ANOTIMPUL în care cade ploaia — aici stă toată deosebirea.",
+						"options": [
+							"Mediul subtropical mediteraneean",
+							"Mediul temperat-oceanic",
+							"Mediul deșertic tropical",
+							"Mediul de savană"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Aceasta e semnătura mediteraneeană: ploaia cade iarna, vara e caldă și secetoasă. Solul terra rossa, format pe calcar, și broasca țestoasă de uscat completează dosarul.",
+							"În mediul temperat-oceanic ploaia e repartizată uniform tot anul, fără secetă de vară.",
+							"Deșertul e uscat în toate lunile; aici iarna adună 60–70 mm pe lună.",
+							"Savana e caldă tot anul, cu ploi în sezonul cald — exact pe dos față de ce arată climograma."
+						]
+					}
+				]
+			},
+			{
+				"title": "Runda 2 — dosarele din zonele temperate și reci",
+				"questions": [
+					{
+						"img": 4,
+						"text": "Dosarul 5. Ce mediu indică cele patru probe?",
+						"hint": "Ploaie egală în toate lunile, iarnă blândă, vară moderată. Ce ocean îmblânzește un asemenea climat?",
+						"options": [
+							"Mediul pădurii de foioase (temperat-oceanic)",
+							"Mediul pădurii de conifere (taiga)",
+							"Mediul subtropical mediteraneean",
+							"Mediul de stepă"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Ploaie constantă tot anul, ierni de 5 °C și veri de 18 °C — climatul oceanic. Argiluvisolul și fagul sunt semnăturile pădurii de foioase.",
+							"Taigaua are ierni sub −30 °C. Aici cea mai rece lună stă la +5 °C.",
+							"Mediteraneeanul are vara secetoasă. Aici plouă la fel de mult și în iulie.",
+							"Stepa e mult mai uscată, cu amplitudine termică mare; aici precipitațiile sunt bogate și egale."
+						]
+					},
+					{
+						"img": 5,
+						"text": "Dosarul 6. Identifică mediul.",
+						"hint": "Solul din indiciul 3 e negru și gros. Ce vegetație lasă în urmă atâta humus?",
+						"options": [
+							"Mediul de stepă",
+							"Mediul pădurii de foioase",
+							"Mediul deșertic temperat",
+							"Mediul subpolar de tundră"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Precipitații puține, cu maxim vara, ierni de −13 °C și veri de 23 °C — amplitudine mare. Molisolul (cernoziomul) negru, bogat în humus din iarba care putrezește an de an, și bizonul confirmă stepa.",
+							"Pădurea de foioase cere precipitații mult mai bogate. Cu atâta apă nu se susține pădurea, ci iarba.",
+							"Deșertul temperat coboară sub 250 mm și are sol sărac în humus; aici solul e cernoziom, cel mai fertil de pe glob.",
+							"Tundra are veri sub 12 °C și permafrost. Aici vara ajunge la 23 °C."
+						]
+					},
+					{
+						"img": 6,
+						"text": "Dosarul 7. Ce mediu este?",
+						"hint": "Iarna e cumplită, dar vara trece de 19 °C. E destul cât să crească arbori?",
+						"options": [
+							"Mediul pădurii de conifere (taiga)",
+							"Mediul subpolar de tundră",
+							"Mediul de stepă",
+							"Mediul temperat-oceanic"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Iarna coboară la −40 °C, dar vara depășește 19 °C — exact pragul care permite pădurii să crească. Podzolul cenușiu, spălat de apa acidă a acelor de conifere, și elanul sunt semnăturile taigalei.",
+							"În tundră vara nu trece de 10–12 °C și arborii nu cresc. Aici vara ajunge la 19 °C, iar solul e podzol format sub pădure.",
+							"Stepa nu coboară la −40 °C și are cernoziom, nu podzol.",
+							"Climatul oceanic are ierni blânde, în jur de 5 °C, nu geruri de −40 °C."
+						]
+					},
+					{
+						"img": 7,
+						"text": "Dosarul 8. Ultimul dosar — ce mediu este?",
+						"hint": "Solul e turbos, îmbibat cu apă. De ce nu se scurge apa în adâncime?",
+						"options": [
+							"Mediul subpolar de tundră",
+							"Mediul pădurii de conifere (taiga)",
+							"Mediul polar glaciar",
+							"Mediul de stepă"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Vară scurtă, abia peste 15 °C, iarnă sub −30 °C și precipitații mici. Apa băltește pentru că dedesubt permafrostul rămâne înghețat — de aici solul turbos; lichenii închid dosarul.",
+							"Pădurea de conifere are veri mai lungi și sol podzolic. Aici solul turbos arată că apa nu se poate scurge.",
+							"În mediul polar glaciar temperatura rămâne negativă aproape tot anul și nu există covor de licheni pe sol descoperit.",
+							"Stepa are veri de peste 20 °C și cernoziom; aici vara e scurtă și răcoroasă."
+						]
+					}
+				]
+			}
+		]
+	}
+}

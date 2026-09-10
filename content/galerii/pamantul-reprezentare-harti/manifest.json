@@ -1,0 +1,29 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "pamantul-reprezentare-harti",
+		"slug": "pamantul-reprezentare-harti-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/pamantul-reprezentare-harti/1-tipuri-de-proiectii.webp",
+				"caption": "Tipurile de proiecții cartografice, după suprafața pe care se desfășoară globul: conică, cilindrică și azimutală (plană)"
+			},
+			{
+				"file": "../content/galerii/pamantul-reprezentare-harti/2-planiglob-proiectii.webp",
+				"caption": "Planiglobul în trei proiecții: Robinson, Mercator (care umflă suprafețele spre poli) și Gall-Peters (care păstrează suprafețele, dar alungește formele)"
+			},
+			{
+				"file": "../content/galerii/pamantul-reprezentare-harti/3-de-la-relief-la-harta.webp",
+				"caption": "De la relief la hartă: forma de relief (I) este tăiată de plane orizontale din 10 în 10 metri (II), iar urmele lor coborâte pe hârtie devin curbe de nivel (III)"
+			},
+			{
+				"file": "../content/galerii/pamantul-reprezentare-harti/4-citirea-reliefului.webp",
+				"caption": "Citirea reliefului cu ajutorul curbelor de nivel: vârful, șaua dintre două vârfuri, panta domoală (curbe rare) și panta abruptă (curbe dese)"
+			},
+			{
+				"file": "../content/galerii/pamantul-reprezentare-harti/5-forme-de-relief-curbe.webp",
+				"caption": "Forme de relief și desenul lor în curbe de nivel: movilă, depresiune, șa, versant abrupt, culme, două vârfuri, vale cu râu și profile de vale în V și în U"
+			}
+		]
+	}
+]

@@ -1,0 +1,37 @@
+{
+	"gradeId": "9",
+	"topicSlug": "zonele-biogeografice",
+	"slug": "biomul-si-plantele-lui",
+	"title": "Biomul și plantele lui",
+	"description": "Asociază fiecare biom cu o plantă caracteristică.",
+	"position": 22,
+	"assets": [
+		"biom-ecuatorial.jpg", "biom-savana.jpg", "biom-desert-cald.jpg", "biom-mediteranean.jpg",
+		"biom-stepa.jpg", "biom-foioase.jpg", "biom-taiga.jpg", "biom-tundra.jpg",
+		"plant-liane.jpg", "plant-acacia.jpg", "plant-curmal.jpg", "plant-scoarta.jpg",
+		"plant-graminee.jpg", "plant-fag.jpg", "plant-sequoia.jpg", "plant-licheni.jpg"
+	],
+	"body": {
+		"kind": "asociere",
+		"rounds": [
+			{
+				"title": "Runda 1",
+				"pairs": [
+					{ "left": { "img": 0 }, "right": { "img": 8, "label": "Liane" }, "group": "ecuatorial" },
+					{ "left": { "img": 1 }, "right": { "img": 9, "label": "Acacia" }, "group": "savana" },
+					{ "left": { "img": 2 }, "right": { "img": 10, "label": "Curmal" }, "group": "desert-cald" },
+					{ "left": { "img": 3 }, "right": { "img": 11, "label": "Stejar de plută" }, "group": "mediteranean" }
+				]
+			},
+			{
+				"title": "Runda 2",
+				"pairs": [
+					{ "left": { "img": 4 }, "right": { "img": 12, "label": "Graminee" }, "group": "stepa" },
+					{ "left": { "img": 5 }, "right": { "img": 13, "label": "Fag" }, "group": "foioase" },
+					{ "left": { "img": 6 }, "right": { "img": 14, "label": "Conifere" }, "group": "taiga" },
+					{ "left": { "img": 7 }, "right": { "img": 15, "label": "Licheni și mușchi" }, "group": "tundra" }
+				]
+			}
+		]
+	}
+}

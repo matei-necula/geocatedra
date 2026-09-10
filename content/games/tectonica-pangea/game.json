@@ -1,0 +1,90 @@
+{
+	"gradeId": "9",
+	"topicSlug": "dinamica-litosferei",
+	"slug": "detectivul-pangeei",
+	"title": "Detectivul Pangeei",
+	"description": "Strânge dovezile derivei continentelor și potrivește fiecare indiciu cu ce demonstrează el.",
+	"position": 22,
+	"status": "published",
+	"assets": [],
+	"body": {
+		"kind": "asociere",
+		"rounds": [
+			{
+				"title": "Dovada și ce demonstrează",
+				"pairs": [
+					{
+						"left": { "text": "Fosile de Mesosaurus, reptilă de apă dulce" },
+						"right": { "text": "America de Sud și Africa erau lipite" },
+						"group": "mesosaurus"
+					},
+					{
+						"left": { "text": "Ferigi fosile Glossopteris" },
+						"right": { "text": "Blocurile sudice formau un singur uscat" },
+						"group": "glossopteris"
+					},
+					{
+						"left": { "text": "Munții Apalași și cei Caledonici" },
+						"right": { "text": "America de Nord era unită cu Europa" },
+						"group": "munti"
+					},
+					{
+						"left": { "text": "Zgârieturi lăsate de ghețari, în zone calde azi" },
+						"right": { "text": "Acele regiuni au stat cândva lângă pol" },
+						"group": "striatii"
+					}
+				]
+			},
+			{
+				"title": "Ce fel de argument este",
+				"pairs": [
+					{
+						"left": { "text": "Coastele Africii și ale Americii de Sud se potrivesc" },
+						"right": { "text": "Argument morfologic (forma țărmurilor)" },
+						"group": "morfologic"
+					},
+					{
+						"left": { "text": "Aceleași fosile pe continente despărțite de ocean" },
+						"right": { "text": "Argument paleontologic (viețuitoare)" },
+						"group": "paleontologic"
+					},
+					{
+						"left": { "text": "Benzi de roci vechi care se continuă dincolo de ocean" },
+						"right": { "text": "Argument geologic (roci și structuri)" },
+						"group": "geologic"
+					},
+					{
+						"left": { "text": "Urme de calotă glaciară în India și în Australia" },
+						"right": { "text": "Argument paleoclimatic (clima trecutului)" },
+						"group": "paleoclimatic"
+					}
+				]
+			},
+			{
+				"title": "Numele lucrurilor",
+				"pairs": [
+					{
+						"left": { "text": "Pangeea" },
+						"right": { "text": "Uscatul unic de acum 200 de milioane de ani" },
+						"group": "pangeea"
+					},
+					{
+						"left": { "text": "Laurasia" },
+						"right": { "text": "Jumătatea nordică a supercontinentului" },
+						"group": "laurasia"
+					},
+					{
+						"left": { "text": "Gondwana" },
+						"right": { "text": "Jumătatea sudică a supercontinentului" },
+						"group": "gondwana"
+					},
+					{
+						"left": { "text": "Panthalassa" },
+						"right": { "text": "Oceanul care înconjura tot uscatul" },
+						"group": "panthalassa"
+					}
+				]
+			}
+		]
+	}
+}

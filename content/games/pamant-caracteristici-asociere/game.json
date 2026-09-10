@@ -1,0 +1,26 @@
+{
+	"gradeId": "9",
+	"topicSlug": "pamantul-caracteristici",
+	"slug": "proprietati-si-consecinte",
+	"title": "Caracteristicile Pământului și efectele lor",
+	"description": "Asociază fiecare proprietate a Pământului cu consecința ei directă.",
+	"position": 20,
+	"assets": [],
+	"body": {
+		"kind": "asociere",
+		"rounds": [
+			{
+				"title": "Caracteristicile Pământului",
+				"pairs": [
+					{ "left": { "text": "Forța centrifugă" }, "right": { "text": "Scăderea gravitației de la poli la Ecuator" }, "group": "forta-centrifuga" },
+					{ "left": { "text": "Lungimea diferită a paralelelor" }, "right": { "text": "Scăderea vitezei de deplasare a punctelor de la diferite latitudini" }, "group": "lungimea-paralelelor" },
+					{ "left": { "text": "Gravitația" }, "right": { "text": "Creșterea densității de la suprafață către nucleu" }, "group": "gravitatia" },
+					{ "left": { "text": "Treapta geotermică" }, "right": { "text": "Creșterea temperaturii cu 1°C la fiecare 33 m adâncime" }, "group": "treapta-geotermica" },
+					{ "left": { "text": "Forța lui Coriolis" }, "right": { "text": "Deplasarea corpurilor în mișcare către dreapta în emisfera nordică" }, "group": "forta-coriolis" },
+					{ "left": { "text": "Declinația magnetică" }, "right": { "text": "Unghiul dintre meridianul geografic și meridianul magnetic" }, "group": "declinatia-magnetica" },
+					{ "left": { "text": "Forma Pământului" }, "right": { "text": "Scăderea temperaturii de la Ecuator la poli" }, "group": "forma-pamantului" }
+				]
+			}
+		]
+	}
+}

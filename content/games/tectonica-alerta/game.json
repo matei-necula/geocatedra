@@ -1,0 +1,195 @@
+{
+	"gradeId": "9",
+	"topicSlug": "dinamica-litosferei",
+	"slug": "alerta-tectonica",
+	"title": "Alerta tectonică",
+	"description": "Ești operator la centrul de alertă: citește raportul senzorilor și configurează corect simulatorul.",
+	"position": 20,
+	"status": "published",
+	"assets": [],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Alerta 1 — Placa Indiană presează Placa Euroasiatică",
+				"questions": [
+					{
+						"text": "Scoarța se încrețește și se înalță, fără activitate vulcanică. Ce mișcare arată datele?",
+						"options": [
+							"Apropiere (convergență) a celor două plăci",
+							"Depărtare (divergență) între cele două plăci",
+							"Alunecare orizontală, una pe lângă alta",
+							"Plăcile stau pe loc, fără nicio mișcare"
+						],
+						"answer": 0
+					},
+					{
+						"text": "Ambele plăci sunt continentale, la fel de groase. Ce proces are loc?",
+						"options": [
+							"Subducție: placa mai densă coboară în adânc",
+							"Coliziune continentală, cu încrețirea scoarței",
+							"Riftare, cu ruperea și îndepărtarea plăcilor",
+							"Expansiune, cu scoarță nouă la mijloc"
+						],
+						"answer": 1
+					},
+					{
+						"text": "Ce formă majoră de relief rezultă din acest contact?",
+						"options": [
+							"O fosă oceanică, adâncă de mii de metri",
+							"O dorsală medio-oceanică, lungă și adânc submarină",
+							"Munți de încrețire, cei mai înalți de pe Terra",
+							"O vale de rift, mărginită de abrupturi"
+						],
+						"answer": 2
+					},
+					{
+						"text": "Ce fenomene sunt de așteptat în această zonă?",
+						"options": [
+							"Vulcani exploziv, cu cenușă și cutremure adânci",
+							"Vulcani efuzivi, cu lavă fluidă și tsunami",
+							"Doar cutremure de suprafață, fără vulcanism",
+							"Nu apare niciun fenomen seismic sau vulcanic"
+						],
+						"answer": 2
+					}
+				]
+			},
+			{
+				"title": "Alerta 2 — senzori submarini în mijlocul Atlanticului",
+				"questions": [
+					{
+						"text": "Fundul oceanic se îndepărtează, iar magma urcă din manta. Ce mișcare este?",
+						"options": [
+							"Depărtare (divergență) a celor două plăci",
+							"Apropiere (convergență) a celor două plăci",
+							"Alunecare orizontală de-a lungul unei falii",
+							"Coborârea unei plăci sub cealaltă placă"
+						],
+						"answer": 0
+					},
+					{
+						"text": "Ce proces creează, aici, scoarță nouă?",
+						"options": [
+							"Subducția plăcii oceanice sub cea continentală",
+							"Coliziunea a două blocuri continentale groase",
+							"Orogeneza, prin încrețirea stratelor de roci",
+							"Expansiunea fundului oceanic, prin rift oceanic"
+						],
+						"answer": 3
+					},
+					{
+						"text": "Ce formă de relief se înalță la mijlocul oceanului?",
+						"options": [
+							"O dorsală medio-oceanică, cu vale de rift",
+							"Un arc insular vulcanic, în formă de semicerc",
+							"O fosă oceanică, cea mai adâncă de pe Glob",
+							"Un lanț de munți de încrețire, foarte înalt"
+						],
+						"answer": 0
+					},
+					{
+						"text": "Ce fenomene însoțesc acest tip de margine?",
+						"options": [
+							"Vulcani exploziv, cu nori uriași de cenușă",
+							"Vulcani efuzivi, cu lavă fluidă, și cutremure slabe",
+							"Cutremure foarte adânci, de peste 300 de kilometri sub sol",
+							"Nu apar nici vulcani, nici cutremure în zonă"
+						],
+						"answer": 1
+					}
+				]
+			},
+			{
+				"title": "Alerta 3 — mișcare bruscă pe orizontală în California",
+				"questions": [
+					{
+						"text": "Două blocuri alunecă unul pe lângă altul, fără magmă. Ce mișcare este?",
+						"options": [
+							"Apropiere, cu o placă ce coboară în adânc",
+							"Alunecare orizontală, de-a lungul unei falii",
+							"Depărtare, cu scoarță nouă între cele două",
+							"Ridicare pe verticală a întregului bloc"
+						],
+						"answer": 1
+					},
+					{
+						"text": "Ce tip de margine tectonică descriu datele?",
+						"options": [
+							"Margine convergentă, cu subducție",
+							"Margine divergentă, cu rift și dorsală",
+							"Margine transformantă, cu falie",
+							"Margine pasivă, fără mișcări active"
+						],
+						"answer": 2
+					},
+					{
+						"text": "Ce fenomene sunt de așteptat aici?",
+						"options": [
+							"Cutremure puternice de suprafață, fără vulcani",
+							"Vulcani expl. și cutremure adânci, sub 300 km",
+							"Vulcani efuzivi, cu revărsări liniștite de lavă",
+							"Nici cutremure, nici vulcanism, doar tasare"
+						],
+						"answer": 0
+					},
+					{
+						"text": "Unde se află, pe hartă, o astfel de margine binecunoscută?",
+						"options": [
+							"Coasta de vest a SUA, la falia San Andreas",
+							"Nordul Indiei, la poalele Munților Himalaya",
+							"Mijlocul Oceanului Atlantic, pe dorsală",
+							"Coasta de vest a Americii de Sud, în Anzi"
+						],
+						"answer": 0
+					}
+				]
+			},
+			{
+				"title": "Alerta 4 — o placă subțire coboară la vest de America de Sud",
+				"questions": [
+					{
+						"text": "Placa oceanică se scufundă sub marginea continentului. Ce mișcare este?",
+						"options": [
+							"Depărtare, cu formarea unei văi de rift",
+							"Apropiere, cu o placă ce coboară sub alta",
+							"Alunecare orizontală, fără pierdere de scoarță",
+							"Rotire a plăcii în jurul unui punct fix"
+						],
+						"answer": 1
+					},
+					{
+						"text": "Cum se numește procesul prin care placa densă coboară?",
+						"options": [
+							"Subducție, cu topirea plăcii în adâncime",
+							"Riftare, cu ruperea scoarței în două",
+							"Orogeneză, prin cutarea stratelor moi",
+							"Expansiune, prin adăugarea de scoarță nouă"
+						],
+						"answer": 0
+					},
+					{
+						"text": "Ce forme de relief apar la acest tip de contact?",
+						"options": [
+							"O vale de rift și o dorsală submarină",
+							"O fosă oceanică și munți cu vulcani",
+							"O câmpie joasă și un podiș vulcanic",
+							"Doar o falie lungă, fără alte forme"
+						],
+						"answer": 1
+					},
+					{
+						"text": "S-au înregistrat cutremure la adâncimi mari. Ce fenomene mai apar?",
+						"options": [
+							"Vulcani efuzivi, cu lavă fluidă și fierbinte",
+							"Numai cutremure slabe, de mică adâncime",
+							"Vulcani explozivi, cu cenușă, și tsunami",
+							"Nu apare vulcanism, fiindcă scoarța e groasă"
+						],
+						"answer": 2
+					}
+				]
+			}
+		]
+	}
+}

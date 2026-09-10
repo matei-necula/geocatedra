@@ -1,0 +1,18 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "climatele-terrei",
+		"type": "joc",
+		"title": "TEST plasează (dev)",
+		"status": "draft",
+		"body": {
+			"kind": "plaseaza-pe-harta",
+			"map": 0,
+			"targets": [
+				{ "id": "a", "x": 25, "y": 30, "label": "Ținta A", "img": 1 },
+				{ "id": "b", "x": 50, "y": 60, "label": "Ținta B", "img": 2 },
+				{ "id": "c", "x": 75, "y": 40, "label": "Ținta C", "img": 3 }
+			]
+		}
+	}
+]

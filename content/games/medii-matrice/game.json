@@ -1,0 +1,32 @@
+{
+	"gradeId": "9",
+	"topicSlug": "mediile-naturale-terestre",
+	"slug": "matricea-mediilor",
+	"title": "Matricea mediilor",
+	"description": "Completează tabelul: continente, tipuri de climă, vegetație, faună și plante specifice. Două runde.",
+	"position": 11,
+	"status": "published",
+	"body": {
+		"kind": "matrice",
+		"variants": [
+			{
+				"rows": [
+					[{ "text": "Continente" }, { "text": "AMERICA", "given": true }, { "text": "EUROPA" }, { "text": "AFRICA", "given": true }, { "text": "ASIA" }],
+					[{ "text": "Tip de climă" }, { "text": "Temperat-continentală", "given": true }, { "text": "Temperat-oceanică" }, { "text": "Tropical-aridă" }, { "text": "Subtropicală" }],
+					[{ "text": "Vegetație", "given": true }, { "text": "Pampas" }, { "text": "Pădure de foioase" }, { "text": "Oaze", "given": true }, { "text": "Pădure subtropicală umedă", "given": true }],
+					[{ "text": "Specii de faună" }, { "text": "Bizon", "given": true }, { "text": "Cerb" }, { "text": "Dromader" }, { "text": "Panda" }],
+					[{ "text": "Specii de plante", "given": true }, { "text": "Ierburi" }, { "text": "Fag", "given": true }, { "text": "Curmal" }, { "text": "Bambus" }]
+				]
+			},
+			{
+				"rows": [
+					[{ "text": "Continente" }, { "text": "AUSTRALIA", "given": true }, { "text": "EUROPA" }, { "text": "AFRICA", "given": true }, { "text": "ASIA" }],
+					[{ "text": "Tip de climă" }, { "text": "Subecuatorială", "given": true }, { "text": "Mediteraneană" }, { "text": "Ecuatorială" }, { "text": "Temperat-rece" }],
+					[{ "text": "Vegetație", "given": true }, { "text": "Savană" }, { "text": "Tufișuri de maquis" }, { "text": "Pădure ecuatorială", "given": true }, { "text": "Taiga", "given": true }],
+					[{ "text": "Specii de faună" }, { "text": "Cangur", "given": true }, { "text": "Magot" }, { "text": "Gorilă" }, { "text": "Elan" }],
+					[{ "text": "Specii de plante", "given": true }, { "text": "Acacia" }, { "text": "Levănțică", "given": true }, { "text": "Abanos" }, { "text": "Zadă" }]
+				]
+			}
+		]
+	}
+}

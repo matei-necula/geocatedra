@@ -1,0 +1,33 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "pamantul-caracteristici",
+		"slug": "pamantul-caracteristici-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/pamantul-caracteristici/1-forma-terrei.webp",
+				"caption": "Modelele formei Terrei: sfera, elipsoidul de rotație, geoidul-pară și terroidul — jos, abaterea suprafeței reale față de suprafața elipsoidului"
+			},
+			{
+				"file": "../content/galerii/pamantul-caracteristici/3-camp-gravitational.webp",
+				"caption": "Câmpul gravitațional terestru, reprezentat prin liniile de forță"
+			},
+			{
+				"file": "../content/galerii/pamantul-caracteristici/4-structura-interna.webp",
+				"caption": "Structura internă a Pământului: scoarța, mantaua superioară și mantaua inferioară, nucleul extern (lichid) și nucleul intern (solid), cu adâncimea fiecărei limite"
+			},
+			{
+				"file": "../content/galerii/pamantul-caracteristici/4b-densitate.webp",
+				"caption": "Creșterea densității spre interiorul Pământului: 2–3 g/cm³ în scoarță, 10–12 g/cm³ în nucleul intern"
+			},
+			{
+				"file": "../content/galerii/pamantul-caracteristici/5-inclinatia-axei.webp",
+				"caption": "Înclinația axei terestre — circa 23,5° față de perpendiculara pe planul orbital"
+			},
+			{
+				"file": "../content/galerii/pamantul-caracteristici/6-magnetosfera.webp",
+				"caption": "Magnetosfera Pământului, turtită de vântul solar în partea dinspre Soare și alungită în coadă pe partea opusă"
+			}
+		]
+	}
+]

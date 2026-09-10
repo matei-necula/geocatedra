@@ -1,0 +1,22 @@
+{
+	"maxWidth": 1800,
+	"quality": 88,
+	"images": [
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/elemente morfometrice.jfif",
+			"name": "1-elementele-morfologice"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/trepte de relief.jfif",
+			"name": "2-treptele-de-relief"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/etape orogeneza.jpg",
+			"name": "3-formarea-muntilor"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/evolutia reliefului.jfif",
+			"name": "4-peneplena-si-pediplena"
+		}
+	]
+}

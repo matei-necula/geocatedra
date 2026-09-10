@@ -1,0 +1,20 @@
+{
+	"src": "C:/Users/Liliana/Downloads/",
+	"maxWidth": 1600,
+	"quality": 86,
+	"images": [
+		{ "file": "1. struct hidrosf.jfif", "name": "01-rezervele-de-apa", "trim": false },
+		{ "file": "2. emisfere.jfif", "name": "02-emisfere", "trim": false },
+		{ "file": "3. harta salinitatii.jfif", "name": "03-harta-salinitatii", "trim": false },
+		{ "file": "4. grafic propr oc.png", "name": "04-proprietati-pe-latitudine", "trim": false },
+		{ "file": "5. tipuri de valuri.jpg", "name": "05-tipuri-de-valuri", "trim": false },
+		{ "file": "6. maree.jfif", "name": "06-maree", "trim": false },
+		{ "file": "7. curenti.jfif", "name": "07-curenti-oceanici", "trim": false },
+		{ "file": "8. ape curgatoare.jpg", "name": "08-parau-rau-fluviu", "trim": false },
+		{ "file": "9. baz hidro.jpg", "name": "09-bazin-hidrografic", "trim": false },
+		{ "file": "10. ape subterane.jfif", "name": "10-ape-subterane", "trim": false },
+		{ "file": "11.gheizer.jpg", "name": "11-gheizer", "trim": false },
+		{ "file": "12.izbuc.jpg", "name": "12-izbuc", "trim": false },
+		{ "file": "12. ghetari.jfif", "name": "13-ghetari", "trim": false }
+	]
+}

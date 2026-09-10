@@ -1,0 +1,89 @@
+{
+	"gradeId": "9",
+	"topicSlug": "dinamica-litosferei",
+	"slug": "arhitectii-reliefului",
+	"title": "Arhitecții reliefului",
+	"description": "Potrivește tipul de margine tectonică cu procesul, cu forma de relief și cu exemplul de pe Glob.",
+	"position": 21,
+	"status": "published",
+	"assets": ["marg-coliziune.jpg", "marg-subductie.jpg", "marg-dorsala.jpg", "marg-falie.jpg"],
+	"body": {
+		"kind": "asociere",
+		"imageFit": "natural",
+		"layout": "rows",
+		"rounds": [
+			{
+				"title": "Diagrama și tipul de margine",
+				"pairs": [
+					{ "left": { "img": 0 }, "right": { "text": "Convergentă: continent cu continent" }, "group": "coliziune" },
+					{ "left": { "img": 1 }, "right": { "text": "Convergentă: ocean cu continent" }, "group": "subductie" },
+					{ "left": { "img": 2 }, "right": { "text": "Divergentă: ocean cu ocean" }, "group": "dorsala" },
+					{ "left": { "img": 3 }, "right": { "text": "Transformantă: alunecare laterală" }, "group": "falie" }
+				]
+			},
+			{
+				"title": "Procesul și forma de relief",
+				"pairs": [
+					{
+						"left": { "text": "Orogeneză (încrețire)" },
+						"right": { "text": "Munți de încrețire" },
+						"group": "coliziune"
+					},
+					{
+						"left": { "text": "Subducție" },
+						"right": { "text": "Fosă oceanică și arc vulcanic" },
+						"group": "subductie"
+					},
+					{
+						"left": { "text": "Expansiunea fundului oceanic" },
+						"right": { "text": "Dorsală medio-oceanică" },
+						"group": "dorsala"
+					},
+					{ "left": { "text": "Riftare pe uscat" }, "right": { "text": "Vale de rift" }, "group": "rift" }
+				]
+			},
+			{
+				"title": "Exemplul de pe Glob",
+				"pairs": [
+					{
+						"left": { "text": "Munții Himalaya" },
+						"right": { "text": "Ciocnirea a două continente" },
+						"group": "coliziune"
+					},
+					{
+						"left": { "text": "Munții Anzi" },
+						"right": { "text": "O placă oceanică ce coboară" },
+						"group": "subductie"
+					},
+					{
+						"left": { "text": "Dorsala Atlantică" },
+						"right": { "text": "Plăci care se depărtează" },
+						"group": "dorsala"
+					},
+					{
+						"left": { "text": "Falia San Andreas" },
+						"right": { "text": "Blocuri care alunecă lateral" },
+						"group": "falie"
+					}
+				]
+			},
+			{
+				"title": "Ce fenomene apar",
+				"pairs": [
+					{
+						"left": { "text": "Valea Marelui Rift African" },
+						"right": { "text": "Scoarța continentală se rupe" },
+						"group": "rift"
+					},
+					{
+						"left": { "text": "Arhipelagul Japonez" },
+						"right": { "text": "Arc insular cu vulcani explozivi" },
+						"group": "subductie"
+					},
+					{ "left": { "text": "Islanda" }, "right": { "text": "Vulcani efuzivi pe o dorsală" }, "group": "dorsala" },
+					{ "left": { "text": "Vrancea" }, "right": { "text": "Cutremure adânci, fără vulcani" }, "group": "vrancea" }
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"gradeId": "9",
+	"topicSlug": "relieful-major",
+	"slug": "muntii-lumii-pe-harta",
+	"title": "Munții lumii pe hartă",
+	"description": "Găsește marile lanțuri montane pe harta lumii — sau numește bulina.",
+	"position": 20,
+	"status": "published",
+	"assets": ["harta-munti.jpg"],
+	"body": {
+		"kind": "harta-quiz",
+		"map": 0,
+		"points": [
+			{ "n": 1, "x": 6.05, "y": 13.74, "name": "Munții Alaskăi" },
+			{ "n": 2, "x": 11.05, "y": 23.87, "name": "Munții Coastelor" },
+			{ "n": 3, "x": 14.90, "y": 27.03, "name": "Munții Stâncoși" },
+			{ "n": 4, "x": 24.80, "y": 31.83, "name": "Munții Appalachi" },
+			{ "n": 5, "x": 26.60, "y": 70.71, "name": "Munții Anzi" },
+			{ "n": 6, "x": 50.40, "y": 11.93, "name": "Alpii Scandinaviei" },
+			{ "n": 7, "x": 62.85, "y": 16.64, "name": "Munții Ural" },
+			{ "n": 8, "x": 46.90, "y": 30.11, "name": "Munții Pirinei" },
+			{ "n": 9, "x": 48.60, "y": 27.31, "name": "Munții Alpi" },
+			{ "n": 10, "x": 53.65, "y": 26.04, "name": "Munții Carpați" },
+			{ "n": 11, "x": 53.15, "y": 31.90, "name": "Munții Dinarici" },
+			{ "n": 12, "x": 61.00, "y": 30.74, "name": "Munții Caucaz" },
+			{ "n": 13, "x": 71.15, "y": 39.42, "name": "Munții Himalaya" },
+			{ "n": 14, "x": 69.55, "y": 31.65, "name": "Munții Tian-Shan" },
+			{ "n": 15, "x": 73.50, "y": 34.36, "name": "Munții Kunlun" },
+			{ "n": 16, "x": 46.50, "y": 36.62, "name": "Munții Atlas" },
+			{ "n": 17, "x": 54.80, "y": 79.02, "name": "Munții Scorpiei" },
+			{ "n": 18, "x": 90.75, "y": 76.49, "name": "Marea Cumpănă de Ape" },
+			{ "n": 19, "x": 52.60, "y": 31.46, "name": "Munții Apenini" }
+		],
+		"rounds": [
+			[9, 4, 11, 3, 13, 17, 7, 6, 16, 5],
+			[16, 18, 1, 15, 19, 2, 4, 12, 6, 17],
+			[8, 10, 14, 12, 2, 6, 5, 18, 17, 1]
+		]
+	}
+}

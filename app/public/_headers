@@ -1,0 +1,17 @@
+# Long-lived immutable caching for content-hashed build output (runbook 4.9).
+# Cloudflare Workers Static Assets reads this file from the assets directory root
+# (build/client/_headers, since app/public/ is Vite's publicDir and is copied verbatim).
+#
+# /assets/* — react-router build hashes every JS/CSS filename (e.g. AdminShell-sJGjH8bF.js),
+# so a new deploy always ships new filenames. Safe to cache forever.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# /fonts/* — self-hosted woff2 files (see docs/08-public-launch-runbook.md 4.7). Filenames are
+# stable, not content-hashed, but font bytes never change once shipped. Immutable is still right.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Note: runbook 4.8 (prerendering "/", "/confidentialitate", "/termeni", "/cookie-uri") was
+# investigated and backed OUT this round — see the sitemap/robots task report for why. No
+# prerendered HTML lands in build/client, so there is nothing else to cache here yet.

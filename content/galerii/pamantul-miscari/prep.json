@@ -1,0 +1,50 @@
+{
+	"maxWidth": 1600,
+	"quality": 88,
+	"images": [
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/miscari.jfif",
+			"name": "1-rotatia",
+			"box": [
+				69,
+				57,
+				1399,
+				855
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/miscari.jfif",
+			"name": "2-forta-coriolis",
+			"box": [
+				1417,
+				873,
+				2747,
+				1485
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/miscari.jfif",
+			"name": "3-orbita-periheliu-afeliu",
+			"box": [
+				69,
+				873,
+				1399,
+				1485
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/miscari.jfif",
+			"name": "4-solstitii-echinoctii",
+			"box": [
+				1417,
+				57,
+				2747,
+				855
+			],
+			"trim": false
+		}
+	]
+}

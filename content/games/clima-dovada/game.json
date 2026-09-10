@@ -1,0 +1,116 @@
+{
+  "gradeId": "9",
+  "topicSlug": "climatele-terrei",
+  "slug": "dovada-de-la-fata-locului",
+  "title": "Dovada de la fața locului",
+  "description": "Nicio temperatură, niciun grafic: doar urme lăsate pe teren de oameni, plante și peisaj. Din fiecare dovadă, deduci climatul căruia îi aparține.",
+  "position": 22,
+  "status": "published",
+  "assets": [],
+  "body": {
+    "kind": "sortare",
+    "buckets": [
+      {
+        "label": "Ecuatorial"
+      },
+      {
+        "label": "Deșertic (arid)"
+      },
+      {
+        "label": "Temperat continental"
+      },
+      {
+        "label": "Polar și subpolar"
+      }
+    ],
+    "rounds": [
+      {
+        "title": "Runda 1 — Cum construiesc oamenii",
+        "cards": [
+          {
+            "text": "Case pe piloni, ridicate de la sol, cu acoperiș foarte înclinat",
+            "bucket": 0
+          },
+          {
+            "text": "Ziduri groase de lut, ferestre mici și curte interioară umbrită",
+            "bucket": 1
+          },
+          {
+            "text": "Case pe piloni bătuți adânc în sol, ca podeaua caldă să nu topească permafrostul",
+            "bucket": 3
+          },
+          {
+            "text": "Acoperiș puternic înclinat, pentru ca zăpada grea să alunece iarna",
+            "bucket": 2
+          },
+          {
+            "text": "Sisteme de canale subterane, ca apa să nu se evapore pe drum",
+            "bucket": 1
+          },
+          {
+            "text": "Ferestre duble și sobă, pentru ierni geroase, dar veri călduroase",
+            "bucket": 2
+          }
+        ]
+      },
+      {
+        "title": "Runda 2 — Ce spun plantele",
+        "cards": [
+          {
+            "text": "Arbori de peste 40 m, dispuși în mai multe etaje, veșnic verzi",
+            "bucket": 0
+          },
+          {
+            "text": "Plante cu tulpina groasă, care depozitează apa, și frunze prefăcute în spini",
+            "bucket": 1
+          },
+          {
+            "text": "Mușchi, licheni și arbuști pitici, fără niciun arbore înalt",
+            "bucket": 3
+          },
+          {
+            "text": "Păduri de stejar și fag, care își pierd frunzele toamna",
+            "bucket": 2
+          },
+          {
+            "text": "Liane și plante care cresc pe trunchiul altor arbori, căutând lumina",
+            "bucket": 0
+          },
+          {
+            "text": "Ierburi care răsar doar câteva săptămâni, după o ploaie rară",
+            "bucket": 1
+          }
+        ]
+      },
+      {
+        "title": "Runda 3 — Urme în peisaj",
+        "cards": [
+          {
+            "text": "Sol înghețat permanent în adâncime, care se dezgheață doar la suprafață vara",
+            "bucket": 3
+          },
+          {
+            "text": "Râuri care curg tot anul, pline, cu maluri acoperite de vegetație deasă",
+            "bucket": 0
+          },
+          {
+            "text": "Albii de râu uscate, care se umplu doar la câțiva ani, după o ploaie torențială",
+            "bucket": 1
+          },
+          {
+            "text": "Râuri care îngheață iarna și au ape mari primăvara, la topirea zăpezii",
+            "bucket": 2
+          },
+          {
+            "text": "Zi și noapte aproape egale tot anul, iar ploaia cade aproape zilnic după-amiaza",
+            "bucket": 0
+          },
+          {
+            "text": "Soarele nu apune deloc câteva săptămâni vara și nu răsare deloc iarna",
+            "bucket": 3
+          }
+        ]
+      }
+    ]
+  }
+}

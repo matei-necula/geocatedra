@@ -1,0 +1,61 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "hidrosfera",
+		"slug": "hidrosfera-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/hidrosfera/01-rezervele-de-apa.webp",
+				"caption": "Rezervele de apă ale Pământului: 97% apă sărată în oceane și doar 3% apă dulce — iar din apa dulce, 68,3% stă prinsă în calote și ghețari, 31,4% e apă subterană și abia 0,04% se află în lacuri, mlaștini și râuri"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/02-emisfere.webp",
+				"caption": "Emisfera continentală (46,4% uscat) și emisfera oceanică (11,6% uscat) — oricum ai tăia globul în două, apa rămâne majoritară"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/03-harta-salinitatii.webp",
+				"caption": "Salinitatea apelor oceanice de suprafață (g/kg): cea mai mare în mările calde și închise — Marea Roșie și Mediterana — cea mai mică lângă poli și în dreptul gurilor de vărsare ale fluviilor"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/04-proprietati-pe-latitudine.webp",
+				"caption": "Variația cu latitudinea a temperaturii, salinității și densității apelor de suprafață: spre poli temperatura scade și densitatea crește, iar salinitatea are câte un maxim în dreptul fiecărui tropic"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/05-tipuri-de-valuri.webp",
+				"caption": "Tipuri de valuri: eoliene — făcute de vânt; seismice (tsunami) — pornite de un cutremur submarin; și de hulă marină — valurile lungi și line rămase în urma furtunii"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/06-maree.webp",
+				"caption": "Mareea: același țărm la reflux și la flux; mareele sunt maxime la conjuncție, când Soarele, Luna și Pământul stau în linie, și minime la cuadratură, când Luna și Soarele trag în unghi drept"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/07-curenti-oceanici.webp",
+				"caption": "Curenții oceanici calzi (roșu) și reci (albastru), cu marile bucle pe care le închid în fiecare ocean"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/08-parau-rau-fluviu.webp",
+				"caption": "Pârâul, râul și fluviul — aceeași apă curgătoare, la trei mărimi de albie"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/09-bazin-hidrografic.webp",
+				"caption": "Elementele unui bazin hidrografic: izvorul, colectorul, afluentul, confluența, cumpăna de ape și gura de vărsare"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/10-ape-subterane.webp",
+				"caption": "Apele subterane: stratul freatic, așezat peste primul strat impermeabil, și stratul captiv, prins între două strate impermeabile — de acolo apa urcă singură prin sonda arteziană"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/11-gheizer.webp",
+				"caption": "Gheizerul: apa subterană se adună într-un rezervor încălzit de magmă, aburul blochează conducta, iar presiunea o azvârle afară — din când în când, la intervale aproape regulate"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/12-izbuc.webp",
+				"caption": "Izbucul intermitent: apa umple încet un rezervor din peșteră, iar când ajunge la vârful sifonului în formă de „U”, acesta pornește și golește rezervorul dintr-o dată"
+			},
+			{
+				"file": "../content/galerii/hidrosfera/13-ghetari.webp",
+				"caption": "Apa în stare solidă: ghețarul de calotă și aisbergurile desprinse din el, banchiza — gheață făcută din apa mării — și ghețarul montan, cu circul și limba lui glaciară"
+			}
+		]
+	}
+]

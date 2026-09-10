@@ -1,0 +1,32 @@
+{
+	"src": "C:/Users/Liliana/AppData/Local/Temp/claude/C--Users-Liliana-catedra/03b4bc87-a99b-4209-b89d-a091ea78200f/scratchpad/img/",
+	"maxWidth": 1600,
+	"quality": 88,
+	"images": [
+		{
+			"file": "1-forma.jpg",
+			"name": "1-forma-terrei",
+			"trim": false
+		},
+		{
+			"file": "3-campgrav.jpg",
+			"name": "3-camp-gravitational",
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/AppData/Local/Temp/claude/C--Users-Liliana-catedra/03b4bc87-a99b-4209-b89d-a091ea78200f/scratchpad/4-structura-corectat.png",
+			"name": "4-structura-densitate",
+			"trim": false
+		},
+		{
+			"file": "5-inclaxei.jpg",
+			"name": "5-inclinatia-axei",
+			"trim": false
+		},
+		{
+			"file": "6-magnetosfera.jpg",
+			"name": "6-magnetosfera",
+			"trim": false
+		}
+	]
+}

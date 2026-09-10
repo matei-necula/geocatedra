@@ -1,0 +1,159 @@
+{
+	"gradeId": "9",
+	"topicSlug": "relieful-minor",
+	"slug": "relieful-minor-in-imagini",
+	"title": "Recunoaște forma de relief",
+	"description": "Asociază fiecare planșă desenată cu denumirea formei de relief minor.",
+	"position": 22,
+	"assets": [
+		"rm-talveg.jpg",
+		"rm-lunca.jpg",
+		"rm-terase.jpg",
+		"rm-versanti.jpg",
+		"rm-meandre.jpg",
+		"rm-vale-in-chei.jpg",
+		"rm-canion.jpg",
+		"rm-rigola.jpg",
+		"rm-torent.jpg",
+		"rm-alunecare-de-teren.jpg",
+		"rm-prabusire-de-teren.jpg",
+		"rm-solifluxiune.jpg",
+		"rm-crov.jpg",
+		"rm-tarm-cu-laguna.jpg",
+		"rm-tarm-cu-liman.jpg",
+		"rm-tarm-cu-delta.jpg",
+		"rm-tarm-cu-estuar.jpg",
+		"rm-tarm-cu-riass.jpg",
+		"rm-tarm-dalmatin.jpg",
+		"rm-duna-de-nisip.jpg",
+		"rm-inselberg.jpg",
+		"rm-ued.jpg",
+		"rm-hamada.jpg",
+		"rm-erg.jpg",
+		"rm-circ-glaciar.jpg",
+		"rm-vale-glaciara.jpg",
+		"rm-fiord.jpg",
+		"rm-banchiza.jpg",
+		"rm-aisberg.jpg",
+		"rm-pestera.jpg",
+		"rm-dolina.jpg",
+		"rm-capatana-de-zahar.jpg",
+		"rm-cuesta.jpg",
+		"rm-anticlinal-sinclinal.jpg",
+		"rm-horst.jpg",
+		"rm-graben.jpg",
+		"rm-vale-in-rambleu.jpg",
+		"rm-vale-in-debleu.jpg",
+		"rm-terase-agricole.jpg"
+	],
+	"body": {
+		"kind": "asociere",
+		"layout": "rows",
+		"rounds": [
+			{
+				"title": "Relief fluvial",
+				"pairs": [
+					{ "left": { "img": 0 }, "right": { "text": "Talveg" }, "group": "Talveg" },
+					{ "left": { "img": 1 }, "right": { "text": "Luncă" }, "group": "lunca" },
+					{ "left": { "img": 2 }, "right": { "text": "Terase" }, "group": "Terase" }
+				]
+			},
+			{
+				"title": "Relief fluvial",
+				"pairs": [
+					{ "left": { "img": 3 }, "right": { "text": "Versanți" }, "group": "versanti" },
+					{ "left": { "img": 4 }, "right": { "text": "Meandre" }, "group": "Meandre" }
+				]
+			},
+			{
+				"title": "Relief fluvial",
+				"pairs": [
+					{ "left": { "img": 5 }, "right": { "text": "Vale în chei" }, "group": "vale-in-chei" },
+					{ "left": { "img": 6 }, "right": { "text": "Canion" }, "group": "Canion" },
+					{ "left": { "img": 7 }, "right": { "text": "Rigolă" }, "group": "rigola" },
+					{ "left": { "img": 8 }, "right": { "text": "Torent" }, "group": "Torent" }
+				]
+			},
+			{
+				"title": "Relief gravitațional",
+				"pairs": [
+					{ "left": { "img": 9 }, "right": { "text": "Alunecare de teren" }, "group": "alunecare" },
+					{ "left": { "img": 10 }, "right": { "text": "Prăbușire de teren" }, "group": "prabusire" },
+					{ "left": { "img": 11 }, "right": { "text": "Solifluxiune" }, "group": "Solifluxiune" }
+				]
+			},
+			{
+				"title": "Relief litoral",
+				"pairs": [
+					{ "left": { "img": 13 }, "right": { "text": "Țărm cu lagună" }, "group": "laguna" },
+					{ "left": { "img": 14 }, "right": { "text": "Țărm cu liman" }, "group": "liman" },
+					{ "left": { "img": 15 }, "right": { "text": "Țărm cu deltă" }, "group": "delta" }
+				]
+			},
+			{
+				"title": "Relief litoral",
+				"pairs": [
+					{ "left": { "img": 16 }, "right": { "text": "Țărm cu estuar" }, "group": "estuar" },
+					{ "left": { "img": 17 }, "right": { "text": "Țărm cu riass" }, "group": "riass" },
+					{ "left": { "img": 18 }, "right": { "text": "Țărm dalmatin" }, "group": "dalmatin" }
+				]
+			},
+			{
+				"title": "Relief deșertic",
+				"pairs": [
+					{ "left": { "img": 19 }, "right": { "text": "Dună de nisip" }, "group": "duna" },
+					{ "left": { "img": 20 }, "right": { "text": "Inselberg" }, "group": "Inselberg" },
+					{ "left": { "img": 21 }, "right": { "text": "Ued" }, "group": "Ued" }
+				]
+			},
+			{
+				"title": "Relief deșertic",
+				"pairs": [
+					{ "left": { "img": 22 }, "right": { "text": "Hamadă" }, "group": "hamada" },
+					{ "left": { "img": 23 }, "right": { "text": "Erg" }, "group": "Erg" }
+				]
+			},
+			{
+				"title": "Relief glaciar",
+				"pairs": [
+					{ "left": { "img": 24 }, "right": { "text": "Circ glaciar" }, "group": "circ-glaciar" },
+					{ "left": { "img": 25 }, "right": { "text": "Vale glaciară" }, "group": "vale-glaciara" },
+					{ "left": { "img": 26 }, "right": { "text": "Fiord" }, "group": "Fiord" }
+				]
+			},
+			{
+				"title": "Relief glaciar",
+				"pairs": [
+					{ "left": { "img": 27 }, "right": { "text": "Banchiză" }, "group": "banchiza" },
+					{ "left": { "img": 28 }, "right": { "text": "Aisberg" }, "group": "Aisberg" }
+				]
+			},
+			{
+				"title": "Relief petrografic",
+				"pairs": [
+					{ "left": { "img": 29 }, "right": { "text": "Peșteră" }, "group": "pestera" },
+					{ "left": { "img": 30 }, "right": { "text": "Dolină" }, "group": "dolina" },
+					{ "left": { "img": 31 }, "right": { "text": "Căpățână de zahăr" }, "group": "capatana" },
+					{ "left": { "img": 12 }, "right": { "text": "Crov" }, "group": "Crov" }
+				]
+			},
+			{
+				"title": "Relief structural",
+				"pairs": [
+					{ "left": { "img": 32 }, "right": { "text": "Cuestă" }, "group": "cuesta" },
+					{ "left": { "img": 33 }, "right": { "text": "Anticlinal și sinclinal" }, "group": "anticlinal-sinclinal" },
+					{ "left": { "img": 34 }, "right": { "text": "Horst" }, "group": "Horst" },
+					{ "left": { "img": 35 }, "right": { "text": "Graben" }, "group": "Graben" }
+				]
+			},
+			{
+				"title": "Relief antropic",
+				"pairs": [
+					{ "left": { "img": 36 }, "right": { "text": "Vale în rambleu" }, "group": "rambleu" },
+					{ "left": { "img": 37 }, "right": { "text": "Vale în debleu" }, "group": "debleu" },
+					{ "left": { "img": 38 }, "right": { "text": "Terase agricole" }, "group": "terase-agricole" }
+				]
+			}
+		]
+	}
+}

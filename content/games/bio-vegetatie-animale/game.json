@@ -1,0 +1,90 @@
+{
+	"gradeId": "9",
+	"topicSlug": "zonele-biogeografice",
+	"slug": "vegetatia-si-animalele",
+	"title": "Biomul și fauna lui",
+	"description": "Asociază fiecare biom cu un animal caracteristic.",
+	"position": 21,
+	"assets": [
+		"biom-ecuatorial.jpg", "biom-savana.jpg", "biom-desert-cald.jpg", "biom-mediteranean.jpg",
+		"biom-stepa.jpg", "biom-desert-temperat.jpg", "biom-foioase.jpg", "biom-taiga.jpg",
+		"biom-tundra.jpg", "biom-polar.jpg",
+		"an-jaguar.jpg", "an-maimuta.jpg", "an-lenes.jpg", "an-okapi.jpg",
+		"an-girafa.jpg", "an-strut.jpg", "an-hipopotam.jpg", "an-leu.jpg",
+		"an-camila.jpg", "an-scorpion.jpg", "an-camila-bactriana.jpg",
+		"an-broasca-testoasa.jpg", "an-muflon.jpg",
+		"an-popandau.jpg", "an-bizon.jpg", "an-coiot.jpg", "an-iepure.jpg",
+		"an-mistret.jpg", "an-vulpe.jpg", "an-raton.jpg",
+		"an-elan.jpg", "an-ras.jpg", "an-urs-brun.jpg", "an-lup.jpg",
+		"an-ren.jpg", "an-vulpe-polara.jpg",
+		"an-urs-polar.jpg", "an-pinguin.jpg"
+	],
+	"body": {
+		"kind": "asociere",
+		"rounds": [
+			{
+				"title": "Runda 1",
+				"pairs": [
+					{ "left": { "img": 0 }, "right": { "img": 10, "label": "Jaguar" }, "group": "ecuatorial" },
+					{ "left": { "img": 1 }, "right": { "img": 14, "label": "Girafă" }, "group": "savana" },
+					{ "left": { "img": 4 }, "right": { "img": 23, "label": "Popândău" }, "group": "stepa" },
+					{ "left": { "img": 7 }, "right": { "img": 30, "label": "Elan" }, "group": "taiga" }
+				]
+			},
+			{
+				"title": "Runda 2",
+				"pairs": [
+					{ "left": { "img": 0 }, "right": { "img": 11, "label": "Maimuță" }, "group": "ecuatorial" },
+					{ "left": { "img": 1 }, "right": { "img": 15, "label": "Struț" }, "group": "savana" },
+					{ "left": { "img": 4 }, "right": { "img": 24, "label": "Bizon" }, "group": "stepa" },
+					{ "left": { "img": 7 }, "right": { "img": 31, "label": "Râs" }, "group": "taiga" }
+				]
+			},
+			{
+				"title": "Runda 3",
+				"pairs": [
+					{ "left": { "img": 0 }, "right": { "img": 12, "label": "Leneș" }, "group": "ecuatorial" },
+					{ "left": { "img": 1 }, "right": { "img": 16, "label": "Hipopotam" }, "group": "savana" },
+					{ "left": { "img": 4 }, "right": { "img": 25, "label": "Coiot" }, "group": "stepa" },
+					{ "left": { "img": 7 }, "right": { "img": 32, "label": "Urs brun" }, "group": "taiga" }
+				]
+			},
+			{
+				"title": "Runda 4",
+				"pairs": [
+					{ "left": { "img": 0 }, "right": { "img": 13, "label": "Okapi" }, "group": "ecuatorial" },
+					{ "left": { "img": 1 }, "right": { "img": 17, "label": "Leu" }, "group": "savana" },
+					{ "left": { "img": 4 }, "right": { "img": 26, "label": "Iepure" }, "group": "stepa" },
+					{ "left": { "img": 7 }, "right": { "img": 33, "label": "Lup" }, "group": "taiga" }
+				]
+			},
+			{
+				"title": "Runda 5",
+				"pairs": [
+					{ "left": { "img": 6 }, "right": { "img": 27, "label": "Mistreț" }, "group": "foioase" },
+					{ "left": { "img": 2 }, "right": { "img": 18, "label": "Dromader" }, "group": "desert-cald" },
+					{ "left": { "img": 3 }, "right": { "img": 21, "label": "Broască țestoasă de uscat" }, "group": "mediteranean" },
+					{ "left": { "img": 8 }, "right": { "img": 34, "label": "Ren" }, "group": "tundra" }
+				]
+			},
+			{
+				"title": "Runda 6",
+				"pairs": [
+					{ "left": { "img": 6 }, "right": { "img": 28, "label": "Vulpe" }, "group": "foioase" },
+					{ "left": { "img": 2 }, "right": { "img": 19, "label": "Scorpion" }, "group": "desert-cald" },
+					{ "left": { "img": 3 }, "right": { "img": 22, "label": "Muflon" }, "group": "mediteranean" },
+					{ "left": { "img": 9 }, "right": { "img": 36, "label": "Urs polar" }, "group": "polare" }
+				]
+			},
+			{
+				"title": "Runda 7",
+				"pairs": [
+					{ "left": { "img": 6 }, "right": { "img": 29, "label": "Raton" }, "group": "foioase" },
+					{ "left": { "img": 8 }, "right": { "img": 35, "label": "Vulpe polară" }, "group": "tundra" },
+					{ "left": { "img": 9 }, "right": { "img": 37, "label": "Pinguin" }, "group": "polare" },
+					{ "left": { "img": 5 }, "right": { "img": 20, "label": "Cămilă bactriană" }, "group": "desert-temperat" }
+				]
+			}
+		]
+	}
+}

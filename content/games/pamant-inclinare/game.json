@@ -1,0 +1,210 @@
+{
+	"gradeId": "9",
+	"topicSlug": "pamantul-miscari",
+	"slug": "inclinarea-axei-si-anotimpurile",
+	"title": "Înclinarea axei și anotimpurile",
+	"description": "Cinci dosare de planete: schimbi înclinarea axei, muți planeta pe orbită, alungești orbita — și afli de fiecare dată ce se întâmplă cu anotimpurile ei și de ce.",
+	"position": 23,
+	"status": "published",
+	"assets": [],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Dosarul A — Pământul, așa cum îl știm (axa la 23,5°)",
+				"questions": [
+					{
+						"hint": "Pământul se află în punctul orbitei în care emisfera nordică este înclinată spre Soare.",
+						"text": "În emisfera nordică este vară. Ce anotimp este, în același moment, în emisfera sudică?",
+						"options": [
+							"Tot vară, fiindcă amândouă emisferele primesc lumină în același timp.",
+							"Iarnă, fiindcă acolo razele cad oblic și se împrăștie mai mult.",
+							"Primăvară, fiindcă anotimpurile sunt decalate cu trei luni.",
+							"Toamnă, fiindcă sudul rămâne mereu în urma nordului."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Dacă o emisferă este înclinată spre Soare, cealaltă este obligatoriu înclinată invers.",
+							"Corect! Aceeași energie împrăștiată pe o suprafață mai mare încălzește mai puțin.",
+							"Fals. Emisferele sunt în opoziție, adică decalate cu șase luni, nu cu trei.",
+							"Fals. Nu există nicio întârziere: cele două emisfere se schimbă simultan."
+						]
+					},
+					{
+						"hint": "Aceeași planetă, aceeași înclinare.",
+						"text": "Mulți cred că vara e cald fiindcă Pământul se apropie de Soare. De ce e greșit?",
+						"options": [
+							"Fiindcă distanța până la Soare nu se schimbă deloc în cursul anului.",
+							"Fiindcă suntem cel mai aproape de Soare în ianuarie, când e iarnă.",
+							"Fiindcă Soarele se încălzește și se răcește singur, în ritm anual.",
+							"Fiindcă Pământul se rotește mai repede în jurul axei sale vara."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Distanța chiar variază puțin, orbita fiind o elipsă — dar nu ea dă anotimpurile.",
+							"Corect! Dacă distanța ar hotărî, în ianuarie ar trebui să fie vara noastră.",
+							"Fals. Energia trimisă de Soare este practic constantă de la un an la altul.",
+							"Fals. Viteza de rotație este constantă și nu are legătură cu anotimpurile."
+						]
+					}
+				]
+			},
+			{
+				"title": "Dosarul B — Planeta dreaptă (axa la 0°)",
+				"questions": [
+					{
+						"hint": "O planetă identică cu Pământul, dar cu axa perfect perpendiculară pe planul orbitei.",
+						"text": "Ce se întâmplă cu anotimpurile pe această planetă?",
+						"options": [
+							"Dispar: fiecare loc primește aceeași lumină tot anul.",
+							"Devin mult mai puternice decât cele de pe Pământ.",
+							"Rămân patru, dar fiecare ține doar câteva zile.",
+							"Toată planeta are vară permanentă, de la un pol la altul."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Fără înclinare, unghiul razelor nu se mai schimbă peste an.",
+							"Fals. Anotimpurile se nasc din înclinare; fără ea n-au de unde să apară.",
+							"Fals. Durata ține de anul planetei, dar aici anotimpurile nici nu există.",
+							"Fals. Polii ar primi în continuare lumină foarte oblică, deci ar rămâne reci."
+						]
+					},
+					{
+						"hint": "Aceeași planetă dreaptă.",
+						"text": "Ce se păstrează totuși pe această planetă?",
+						"options": [
+							"Diferența de temperatură dintre Ecuator și poli.",
+							"Ziua polară care ține șase luni la fiecare pol.",
+							"Solstițiile și echinocțiile, la aceleași date.",
+							"Alternanța dintre sezonul ploios și cel secetos."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Curbura planetei face ca razele să cadă drept la Ecuator și oblic spre poli.",
+							"Fals. Ziua polară este consecința directă a înclinării; fără ea, dispare.",
+							"Fals. Ele marchează poziții legate de înclinare; aici n-ar mai avea sens.",
+							"Fals. Peste tot ziua ar fi egală cu noaptea, iar regimul același tot anul."
+						]
+					}
+				]
+			},
+			{
+				"title": "Dosarul C — Planeta răsturnată (axa la 90°)",
+				"questions": [
+					{
+						"hint": "O planetă cu axa culcată aproape în planul orbitei, ca Uranus. Un pol ajunge îndreptat direct spre Soare.",
+						"text": "Cum arată anotimpurile la polul acestei planete?",
+						"options": [
+							"La fel de blânde ca pe Pământ, doar ceva mai lungi.",
+							"Extreme: jumătate de an lumină, jumătate întuneric.",
+							"Inexistente, ca pe planeta cu axa perfect dreaptă.",
+							"Patru anotimpuri scurte, care se succed foarte rapid."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Cu cât înclinarea e mai mare, cu atât contrastul dintre anotimpuri crește.",
+							"Corect! Cu axa culcată, polul stă spre Soare o jumătate de an și în umbră cealaltă.",
+							"Fals. Aceasta este situația de la 0°, exact opusul acestui dosar.",
+							"Fals. Numărul anotimpurilor nu se schimbă; se schimbă intensitatea lor."
+						]
+					},
+					{
+						"hint": "Comparație între primele trei dosare.",
+						"text": "Ce regulă generală se desprinde din dosarele A, B și C?",
+						"options": [
+							"Cu cât axa e mai înclinată, cu atât anotimpurile sunt mai puternice.",
+							"Cu cât axa e mai înclinată, cu atât planeta e mai caldă peste tot.",
+							"Înclinarea axei hotărăște cât durează anul planetei respective.",
+							"Înclinarea axei nu influențează în niciun fel clima planetei."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! 0° = fără anotimpuri, 23,5° = moderate, 90° = extreme.",
+							"Fals. Energia totală primită rămâne aceeași; se schimbă doar repartiția ei.",
+							"Fals. Lungimea anului ține de distanța față de stea și de viteza pe orbită.",
+							"Fals. Cele trei dosare arată tocmai contrariul."
+						]
+					}
+				]
+			},
+			{
+				"title": "Dosarul D — Aceeași planetă, alt punct pe orbită",
+				"questions": [
+					{
+						"hint": "Pământul, cu aceeași înclinare de 23,5°, ajunge în partea opusă a orbitei. Foarte important: axa își păstrează aceeași direcție în spațiu, ea nu se rotește odată cu planeta.",
+						"text": "Ce se schimbă față de dosarul A?",
+						"options": [
+							"Nimic, fiindcă unghiul axei a rămas exact același.",
+							"Se inversează: acum sudul este înclinat spre Soare.",
+							"Ambele emisfere ajung să aibă vară în același timp.",
+							"Anotimpurile dispar până la revenirea în punctul inițial."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Unghiul rămâne, dar Soarele e acum de cealaltă parte a orbitei.",
+							"Corect! Fiindcă axa își păstrează direcția în spațiu, sudul primește razele drepte.",
+							"Fals. Cele două emisfere nu pot fi înclinate spre Soare în același timp.",
+							"Fals. Anotimpurile nu dispar; ele se schimbă între emisfere."
+						]
+					},
+					{
+						"hint": "Ultima verificare pentru dosarul D.",
+						"text": "Ce ar trebui să se întâmple ca la noi, în nord, să fie vară în decembrie?",
+						"options": [
+							"Axa Pământului să se îndrepte invers față de cum stă acum.",
+							"Pământul să se apropie mai mult de Soare în luna decembrie.",
+							"Pământul să se rotească în jurul axei sale în sens invers.",
+							"Înclinarea axei să crească de la 23,5° la 30° sau mai mult."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Doar schimbarea direcției axei ar muta vara nordică în decembrie.",
+							"Fals. Chiar este mai aproape în ianuarie — și totuși la noi este iarnă.",
+							"Fals. Sensul rotației hotărăște unde răsare Soarele, nu ce anotimp este.",
+							"Fals. Ar face verile mai fierbinți și iernile mai geroase, dar în aceleași luni."
+						]
+					}
+				]
+			},
+			{
+				"title": "Dosarul E — Planeta cu orbită alungită (axa la 0°)",
+				"questions": [
+					{
+						"hint": "O planetă cu axa perfect dreaptă, dar care se învârte pe o orbită mult mai turtită decât a Pământului: uneori e foarte aproape de stea, alteori foarte departe.",
+						"text": "Are această planetă anotimpuri?",
+						"options": [
+							"Da, dar la fel pe toată planeta deodată: un sezon cald, apoi rece.",
+							"Nu, fiindcă anotimpurile cer neapărat o axă înclinată.",
+							"Da, dar inversate între cele două emisfere, la fel ca pe Pământ acum.",
+							"Nu, fiindcă distanța nu schimbă cu nimic energia primită."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Distanța chiar poate da sezoane — dar globale, nu opuse între emisfere.",
+							"Fals. Înclinarea dă anotimpuri opuse; distanța poate da sezoane globale.",
+							"Fals. Fără înclinare, nu există niciun motiv ca emisferele să difere.",
+							"Fals. Energia primită scade puternic cu distanța față de stea."
+						]
+					},
+					{
+						"hint": "Comparație finală.",
+						"text": "Prin ce se deosebește, în esență, această planetă de Pământ?",
+						"options": [
+							"La ea distanța dă anotimpuri globale, la noi înclinarea le dă opuse.",
+							"La ea anotimpurile sunt opuse între emisfere, la noi sunt globale.",
+							"La ea polii sunt calzi tot anul, la noi Ecuatorul e mereu rece.",
+							"La ea anul e mult mai scurt decât al nostru, din cauza orbitei."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Două mecanisme diferite: unul dă sezoane pentru toți, celălalt le dă opuse.",
+							"Fals. Este exact pe dos: emisferele opuse sunt semnătura înclinării.",
+							"Fals. Și la ea polii primesc razele oblic, deci rămân cei mai reci.",
+							"Fals. O orbită alungită nu înseamnă neapărat un an mai scurt."
+						]
+					}
+				]
+			}
+		]
+	}
+}

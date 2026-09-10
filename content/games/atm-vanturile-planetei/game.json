@@ -1,0 +1,35 @@
+{
+ "gradeId": "9",
+ "topicSlug": "atmosfera-caracteristici-climatice",
+ "slug": "vanturile-planetei",
+ "position": 22,
+ "status": "published",
+ "title": "Vânturile planetei",
+ "description": "Potrivește fiecare vânt cu drumul pe care îl ține și cu vremea pe care o aduce.",
+ "assets": [],
+ "body": {
+  "kind": "asociere",
+  "rounds": [
+   {
+    "title": "Fiecare vânt cu drumul lui",
+    "pairs": [
+     { "left": { "text": "Alizeele" }, "right": { "text": "Bat dinspre brâul tropical de presiune ridicată spre Ecuator, abătute spre vest" }, "group": "alizee" },
+     { "left": { "text": "Vânturile de vest" }, "right": { "text": "Bat dinspre tropice spre latitudinile temperate, dinspre vest spre est" }, "group": "vest" },
+     { "left": { "text": "Vânturile polare" }, "right": { "text": "Bat dinspre calotele glaciare spre latitudinile temperate, dinspre est spre vest" }, "group": "polare" },
+     { "left": { "text": "Musonii" }, "right": { "text": "Își schimbă direcția de la un anotimp la altul: vara dinspre ocean, iarna dinspre uscat" }, "group": "muson" },
+     { "left": { "text": "Forța Coriolis" }, "right": { "text": "Abate vânturile spre dreapta în emisfera nordică și spre stânga în cea sudică" }, "group": "coriolis" }
+    ]
+   },
+   {
+    "title": "Ce vreme aduce fiecare",
+    "pairs": [
+     { "left": { "text": "Alizeele" }, "right": { "text": "Se întâlnesc la Ecuator și întrețin ploile bogate de acolo" }, "group": "alizee" },
+     { "left": { "text": "Vânturile de vest" }, "right": { "text": "Aduc precipitații pe fațadele vestice ale continentelor" }, "group": "vest" },
+     { "left": { "text": "Musonul de vară" }, "right": { "text": "Aduce ploi abundente în sudul și sud-estul Asiei" }, "group": "muson-vara" },
+     { "left": { "text": "Musonul de iarnă" }, "right": { "text": "Pornește de pe uscatul rece al Asiei și aduce vreme uscată" }, "group": "muson-iarna" },
+     { "left": { "text": "Vânturile polare" }, "right": { "text": "Împing aerul rece spre latitudini medii, unde se ciocnesc cu vânturile de vest" }, "group": "polare" }
+    ]
+   }
+  ]
+ }
+}

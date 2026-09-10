@@ -1,0 +1,185 @@
+{
+	"gradeId": "9",
+	"topicSlug": "pamantul-reprezentare-harti",
+	"slug": "harta-secreta",
+	"title": "Harta secretă",
+	"description": "Ești un explorator care a găsit o hartă veche: descifrează legenda, curbele de nivel și rețeaua cartografică pentru a găsi locul căutat.",
+	"position": 22,
+	"status": "published",
+	"assets": [
+		"legenda-cota.png",
+		"legenda-depresiune.png",
+		"legenda-pestera.png",
+		"legenda-mlastina.png",
+		"relief-contur-1.png",
+		"relief-contur-2.png",
+		"coord-1.png",
+		"coord-2.png",
+		"coord-3.png",
+		"coord-4.png"
+	],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Camera 1 — Legenda",
+				"questions": [
+					{
+						"img": 0,
+						"text": "Găsești acest semn pe harta fizico-geografică. Ce arată el?",
+						"hint": "▲ cu un număr lângă el arată altitudinea exactă a unui vârf.",
+						"options": [
+							"Vârf de munte, cu altitudinea marcată (cotă)",
+							"Depresiune, mai joasă decât terenul din jur",
+							"Carieră, exploatare de suprafață",
+							"Localitate, așezare omenească"
+						],
+						"answer": 0
+					},
+					{
+						"img": 1,
+						"text": "Ce formă de relief este marcată prin acest semn convențional?",
+						"hint": "Hașurile scurte, îndreptate spre interiorul buclei, arată o zonă mai joasă, nu un vârf.",
+						"options": [
+							"Vârf de munte, cu altitudinea marcată (cotă)",
+							"Depresiune, mai joasă decât terenul din jur",
+							"Peșteră, gol subteran în calcar",
+							"Mlaștină, teren jos și umed"
+						],
+						"answer": 1
+					},
+					{
+						"img": 2,
+						"text": "Ce semn convențional este acesta, în versantul stâncos?",
+						"hint": "E desenat ca o deschidere întunecată în stâncă, cu umbră spre interior.",
+						"options": [
+							"Izvor, locul de unde țâșnește apa din pământ",
+							"Canion, vale îngustă și adâncă, cu pereți abrupți",
+							"Peșteră, gol subteran în calcar",
+							"Carieră, exploatare de suprafață"
+						],
+						"answer": 2
+					},
+					{
+						"img": 3,
+						"text": "Ce element de peisaj arată smocurile și liniile de apă de mai jos?",
+						"hint": "Smocurile de iarbă peste apă, nu curgătoare, arată un teren jos și îmbibat.",
+						"options": [
+							"Pădure, suprafață acoperită de copaci",
+							"Lac, întindere de apă stătătoare",
+							"Șosea, drum modernizat",
+							"Mlaștină, teren jos și umed"
+						],
+						"answer": 3
+					}
+				]
+			},
+			{
+				"title": "Camera 2 — Altitudinea",
+				"questions": [
+					{
+						"img": 4,
+						"text": "Tabăra e la altitudinea de 1200 m, pe o pantă lină. Dați click pe locația corectă.",
+						"hint": "Citește eticheta curbei pe care stă fiecare punct — apoi privește cât de dese sunt curbele din jurul lui.",
+						"options": [
+							"Punctul A — pe versantul cu curbele rare, la mijlocul pantei",
+							"Punctul B — pe versantul cu curbele dese, la mijlocul pantei",
+							"Punctul C — pe versantul cu curbele rare, mai jos pe pantă",
+							"Punctul D — chiar în vârf, lângă cota marcată"
+						],
+						"answer": 0
+					},
+					{
+						"img": 4,
+						"text": "Ce echidistanță (diferență de altitudine) au curbele de nivel de pe această hartă?",
+						"hint": "Compară numerele scrise pe oricare două curbe vecine.",
+						"options": [
+							"10 metri între oricare două curbe vecine",
+							"20 de metri între oricare două curbe vecine",
+							"40 de metri între oricare două curbe vecine",
+							"O valoare diferită la fiecare pereche de curbe"
+						],
+						"answer": 1
+					},
+					{
+						"img": 5,
+						"text": "Tabăra e la altitudinea de 1140 m, pe o pantă lină. Dați click pe locația corectă.",
+						"hint": "Vezi pe ce curbă stă fiecare punct și cât de aproape sunt curbele vecine.",
+						"options": [
+							"Punctul A — pe versantul cu curbele dese, la mijlocul pantei",
+							"Punctul D — chiar în vârf, lângă cota marcată",
+							"Punctul B — pe versantul cu curbele rare, la mijlocul pantei",
+							"Punctul C — pe versantul cu curbele rare, mai jos pe pantă"
+						],
+						"answer": 2
+					},
+					{
+						"img": 5,
+						"text": "Pe această hartă, în care punct este panta cea mai abruptă?",
+						"hint": "Curbele foarte dese, apropiate una de alta, arată o pantă abruptă.",
+						"options": [
+							"Punctul B, unde curbele de nivel sunt cele mai rare",
+							"Punctul C, tot pe versantul cu curbe rare, mai jos",
+							"Punctul D, în vârf, unde nu sunt curbe apropiate",
+							"Punctul A, unde curbele de nivel sunt cele mai dese"
+						],
+						"answer": 3
+					}
+				]
+			},
+			{
+				"title": "Camera 3 — Coordonatele",
+				"questions": [
+					{
+						"img": 6,
+						"text": "Ultima transmisiune a fost recepționată la 45° latitudine N și 25° longitudine E. Unde trebuie plasat pinul?",
+						"hint": "Citește gradele scrise pe marginile hărții și interpolează între cele două linii vecine.",
+						"options": [
+							"Punctul B — chiar la mijlocul hărții",
+							"Punctul A — în colțul din stânga-jos al hărții",
+							"Punctul C — sus, la mijlocul hărții",
+							"Punctul D — la mijloc, spre marginea dreaptă"
+						],
+						"answer": 0
+					},
+					{
+						"img": 7,
+						"text": "Un alt semnal a venit de la 30° latitudine N și 20° longitudine V. Care este punctul corect?",
+						"hint": "Meridianul de 0° (Greenwich) e marcat cu roșu — pornește de acolo spre vest.",
+						"options": [
+							"Punctul B — sus, spre marginea din dreapta",
+							"Punctul A — la mijlocul hărții, spre dreapta",
+							"Punctul C — la mijloc, aproape de marginea dreaptă",
+							"Punctul D — în colțul din stânga-jos al hărții"
+						],
+						"answer": 1
+					},
+					{
+						"img": 8,
+						"text": "Exploratorii raportează poziția 15° latitudine S și 45° longitudine E. Care pin este la locul potrivit?",
+						"hint": "Ecuatorul (0°) e marcat cu roșu, sus pe hartă — numără paralelele spre sud de acolo.",
+						"options": [
+							"Punctul B — sus, spre marginea din dreapta",
+							"Punctul D — în colțul din stânga-jos al hărții",
+							"Punctul A — sus, la mijlocul hărții",
+							"Punctul C — chiar la mijlocul hărții"
+						],
+						"answer": 2
+					},
+					{
+						"img": 9,
+						"text": "Ultimul indiciu arată 30° latitudine S și 60° longitudine V. Unde este locul căutat?",
+						"hint": "Numără din 15 în 15 grade, pornind de la Ecuator și de la marginea din dreapta.",
+						"options": [
+							"Punctul A — chiar la mijlocul hărții",
+							"Punctul B — sus, spre marginea din stânga",
+							"Punctul D — jos, spre marginea din dreapta",
+							"Punctul C — la mijloc, spre stânga"
+						],
+						"answer": 3
+					}
+				]
+			}
+		]
+	}
+}

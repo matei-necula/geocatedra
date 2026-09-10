@@ -1,0 +1,242 @@
+{
+	"gradeId": "9",
+	"topicSlug": "hidrosfera",
+	"slug": "lacurile-lumii-pe-harta",
+	"title": "Lacurile lumii pe hartă",
+	"description": "Găsește lacurile pe harta lumii — sau numește bulina.",
+	"position": 21,
+	"status": "published",
+	"assets": [
+		"harta-lacuri.jpg"
+	],
+	"body": {
+		"kind": "harta-quiz",
+		"map": 0,
+		"points": [
+			{
+				"n": 1,
+				"x": 12.6,
+				"y": 33,
+				"name": "Lacul Urșilor"
+			},
+			{
+				"n": 2,
+				"x": 14.6,
+				"y": 36.6,
+				"name": "Lacul Sclavilor"
+			},
+			{
+				"n": 3,
+				"x": 18.9,
+				"y": 42.8,
+				"name": "Winnipeg"
+			},
+			{
+				"n": 4,
+				"x": 22.6,
+				"y": 46.9,
+				"name": "Marile Lacuri"
+			},
+			{
+				"n": 5,
+				"x": 12.7,
+				"y": 49.1,
+				"name": "Lacul Crater"
+			},
+			{
+				"n": 6,
+				"x": 26.2,
+				"y": 61.1,
+				"name": "Laguna Maracaibo"
+			},
+			{
+				"n": 7,
+				"x": 26.7,
+				"y": 71,
+				"name": "Titicaca"
+			},
+			{
+				"n": 8,
+				"x": 30.9,
+				"y": 73.8,
+				"name": "Itaipu"
+			},
+			{
+				"n": 9,
+				"x": 13.3,
+				"y": 45.9,
+				"name": "Grand Coulee"
+			},
+			{
+				"n": 10,
+				"x": 50.4,
+				"y": 46,
+				"name": "Balaton"
+			},
+			{
+				"n": 11,
+				"x": 54.5,
+				"y": 37.9,
+				"name": "Ladoga"
+			},
+			{
+				"n": 12,
+				"x": 55.6,
+				"y": 37.2,
+				"name": "Onega"
+			},
+			{
+				"n": 13,
+				"x": 59.5,
+				"y": 42.4,
+				"name": "Samara"
+			},
+			{
+				"n": 14,
+				"x": 50.9,
+				"y": 49.1,
+				"name": "Laguna Veneției"
+			},
+			{
+				"n": 15,
+				"x": 51.1,
+				"y": 42.3,
+				"name": "Laguna Vistulei"
+			},
+			{
+				"n": 16,
+				"x": 53.7,
+				"y": 47.5,
+				"name": "Laguna Razim"
+			},
+			{
+				"n": 17,
+				"x": 51.5,
+				"y": 47.4,
+				"name": "Porțile de Fier"
+			},
+			{
+				"n": 18,
+				"x": 49.3,
+				"y": 60.6,
+				"name": "Ciad"
+			},
+			{
+				"n": 19,
+				"x": 54.5,
+				"y": 56.1,
+				"name": "Nasser"
+			},
+			{
+				"n": 20,
+				"x": 54.7,
+				"y": 66.1,
+				"name": "Victoria"
+			},
+			{
+				"n": 21,
+				"x": 53.9,
+				"y": 67.9,
+				"name": "Tanganyika"
+			},
+			{
+				"n": 22,
+				"x": 55.1,
+				"y": 70.3,
+				"name": "Malawi"
+			},
+			{
+				"n": 23,
+				"x": 53.3,
+				"y": 72,
+				"name": "Kariba"
+			},
+			{
+				"n": 24,
+				"x": 59.8,
+				"y": 49.1,
+				"name": "Marea Caspică"
+			},
+			{
+				"n": 25,
+				"x": 62.4,
+				"y": 47.5,
+				"name": "Aral"
+			},
+			{
+				"n": 26,
+				"x": 66.7,
+				"y": 47,
+				"name": "Balhaș"
+			},
+			{
+				"n": 27,
+				"x": 75.5,
+				"y": 43.2,
+				"name": "Baikal"
+			},
+			{
+				"n": 28,
+				"x": 77,
+				"y": 54.7,
+				"name": "Trei Defilee"
+			},
+			{
+				"n": 29,
+				"x": 84.1,
+				"y": 76.5,
+				"name": "Eyre"
+			}
+		],
+		"rounds": [
+			[
+				15,
+				25,
+				22,
+				14,
+				3,
+				8,
+				29,
+				27,
+				6,
+				5
+			],
+			[
+				17,
+				23,
+				11,
+				4,
+				26,
+				1,
+				19,
+				24,
+				27,
+				18
+			],
+			[
+				16,
+				20,
+				24,
+				9,
+				7,
+				13,
+				28,
+				4,
+				11,
+				1
+			],
+			[
+				10,
+				21,
+				5,
+				12,
+				2,
+				6,
+				18,
+				13,
+				7,
+				26
+			]
+		]
+	}
+}

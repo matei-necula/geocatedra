@@ -1,0 +1,94 @@
+{
+	"gradeId": "9",
+	"topicSlug": "pamantul-caracteristici",
+	"slug": "evadare-din-centrul-pamantului",
+	"title": "Evadare din centrul Pământului",
+	"description": "Escape room: sistemul de teleportare s-a defectat și ai rămas blocat în centrul planetei. Urcă prin învelișurile Terrei, de la nucleu la scoarță, deblocând fiecare strat cu răspunsul corect.",
+	"position": 21,
+	"assets": [],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Urcă spre suprafață, strat cu strat",
+				"questions": [
+					{
+						"hint": "Nucleul intern · 6371 km — Sistemul de teleportare s-a defectat! Ești blocat exact în centrul planetei. Ca să pornească secvența de urcare, computerul de bord îți cere să deblochezi bariera fiecărui strat geologic.",
+						"text": "„Temperatura mea este de peste 5000 °C, la fel ca la suprafața Soarelui. Cu toate acestea, sunt la fel de rigid ca o bucată de oțel. Cum este posibil să nu mă topesc?”",
+						"options": [
+							"Compoziția mea, din rocă silicatică, rezistă foarte bine la căldură.",
+							"Presiunea uriașă de deasupra mea ține atomii în stare solidă.",
+							"Câmpul magnetic e un scut de îngheț care mă păstrează solid."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Nucleul este predominant din fier și nichel, nu din silicați.",
+							"Corect! Presiunea colosală învinge tendința de topire dată de temperatură.",
+							"Fals. Câmpul magnetic este o consecință, nu o cauză a stărilor de agregare."
+						]
+					},
+					{
+						"hint": "Nucleul extern · 5150 km — Ai urcat o treaptă! Aici e ceva mai rece, dar presiunea a scăzut suficient cât fierul să fie lichid. Totul în jur se mișcă.",
+						"text": "„Curenții mei de metal topit se rotesc constant odată cu planeta. Fără mine, suprafața ar fi arsă de radiații. Ce fenomen vital generez eu?”",
+						"options": [
+							"Gravitația Pământului, datorită masei mele uriașe.",
+							"Câmpul magnetic al Pământului (geodinamul).",
+							"Căldura internă care ajunge la suprafață sub formă de vulcani."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Gravitația e dată de masa întregii planete, nu de mișcarea nucleului extern.",
+							"Exact! Mișcarea fierului lichid acționează ca un dinam uriaș și creează magnetosfera.",
+							"Fals. Vulcanismul se naște în straturile de deasupra (mantaua), nu direct din nucleu."
+						]
+					},
+					{
+						"hint": "Mantaua inferioară (mezosfera) · 2900 km — Ai trecut de discontinuitatea Gutenberg și ai intrat în cel mai gros strat al Terrei. Rocile sunt solide, dar se comportă ciudat.",
+						"text": "„Nu poți urca decât dacă te lași purtat de curent. Aici, deși sunt piatră solidă, curg extrem de lent, de-a lungul a milioane de ani. Ce mă încălzește de jos în sus și creează acești curenți?”",
+						"options": [
+							"Lumina Soarelui, absorbită la suprafață în timpul verilor lungi.",
+							"Frecarea apelor oceanice pe fundul mării, zi și noapte.",
+							"Căldura rămasă de la formarea planetei și radioactivitatea."
+						],
+						"answer": 2,
+						"why": [
+							"Fals. Radiația solară încălzește doar câțiva metri din scoarță.",
+							"Fals. Fenomenele de la suprafață nu au putere la mii de kilometri adâncime.",
+							"Corect! Aceasta este sursa de energie care pune în mișcare curenții de convecție."
+						]
+					},
+					{
+						"hint": "Astenosfera · 250 km — Te apropii de suprafață. Ești într-un strat subțire, parțial topit, moale ca plastilina fierbinte.",
+						"text": "„Eu sunt motorul ascuns. Stratul dur de deasupra mea (litosfera) e rupt în bucăți care «plutesc» pe mine. Ce proces de la suprafață se întâmplă din cauza mișcării mele?”",
+						"options": [
+							"Tectonica plăcilor: cutremure, munți și vulcani.",
+							"Schimbările climatice și topirea ghețarilor de munte.",
+							"Furtunile magnetice și aurorele polare de la poli."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Ai prins legătura dintre ce se petrece în interior și ce se vede la suprafață.",
+							"Fals. Astea sunt fenomene atmosferice și de suprafață, dictate mai ales de Soare.",
+							"Fals. Ele țin de nucleul extern, nu de astenosferă."
+						]
+					},
+					{
+						"hint": "Discontinuitatea Mohorovičić (Moho) · 35 km — Mai e un singur pas! Ești la granița dintre manta și scoarța terestră. Auzi deja undele seismice de la suprafață.",
+						"text": "„Vrei să intri în scoarță, acolo unde trăiesc oamenii. Dar trebuie să alegi drumul bun: pe sub ce formă de relief trebuie să mergi, ca scoarța de străpuns să fie cea mai SUBȚIRE?”",
+						"options": [
+							"Pe sub un lanț muntos înalt, de pildă Himalaya.",
+							"Pe sub o câmpie întinsă.",
+							"Pe sub fundul unui ocean."
+						],
+						"answer": 2,
+						"why": [
+							"Atenție! Sub munți scoarța continentală este cea mai GROASĂ — până la 70–80 km.",
+							"Aproape. Scoarța continentală obișnuită are 30–40 km. Mai caută!",
+							"Corect! Scoarța oceanică e mult mai subțire (5–10 km) decât cea continentală. Evadare reușită!"
+						]
+					}
+				]
+			}
+		]
+	}
+}

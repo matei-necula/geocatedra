@@ -1,0 +1,34 @@
+{
+	"gradeId": "9",
+	"topicSlug": "relieful-major",
+	"slug": "campiile-lumii-pe-harta",
+	"title": "Câmpiile lumii pe hartă",
+	"description": "Găsește marile câmpii pe harta lumii — sau numește bulina.",
+	"position": 22,
+	"status": "published",
+	"assets": ["harta-campii.jpg"],
+	"body": {
+		"kind": "harta-quiz",
+		"map": 0,
+		"points": [
+			{ "n": 1, "x": 21.8, "y": 32.8, "name": "Câmpia Mississippi" },
+			{ "n": 2, "x": 26.8, "y": 54.2, "name": "Câmpia Orinoco" },
+			{ "n": 3, "x": 29, "y": 63.2, "name": "Câmpia Amazonului" },
+			{ "n": 4, "x": 29.9, "y": 77.4, "name": "Câmpia La Plata" },
+			{ "n": 5, "x": 58.2, "y": 18.8, "name": "Câmpia Europei de Est" },
+			{ "n": 6, "x": 67.3, "y": 15.5, "name": "Câmpia Siberiei de Vest" },
+			{ "n": 7, "x": 59.5, "y": 36.1, "name": "Câmpia Mesopotamiei" },
+			{ "n": 8, "x": 67.4, "y": 39.7, "name": "Câmpia Indului" },
+			{ "n": 9, "x": 72.1, "y": 42.4, "name": "Câmpia Gangelui" },
+			{ "n": 10, "x": 79.7, "y": 35.2, "name": "Câmpia Chinei de Est" },
+			{ "n": 11, "x": 64.8, "y": 31.4, "name": "Câmpia Turanului" },
+			{ "n": 12, "x": 89.7, "y": 80.3, "name": "Câmpia Murray-Darling" },
+			{ "n": 13, "x": 83.3, "y": 27.1, "name": "Câmpia Manciuriei" }
+		],
+		"rounds": [
+			[1, 3, 4, 5, 13, 10, 11, 12],
+			[1, 3, 4, 5, 6, 9, 11, 12],
+			[1, 2, 4, 5, 6, 7, 8, 10]
+		]
+	}
+}

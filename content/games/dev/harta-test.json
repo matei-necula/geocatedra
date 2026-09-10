@@ -1,0 +1,19 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "hidrosfera",
+		"type": "joc",
+		"title": "TEST harta (dev)",
+		"status": "draft",
+		"body": {
+			"kind": "harta-quiz",
+			"map": 0,
+			"points": [
+				{ "n": 1, "x": 20, "y": 30, "name": "Alfa" },
+				{ "n": 2, "x": 40, "y": 60, "name": "Beta" },
+				{ "n": 3, "x": 60, "y": 25, "name": "Gama" },
+				{ "n": 4, "x": 80, "y": 70, "name": "Delta" }
+			]
+		}
+	}
+]

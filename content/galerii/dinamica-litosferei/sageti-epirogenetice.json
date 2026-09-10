@@ -1,0 +1,8 @@
+[
+	{ "_": "Planșa cu mișcări epirogenetice („4. misc epirog.jpg\") avea săgețile verticale invers:",
+	  "__": "sus la transgresiune și jos la regresiune. Transgresiunea vine din lăsarea uscatului (săgeată în jos),",
+	  "___": "regresiunea din ridicarea lui (săgeată în sus). Cele două săgeți roșii sunt întoarse pe loc cu",
+	  "____": "scripts/flip-image-region.mjs, cu fundalul refăcut sub ele." },
+	{ "box": [24, 91, 106, 425], "canal": "r-g", "prag": 60 },
+	{ "box": [2627, 230, 2702, 566], "canal": "r-g", "prag": 60 }
+]

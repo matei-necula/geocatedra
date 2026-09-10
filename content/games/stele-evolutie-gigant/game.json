@@ -1,0 +1,64 @@
+{
+	"gradeId": "9",
+	"topicSlug": "universul-partea-1",
+	"slug": "evolutia-stelelor-gigant",
+	"title": "Evoluția stelelor gigant (masive)",
+	"description": "Așază etapele evoluției unei stele masive în ordinea corectă.",
+	"position": 23,
+	"assets": [
+		"gigant-1-nebuloasa.jpg",
+		"gigant-2-protostea.jpg",
+		"gigant-3-masiva-albastra.jpg",
+		"gigant-4-supergiganta-rosie.jpg",
+		"gigant-5-supernova.jpg",
+		"gigant-6-stea-neutronica.jpg",
+		"gigant-7-gaura-neagra.jpg"
+	],
+	"body": {
+		"kind": "ordonare",
+		"rounds": [
+			{
+				"title": "Evoluția unei stele masive",
+				"startLabel": "naștere",
+				"endLabel": "final",
+				"cards": [
+					{
+						"label": "Nebuloasă",
+						"img": 0,
+						"order": 1
+					},
+					{
+						"label": "Protostea",
+						"img": 1,
+						"order": 2
+					},
+					{
+						"label": "Stea masivă albastră",
+						"img": 2,
+						"order": 3
+					},
+					{
+						"label": "Supergigantă roșie",
+						"img": 3,
+						"order": 4
+					},
+					{
+						"label": "Supernovă",
+						"img": 4,
+						"order": 5
+					},
+					{
+						"label": "Stea neutronică",
+						"img": 5,
+						"order": 6
+					},
+					{
+						"label": "Gaură neagră",
+						"img": 6,
+						"order": 7
+					}
+				]
+			}
+		]
+	}
+}

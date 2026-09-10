@@ -1,0 +1,20 @@
+{
+	"gradeId": "9",
+	"topicSlug": "hidrosfera",
+	"slug": "dev-harta-quiz",
+	"title": "TEST quiz pe hartă (dev, cu hartă)",
+	"description": "Verificare motor harta-quiz cu placeholder.",
+	"status": "draft",
+	"position": 99,
+	"assets": ["map.png"],
+	"body": {
+		"kind": "harta-quiz",
+		"map": 0,
+		"points": [
+			{ "n": 1, "x": 20, "y": 30, "name": "Alfa" },
+			{ "n": 2, "x": 40, "y": 60, "name": "Beta" },
+			{ "n": 3, "x": 60, "y": 25, "name": "Gama" },
+			{ "n": 4, "x": 80, "y": 70, "name": "Delta" }
+		]
+	}
+}

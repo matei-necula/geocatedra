@@ -1,0 +1,94 @@
+{
+	"gradeId": "9",
+	"topicSlug": "universul-partea-2",
+	"slug": "ordinea-in-sistemul-solar",
+	"title": "Ordinea în Sistemul solar",
+	"description": "Așază corpurile Sistemului Solar în ordine, de la Soare spre confiniile sale.",
+	"position": 20,
+	"assets": [
+		"soare.jpg",
+		"mercur.jpg",
+		"venus.jpg",
+		"pamant.jpg",
+		"marte.jpg",
+		"centura-asteroizi.jpg",
+		"jupiter.jpg",
+		"saturn.jpg",
+		"uranus.jpg",
+		"neptun.jpg",
+		"centura-planete-pitice.jpg",
+		"norul-oort.jpg"
+	],
+	"body": {
+		"kind": "ordonare",
+		"rounds": [
+			{
+				"title": "Sistemul Solar, de la Soare spre exterior",
+				"startLabel": "Soare",
+				"endLabel": "confiniile sistemului solar",
+				"cards": [
+					{
+						"label": "Soarele",
+						"img": 0,
+						"order": 1
+					},
+					{
+						"label": "Mercur",
+						"img": 1,
+						"order": 2
+					},
+					{
+						"label": "Venus",
+						"img": 2,
+						"order": 3
+					},
+					{
+						"label": "Pământ",
+						"img": 3,
+						"order": 4
+					},
+					{
+						"label": "Marte",
+						"img": 4,
+						"order": 5
+					},
+					{
+						"label": "Centura de asteroizi",
+						"img": 5,
+						"order": 6
+					},
+					{
+						"label": "Jupiter",
+						"img": 6,
+						"order": 7
+					},
+					{
+						"label": "Saturn",
+						"img": 7,
+						"order": 8
+					},
+					{
+						"label": "Uranus",
+						"img": 8,
+						"order": 9
+					},
+					{
+						"label": "Neptun",
+						"img": 9,
+						"order": 10
+					},
+					{
+						"label": "Centura planetelor pitice",
+						"img": 10,
+						"order": 11
+					},
+					{
+						"label": "Norul lui Oort",
+						"img": 11,
+						"order": 12
+					}
+				]
+			}
+		]
+	}
+}

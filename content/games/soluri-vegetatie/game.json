@@ -1,0 +1,38 @@
+{
+	"gradeId": "9",
+	"topicSlug": "solurile-terrei",
+	"slug": "vegetatia-si-solul-ei",
+	"title": "Vegetația și solul ei",
+	"description": "Asociază fiecare formațiune vegetală cu profilul de sol caracteristic.",
+	"position": 21,
+	"assets": [
+		"biom-ecuatorial.jpg", "biom-savana.jpg", "biom-desert-cald.jpg", "biom-mediteranean.jpg",
+		"biom-stepa.jpg", "biom-foioase.jpg", "biom-taiga.jpg", "biom-tundra.jpg",
+		"sol-1-laterit.jpg", "sol-2-feralitic.jpg", "sol-3-nisipos.jpg", "sol-4-terra-rosa.jpg",
+		"sol-5-molisol.jpg", "sol-6-argiluvisol.jpg", "sol-7-podzol.jpg", "sol-8-turbos.jpg"
+	],
+	"body": {
+		"kind": "asociere",
+		"imageFit": "contain",
+		"rounds": [
+			{
+				"title": "Runda 1",
+				"pairs": [
+					{ "left": { "img": 0 }, "right": { "img": 8, "label": "Laterit" }, "group": "ecuatorial" },
+					{ "left": { "img": 1 }, "right": { "img": 9, "label": "Sol feralitic" }, "group": "savana" },
+					{ "left": { "img": 2 }, "right": { "img": 10, "label": "Sol nisipos" }, "group": "desert-cald" },
+					{ "left": { "img": 3 }, "right": { "img": 11, "label": "Terra rossa" }, "group": "mediteranean" }
+				]
+			},
+			{
+				"title": "Runda 2",
+				"pairs": [
+					{ "left": { "img": 4 }, "right": { "img": 12, "label": "Molisol (cernoziom)" }, "group": "stepa" },
+					{ "left": { "img": 5 }, "right": { "img": 13, "label": "Argiluvisol" }, "group": "foioase" },
+					{ "left": { "img": 6 }, "right": { "img": 14, "label": "Podzol" }, "group": "taiga" },
+					{ "left": { "img": 7 }, "right": { "img": 15, "label": "Sol turbos" }, "group": "tundra" }
+				]
+			}
+		]
+	}
+}

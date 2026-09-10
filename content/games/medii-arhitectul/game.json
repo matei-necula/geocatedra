@@ -1,0 +1,242 @@
+{
+	"gradeId": "9",
+	"topicSlug": "mediile-naturale-terestre",
+	"slug": "arhitectul-sustenabil",
+	"title": "Arhitectul sustenabil",
+	"description": "Construiești în șase medii diferite. Fiecare alegere — forma acoperișului, sursa de energie, drumul apei — trebuie argumentată prin clima și solul locului. Două runde: întâi casa, apoi apa și energia.",
+	"position": 13,
+	"status": "published",
+	"assets": [
+		"ecuatorial-piloni.webp",
+		"ecuatorial-acoperis-stuf.webp",
+		"musonic-acoperis-panta.webp",
+		"mediteran-casa-alba.webp",
+		"desert-curte-interioara.webp",
+		"montan-acoperis-abrupt.webp",
+		"musonic-canal-drenaj.webp",
+		"mediteran-cisterna.webp",
+		"desert-solar.webp",
+		"tundra-eolian.webp",
+		"tundra-piloni-permafrost.webp",
+		"montan-hidrocentrala.webp"
+	],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Runda 1 — casa potrivită mediului",
+				"questions": [
+					{
+						"img": 0,
+						"text": "Mediul ecuatorial. Ridici locuințele pe piloni. Care este motivul principal?",
+						"options": [
+							"Feresc de umezeală și viituri, iar aerul de dedesubt răcorește",
+							"Solul e înghețat în adâncime și nu suportă fundații turnate",
+							"Se câștigă sub casă spațiu agricol și adăpost pentru animale",
+							"Protejează pereții de vânturile foarte puternice și constante"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Într-un mediu cu ploaie aproape zilnică, solul e permanent umed, iar râurile ies des din albie. Pilonii rezolvă amândouă problemele și mai lasă și aerul să treacă, ceea ce contează la 80% umiditate.",
+							"Permafrostul e problema tundrei, nu a Ecuatorului. Aici solul e cald și umed tot anul.",
+							"Sub o casă pe piloni lumina e prea slabă pentru culturi, iar în pădurea ecuatorială umbra e oricum problema principală.",
+							"Zona ecuatorială este tocmai zona calmului: aerul urcă vertical, iar vânturile puternice constante lipsesc."
+						]
+					},
+					{
+						"img": 1,
+						"text": "Tot în mediul ecuatorial: acoperiș foarte înalt, din stuf și frunze, cu pantă mare. Ce rezolvă forma lui?",
+						"options": [
+							"Scurge repede ploaia, iar aerul de sub el ia căldura și umezeala",
+							"Reține zăpada deasupra, care izolează termic locuința iarna",
+							"Reduce pierderea de căldură în lunile reci de iarnă",
+							"Apără de radiația ultravioletă specifică zonelor polare"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Panta duce apa jos în câteva secunde, iar înălțimea creează un strat de aer cald care urcă și pleacă — ventilație fără niciun aparat.",
+							"La Ecuator nu ninge niciodată. Zăpada ca izolator e o soluție pentru mediile reci.",
+							"În mediul ecuatorial nu există iarnă: temperatura se ține la 24–28 °C tot anul, deci nu ai ce căldură să păstrezi.",
+							"Radiația ultravioletă mare e într-adevăr o problemă la Ecuator, dar un acoperiș înalt nu se face pentru asta, ci pentru apă și căldură."
+						]
+					},
+					{
+						"img": 2,
+						"text": "Mediul musonic. Acoperiș cu pantă foarte mare și streașină lungă. Ce rezolvă?",
+						"options": [
+							"Scoate repede ploaia musonului, iar streașina apără pereții",
+							"Susține stratul gros de zăpadă pe care îl aduce musonul",
+							"Ușurează montarea panourilor solare pe toată suprafața",
+							"Compensează lipsa altor materiale de construcție locale"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Musonul de vară descarcă în patru luni cât cade într-un an întreg la noi. Panta scoate apa imediat, iar streașina ține șiroirea departe de pereți și de temelie.",
+							"Musonul de vară aduce ploaie, nu zăpadă: bate dinspre ocean spre uscatul încălzit, în plin sezon cald.",
+							"O pantă mare face montarea panourilor mai grea, nu mai ușoară — și oricum cerul e acoperit tocmai în sezonul ploios.",
+							"Materialul poate fi ales din ce se găsește, dar forma acoperișului răspunde ploii, nu lipsei de materiale."
+						]
+					},
+					{
+						"img": 3,
+						"text": "Mediul subtropical mediteraneean. Pereți văruiți în alb, ziduri groase, ferestre mici. Ce urmărește arhitectura?",
+						"options": [
+							"Albul respinge soarele, iar zidul gros ține căldura afară ziua",
+							"Albul ajută zăpada să se topească mai repede de pe pereți",
+							"Zidul gros e cerut de cutremure, nu de clima locului",
+							"Ferestrele mici opresc pierderea de căldură în iernile geroase"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Vara e caldă și uscată, cu soare puternic. Suprafața albă respinge radiația, iar masa zidului absoarbe încet căldura zilei și o cedează seara — casa rămâne răcoroasă la prânz.",
+							"Iernile mediteraneene sunt blânde și ploioase; zăpada este o raritate, nu problema de rezolvat.",
+							"Zidurile groase chiar ajută la cutremur, dar aici motivul dintâi este termic: inerția care ține căldura afară ziua.",
+							"Iernile de aici nu sunt geroase, ci blânde. Ferestrele mici limitează intrarea soarelui de vară, nu ieșirea căldurii de iarnă."
+						]
+					},
+					{
+						"img": 4,
+						"text": "Mediu deșertic. Casa se organizează în jurul unei curți interioare, cu apă și plante. De ce?",
+						"options": [
+							"Umbra și apa răcoresc, iar camerele se întorc spre interior",
+							"Ca să colecteze zăpada care se adună în timpul iernii",
+							"Pentru că terenul e prea umed pentru o construcție compactă",
+							"Ca să apere locuința de ploile torențiale care cad zilnic"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Umbra plus evaporarea apei coboară simțitor temperatura în curte, iar casa întoarce spatele exteriorului: praf, vânt fierbinte și amplitudine termică mare rămân afară.",
+							"În deșertul tropical zăpada nu există. Amplitudinea zi–noapte e problema, nu iarna.",
+							"Solurile deșertice sunt uscate; umezeala nu e nicidecum constrângerea de aici.",
+							"Ploile torențiale zilnice sunt trăsătura mediului ecuatorial. În deșert plouă rar și neregulat."
+						]
+					},
+					{
+						"img": 5,
+						"text": "Mediile etajelor montane. Acoperiș abrupt, streașină lată, lemn masiv. Ce rezolvă?",
+						"options": [
+							"Panta lasă zăpada să alunece, iar streașina scoate apa topită",
+							"Panta e cerută de vântul cald de tip foehn, care coboară",
+							"Lemnul e ales pentru că rezistă foarte bine la sare",
+							"Streașina lată apără pereții de nisipul purtat de vânt"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Un strat gros de zăpadă cântărește sute de kilograme pe metru pătrat. Panta o lasă să alunece, iar streașina scoate apa de topire în afara zidurilor.",
+							"Foehnul chiar coboară pe versanți și grăbește topirea zăpezii, dar forma acoperișului răspunde greutății zăpezii, nu vântului.",
+							"Rezistența la sare contează pe litoral. În munte lemnul se alege pentru că e local, izolează bine și se lucrează ușor.",
+							"Nisipul purtat de vânt este o problemă a deșerturilor, nu a etajelor montane."
+						]
+					}
+				]
+			},
+			{
+				"title": "Runda 2 — apă, energie și teren dificil",
+				"questions": [
+					{
+						"img": 6,
+						"text": "Satul musonic are canale betonate de-a lungul uliței. Ce rol au în sezonul ploios?",
+						"options": [
+							"Preiau surplusul de ploaie și feresc casele și culturile",
+							"Aduc apă potabilă din munți către gospodăriile satului",
+							"Servesc la irigarea culturilor chiar în sezonul ploios",
+							"Rețin apa pe loc, ca să se infiltreze cât mai mult în sol"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. În sezonul musonic problema nu e lipsa apei, ci surplusul ei. Canalele îi dau un drum, în loc s-o lase să stea în jurul caselor și pe culturi.",
+							"Ar fi un apeduct, nu un canal deschis prin mijlocul satului — apa deschisă se contaminează imediat.",
+							"În plin sezon ploios nu e nevoie de irigare: apa e tocmai ceea ce prisosește.",
+							"Ar fi exact pe dos: solul e deja saturat, iar infiltrarea suplimentară ar prelungi băltirea."
+						]
+					},
+					{
+						"img": 7,
+						"text": "Vasele mari și burlanul strâng apa de pe acoperiș. De ce este stocarea esențială tocmai în mediul mediteraneean?",
+						"options": [
+							"Ploaia cade iarna, iar nevoia de apă vine abia vara",
+							"Pentru că ploile sunt repartizate uniform în tot anul",
+							"Pentru că nu există niciun râu în regiunea mediteraneeană",
+							"Pentru a preveni inundațiile din timpul verii secetoase"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Aceasta e trăsătura definitorie a climatului mediteraneean: precipitațiile și consumul cad în anotimpuri opuse. Cisterna face legătura dintre ele.",
+							"Dimpotrivă: repartiția e puternic sezonieră, cu iarnă ploioasă și vară secetoasă. Tocmai de aceea e nevoie de rezervă.",
+							"Există râuri, dar multe seacă sau scad drastic vara — motiv în plus pentru rezerva de la acoperiș.",
+							"Vara este sezonul secetos; inundațiile, când apar, vin din ploile de toamnă și iarnă."
+						]
+					},
+					{
+						"img": 8,
+						"text": "În deșertul tropical se construiește o centrală solară. De ce se potrivește aici mai bine decât aproape oriunde?",
+						"options": [
+							"Cerul senin și orele multe de soare dau energia cea mai mare",
+							"Pentru că temperatura ridicată crește randamentul panourilor",
+							"Pentru că nisipul reflectă lumina și dublează producția",
+							"Pentru că vântul constant al deșertului răcește panourile"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Deșertul tropical stă sub aer descendent, uscat: puțini nori, peste 3000 de ore de soare pe an. Contează numărul de ore de soare, nu căldura.",
+							"Este o capcană des întâlnită: panourile fotovoltaice produc mai PUȚIN când se supraîncălzesc. Avantajul deșertului e lumina, nu temperatura.",
+							"Praful și nisipul depuse pe panouri sunt, dimpotrivă, o problemă serioasă: reduc producția și cer curățare deasă, cu apă pe care deșertul n-o are.",
+							"Vântul nu e trăsătura care recomandă deșertul pentru energie solară; insolația este."
+						]
+					},
+					{
+						"img": 9,
+						"text": "În stația din tundră s-a montat și o turbină eoliană, nu doar panouri solare. De ce?",
+						"options": [
+							"Iarna polară ține săptămâni fără soare, dar vântul tot bate",
+							"Pentru că în tundră nu bate vântul, deci turbina e sigură",
+							"Pentru că panourile solare nu funcționează sub zero grade",
+							"Pentru că turbina încălzește aerul din jurul stației reci"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. La latitudini mari, iarna Soarele nu răsare cu lunile — panourile devin inutile exact când nevoia de energie e cea mai mare. Vântul nu depinde de lumină.",
+							"Este pe dos: în tundră vântul e puternic și frecvent, iar asta e chiar motivul pentru care turbina merită montată.",
+							"Fals. Frigul nu strică panourile, ba chiar le crește ușor randamentul. Problema polară este lipsa luminii, nu temperatura.",
+							"O turbină produce electricitate, nu căldură pentru aerul din jur."
+						]
+					},
+					{
+						"img": 10,
+						"text": "Stația din tundră este ridicată pe piloni metalici, deasupra solului. Ce s-ar întâmpla fără ei?",
+						"options": [
+							"Căldura casei ar dezgheța permafrostul, iar ea s-ar înclina",
+							"Zăpada ar acoperi complet clădirea în numai câteva zile",
+							"Umezeala solului ar putrezi pereții, ca la Ecuator",
+							"Nu s-ar schimba nimic: pilonii doar economisesc materiale"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Este aceeași lege ca la satul siberian: o clădire așezată direct pe permafrost își topește propriul teren de fundare, apoi se lasă neuniform și crapă.",
+							"Zăpada chiar se troienește, dar pilonii nu se pun pentru asta — ei rezolvă dezghețul de dedesubt.",
+							"Putrezirea din umezeală e problema mediului ecuatorial. În tundră apa e înghețată aproape tot anul.",
+							"Pilonii costă mai mult, nu mai puțin. Se acceptă costul tocmai pentru că fără ei clădirea nu rezistă."
+						]
+					},
+					{
+						"img": 11,
+						"text": "În valea montană se instalează o microhidrocentrală. Ce element al mediului o face posibilă?",
+						"options": [
+							"Căderea mare de nivel și debitul constant din ploi și zăpadă",
+							"Temperatura scăzută a apei, care crește randamentul turbinei",
+							"Faptul că în munți nu există nicio altă sursă de energie",
+							"Panta redusă a văii, care încetinește mult curgerea apei"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Energia unei hidrocentrale vine din produsul dintre cădere și debit. Muntele le dă pe amândouă: pantă mare și alimentare din precipitații și din zăpada care se topește lent.",
+							"Temperatura apei nu are practic niciun rol; puterea vine din înălțimea de cădere și din debit.",
+							"În munte există și vânt, și lemn, și soare. Hidrocentrala se alege pentru că relieful îi dă căderea, nu din lipsă de alternative.",
+							"Este exact pe dos: o pantă redusă înseamnă cădere mică, deci putere mică."
+						]
+					}
+				]
+			}
+		]
+	}
+}

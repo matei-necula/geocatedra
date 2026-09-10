@@ -1,0 +1,93 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "climatele-terrei",
+		"slug": "climatele-terrei-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/climatele-terrei/00-harta-de-ansamblu.webp",
+				"caption": "Climatele globului — harta de ansamblu a tipurilor de climă"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/01-ecuatoriala-harta.webp",
+				"caption": "Clima ecuatorială — repartiție geografică"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/02-ecuatoriala-climograma-iquitos.webp",
+				"caption": "Clima ecuatorială — diagramă climatică (Iquitos, Peru)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/03-subecuatoriala-harta.webp",
+				"caption": "Clima subecuatorială — repartiție geografică"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/04-subecuatoriala-climograma-veracruz.webp",
+				"caption": "Clima subecuatorială — diagramă climatică (Veracruz, Mexic)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/05-musonica-harta.webp",
+				"caption": "Clima musonică — repartiție geografică"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/06-musonica-climograma-bangkok.webp",
+				"caption": "Clima musonică — diagramă climatică (Bangkok, Thailanda)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/07-tropical-arida-harta.webp",
+				"caption": "Clima tropical-aridă (deșertică) — repartiție geografică"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/08-tropical-arida-climograma-kalgoorlie.webp",
+				"caption": "Clima tropical-aridă — diagramă climatică (Kalgoorlie, Australia)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/09-subtropicala-harta.webp",
+				"caption": "Clima subtropicală — mediteraneană (maro) și umedă (galben) — repartiție geografică"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/10-subtropicala-mediteraneana-climograma-atena.webp",
+				"caption": "Clima subtropicală mediteraneană — diagramă climatică (Atena, Grecia)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/11-subtropicala-umeda-climograma-taipei.webp",
+				"caption": "Clima subtropicală umedă — diagramă climatică (Taipei, Taiwan)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/12-temperata-harta.webp",
+				"caption": "Clima temperată — oceanică (verde-albăstrui), continentală (verde-închis) și continental-semiaridă (verde-deschis) — repartiție geografică"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/13-temperat-oceanica-climograma-londra.webp",
+				"caption": "Clima temperat-oceanică — diagramă climatică (Londra, Marea Britanie)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/14-temperat-continentala-climograma-moscova.webp",
+				"caption": "Clima temperat-continentală — diagramă climatică (Moscova, Rusia)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/15-temperat-continentala-semiarida-climograma-aktiubinsk.webp",
+				"caption": "Clima temperat-continentală semiaridă — diagramă climatică (Aktiubinsk, Kazahstan)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/16-temperat-rece-harta.webp",
+				"caption": "Clima temperat-rece (boreală) — repartiție geografică"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/17-temperat-rece-climograma-iakutsk.webp",
+				"caption": "Clima temperat-rece (boreală) — diagramă climatică (Iakutsk, Rusia)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/18-subpolara-polara-harta.webp",
+				"caption": "Clima subpolară și clima polară — repartiție geografică"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/19-subpolara-climograma-inuvik.webp",
+				"caption": "Clima subpolară — diagramă climatică (Inuvik, Canada)"
+			},
+			{
+				"file": "../content/galerii/climatele-terrei/20-polara-climograma-mcmurdo.webp",
+				"caption": "Clima polară — diagramă climatică (McMurdo, Antarctica)"
+			}
+		]
+	}
+]

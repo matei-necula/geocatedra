@@ -1,0 +1,15 @@
+{
+	"src": "C:/Users/Liliana/AppData/Local/Temp/claude/C--Users-Liliana-catedra/03b4bc87-a99b-4209-b89d-a091ea78200f/scratchpad/",
+	"maxWidth": 1500,
+	"quality": 88,
+	"images": [
+		{ "file": "minerale-corectat.png", "name": "1-elemente-native", "box": [  50, 148,  945,  588], "trim": false },
+		{ "file": "minerale-corectat.png", "name": "2-silicati",        "box": [ 960, 148, 1855,  588], "trim": false },
+		{ "file": "minerale-corectat.png", "name": "3-oxizi",           "box": [  50, 592,  945, 1030], "trim": false },
+		{ "file": "minerale-corectat.png", "name": "4-carbonati",       "box": [ 960, 592, 1855, 1030], "trim": false },
+		{ "file": "minerale-corectat.png", "name": "5-sulfuri",         "box": [1875, 592, 2765, 1030], "trim": false },
+		{ "file": "minerale-corectat.png", "name": "6-halogenuri",      "box": [  50,1040,  945, 1485], "trim": false },
+		{ "file": "minerale-corectat.png", "name": "7-sulfati",         "box": [ 960,1040, 1855, 1485], "trim": false },
+		{ "file": "minerale-corectat.png", "name": "8-fosfati",         "box": [1875,1040, 2765, 1485], "trim": false }
+	]
+}

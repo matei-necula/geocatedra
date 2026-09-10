@@ -1,0 +1,64 @@
+{
+	"gradeId": "9",
+	"topicSlug": "universul-partea-1",
+	"slug": "evolutia-stelelor-medii",
+	"title": "Evoluția stelelor medii (tip Soare)",
+	"description": "Așază etapele evoluției unei stele de masă medie, ca Soarele, în ordinea corectă.",
+	"position": 22,
+	"assets": [
+		"medii-1-nebuloasa.jpg",
+		"medii-2-protostea.jpg",
+		"medii-3-secventa-principala.jpg",
+		"medii-4-gigant-rosie.jpg",
+		"medii-5-nebuloasa-planetara.jpg",
+		"medii-6-pitica-alba.jpg",
+		"medii-7-pitica-neagra.jpg"
+	],
+	"body": {
+		"kind": "ordonare",
+		"rounds": [
+			{
+				"title": "Evoluția unei stele de masă medie (ca Soarele)",
+				"startLabel": "început",
+				"endLabel": "sfârșit",
+				"cards": [
+					{
+						"label": "Nebuloasă",
+						"img": 0,
+						"order": 1
+					},
+					{
+						"label": "Protostea",
+						"img": 1,
+						"order": 2
+					},
+					{
+						"label": "Stea în secvența principală",
+						"img": 2,
+						"order": 3
+					},
+					{
+						"label": "Gigantă roșie",
+						"img": 3,
+						"order": 4
+					},
+					{
+						"label": "Nebuloasă planetară",
+						"img": 4,
+						"order": 5
+					},
+					{
+						"label": "Pitică albă",
+						"img": 5,
+						"order": 6
+					},
+					{
+						"label": "Pitică neagră",
+						"img": 6,
+						"order": 7
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"gradeId": "9",
+	"topicSlug": "relieful-major",
+	"slug": "podisurile-lumii-pe-harta",
+	"title": "Podișurile lumii pe hartă",
+	"description": "Găsește marile podișuri pe harta lumii — sau numește bulina.",
+	"position": 21,
+	"status": "published",
+	"assets": ["harta-podisuri.jpg"],
+	"body": {
+		"kind": "harta-quiz",
+		"map": 0,
+		"points": [
+			{ "n": 1, "x": 27.4, "y": 20.8, "name": "Podișul Labrador" },
+			{ "n": 2, "x": 29.1, "y": 55.5, "name": "Podișul Guyanelor" },
+			{ "n": 3, "x": 33.0, "y": 66.4, "name": "Podișul Braziliei" },
+			{ "n": 4, "x": 27.9, "y": 85.9, "name": "Podișul Patagoniei" },
+			{ "n": 5, "x": 49.3, "y": 43.9, "name": "Podișul Sahara" },
+			{ "n": 6, "x": 58.8, "y": 54.0, "name": "Podișul Etiopiei" },
+			{ "n": 7, "x": 52.1, "y": 70.7, "name": "Podișul Angolei" },
+			{ "n": 8, "x": 56.1, "y": 24.8, "name": "Podișul Podolic" },
+			{ "n": 9, "x": 60.0, "y": 43.7, "name": "Podișul Arabiei" },
+			{ "n": 10, "x": 63.4, "y": 37.2, "name": "Podișul Iranului" },
+			{ "n": 11, "x": 69.3, "y": 46.1, "name": "Podișul Deccan" },
+			{ "n": 12, "x": 78.0, "y": 11.9, "name": "Podișul Siberiei Centrale" },
+			{ "n": 13, "x": 72.5, "y": 37.9, "name": "Podișul Tibet" },
+			{ "n": 14, "x": 67.7, "y": 32.7, "name": "Podișul Pamir" },
+			{ "n": 15, "x": 85.3, "y": 75.9, "name": "Podișul Australiei" }
+		],
+		"rounds": [
+			[4, 5, 6, 7, 8, 10, 12, 15],
+			[1, 2, 3, 8, 9, 12, 13, 15],
+			[1, 2, 3, 4, 5, 7, 11, 14]
+		]
+	}
+}

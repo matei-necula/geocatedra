@@ -1,0 +1,55 @@
+{
+	"gradeId": "9",
+	"topicSlug": "tipuri-de-roci",
+	"slug": "roca-si-familia-ei",
+	"title": "Matricea rocilor",
+	"description": "Completează tabelul: fiecare grupă de roci cu modul ei de formare, cu aspectul care o trădează și cu exemplele potrivite. Patru runde, cu alte celule lăsate libere de fiecare dată.",
+	"position": 20,
+	"status": "published",
+	"assets": [],
+	"body": {
+		"kind": "matrice",
+		"variants": [
+			{
+				"rows": [
+					[{ "text": "Grupa de roci" }, { "text": "CUM SE FORMEAZĂ", "given": true }, { "text": "DUPĂ CE O RECUNOȘTI", "given": true }, { "text": "EXEMPLE", "given": true }],
+					[{ "text": "Magmatice intruzive", "given": true }, { "text": "Magma se răcește lent, în adâncul scoarței" }, { "text": "Cristale mari, vizibile cu ochiul liber" }, { "text": "Granit, gabro" }],
+					[{ "text": "Magmatice efuzive", "given": true }, { "text": "Lava se răcește brusc, la suprafață" }, { "text": "Cristale mici sau aspect sticlos" }, { "text": "Bazalt, obsidian" }],
+					[{ "text": "Sedimentare detritice", "given": true }, { "text": "Se depun fragmente rupte din alte roci" }, { "text": "Granule libere sau lipite cu ciment natural" }, { "text": "Nisip, gresie" }],
+					[{ "text": "Sedimentare chimice și organogene", "given": true }, { "text": "Precipită din apă sau provin din resturi de viețuitoare" }, { "text": "Masive, uneori cu fosile sau gust sărat" }, { "text": "Sare gemă, calcar" }],
+					[{ "text": "Metamorfice", "given": true }, { "text": "Roci mai vechi, transformate de presiune și temperatură" }, { "text": "Benzi, foliație, cristale reorientate" }, { "text": "Marmură, gnais" }]
+				]
+			},
+			{
+				"rows": [
+					[{ "text": "Grupa de roci" }, { "text": "CUM SE FORMEAZĂ", "given": true }, { "text": "DUPĂ CE O RECUNOȘTI", "given": true }, { "text": "EXEMPLE", "given": true }],
+					[{ "text": "Magmatice intruzive" }, { "text": "Magma se răcește lent, în adâncul scoarței", "given": true }, { "text": "Cristale mari, vizibile cu ochiul liber" }, { "text": "Sienit, granit" }],
+					[{ "text": "Magmatice efuzive" }, { "text": "Lava se răcește brusc, la suprafață", "given": true }, { "text": "Cristale mici sau aspect sticlos" }, { "text": "Piatră ponce, bazalt" }],
+					[{ "text": "Sedimentare detritice" }, { "text": "Se depun fragmente rupte din alte roci", "given": true }, { "text": "Granule libere sau lipite cu ciment natural" }, { "text": "Pietriș, conglomerat" }],
+					[{ "text": "Sedimentare chimice și organogene" }, { "text": "Precipită din apă sau provin din resturi de viețuitoare", "given": true }, { "text": "Masive, uneori cu fosile sau gust sărat" }, { "text": "Gips, cărbune" }],
+					[{ "text": "Metamorfice" }, { "text": "Roci mai vechi, transformate de presiune și temperatură", "given": true }, { "text": "Benzi, foliație, cristale reorientate" }, { "text": "Cuarțit, marmură" }]
+				]
+			},
+			{
+				"rows": [
+					[{ "text": "Grupa de roci" }, { "text": "CUM SE FORMEAZĂ", "given": true }, { "text": "DUPĂ CE O RECUNOȘTI", "given": true }, { "text": "EXEMPLE", "given": true }],
+					[{ "text": "Magmatice intruzive", "given": true }, { "text": "Magma se răcește lent, în adâncul scoarței" }, { "text": "Cristale mari, vizibile cu ochiul liber", "given": true }, { "text": "Gabro, sienit" }],
+					[{ "text": "Magmatice efuzive", "given": true }, { "text": "Lava se răcește brusc, la suprafață" }, { "text": "Cristale mici sau aspect sticlos", "given": true }, { "text": "Obsidian, piatră ponce" }],
+					[{ "text": "Sedimentare detritice", "given": true }, { "text": "Se depun fragmente rupte din alte roci" }, { "text": "Granule libere sau lipite cu ciment natural", "given": true }, { "text": "Argilă, brecie" }],
+					[{ "text": "Sedimentare chimice și organogene", "given": true }, { "text": "Precipită din apă sau provin din resturi de viețuitoare" }, { "text": "Masive, uneori cu fosile sau gust sărat", "given": true }, { "text": "Silvină, cretă" }],
+					[{ "text": "Metamorfice", "given": true }, { "text": "Roci mai vechi, transformate de presiune și temperatură" }, { "text": "Benzi, foliație, cristale reorientate", "given": true }, { "text": "Gnais, cuarțit" }]
+				]
+			},
+			{
+				"rows": [
+					[{ "text": "Grupa de roci" }, { "text": "CUM SE FORMEAZĂ", "given": true }, { "text": "DUPĂ CE O RECUNOȘTI", "given": true }, { "text": "EXEMPLE", "given": true }],
+					[{ "text": "Magmatice intruzive", "given": true }, { "text": "Magma se răcește lent, în adâncul scoarței" }, { "text": "Cristale mari, vizibile cu ochiul liber" }, { "text": "Granit, sienit", "given": true }],
+					[{ "text": "Magmatice efuzive", "given": true }, { "text": "Lava se răcește brusc, la suprafață" }, { "text": "Cristale mici sau aspect sticlos" }, { "text": "Bazalt, piatră ponce", "given": true }],
+					[{ "text": "Sedimentare detritice", "given": true }, { "text": "Se depun fragmente rupte din alte roci" }, { "text": "Granule libere sau lipite cu ciment natural" }, { "text": "Grohotiș, gresie", "given": true }],
+					[{ "text": "Sedimentare chimice și organogene", "given": true }, { "text": "Precipită din apă sau provin din resturi de viețuitoare" }, { "text": "Masive, uneori cu fosile sau gust sărat" }, { "text": "Calcar, petrol", "given": true }],
+					[{ "text": "Metamorfice", "given": true }, { "text": "Roci mai vechi, transformate de presiune și temperatură" }, { "text": "Benzi, foliație, cristale reorientate" }, { "text": "Marmură, cuarțit", "given": true }]
+				]
+			}
+		]
+	}
+}

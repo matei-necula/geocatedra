@@ -1,0 +1,58 @@
+{
+	"gradeId": "9",
+	"topicSlug": "hidrosfera",
+	"slug": "matricea-lacurilor",
+	"title": "Matricea lacurilor",
+	"description": "Completează tabelul: tipuri de lacuri, continente și fluviile lor.",
+	"position": 22,
+	"body": {
+		"kind": "matrice",
+		"variants": [
+			{
+				"rows": [
+					[{ "text": "Continente" }, { "text": "AMERICA", "given": true }, { "text": "Europa" }, { "text": "AFRICA", "given": true }, { "text": "Asia" }],
+					[{ "text": "Fluvii" }, { "text": "Paraná", "given": true }, { "text": "Volga" }, { "text": "Nil" }, { "text": "Yangtze" }],
+					[{ "text": "Lacuri glaciare", "given": true }, { "text": "Urșilor" }, { "text": "Ladoga" }, { "text": "Nu există", "given": true }, { "text": "Ororotse Tso", "given": true }],
+					[{ "text": "Lacuri hidroenergetice" }, { "text": "Itaipu", "given": true }, { "text": "Samara" }, { "text": "Nasser" }, { "text": "Trei Defilee" }],
+					[{ "text": "Lacuri tectonice", "given": true }, { "text": "Titicaca" }, { "text": "Balaton", "given": true }, { "text": "Victoria" }, { "text": "Balhaș" }]
+				]
+			},
+			{
+				"rows": [
+					[{ "text": "Continente" }, { "text": "AMERICA", "given": true }, { "text": "Europa" }, { "text": "AFRICA", "given": true }, { "text": "Asia" }],
+					[{ "text": "Fluvii" }, { "text": "Paraná", "given": true }, { "text": "Dunărea" }, { "text": "Zambezi" }, { "text": "Yangtze" }],
+					[{ "text": "Lacuri glaciare", "given": true }, { "text": "Sclavilor" }, { "text": "Onega" }, { "text": "Nu există", "given": true }, { "text": "Ororotse Tso", "given": true }],
+					[{ "text": "Lacuri hidroenergetice" }, { "text": "Itaipu", "given": true }, { "text": "Porțile de Fier" }, { "text": "Kariba" }, { "text": "Trei Defilee" }],
+					[{ "text": "Lacuri tectonice", "given": true }, { "text": "Titicaca" }, { "text": "Balaton", "given": true }, { "text": "Tanganyika" }, { "text": "Balhaș" }]
+				]
+			},
+			{
+				"rows": [
+					[{ "text": "Continente" }, { "text": "AMERICA", "given": true }, { "text": "Europa" }, { "text": "AFRICA", "given": true }, { "text": "Asia" }],
+					[{ "text": "Fluvii" }, { "text": "Paraná", "given": true }, { "text": "Volga" }, { "text": "Nil" }, { "text": "Yangtze" }],
+					[{ "text": "Lacuri glaciare", "given": true }, { "text": "Urșilor" }, { "text": "Ladoga" }, { "text": "Nu există", "given": true }, { "text": "Ororotse Tso", "given": true }],
+					[{ "text": "Lacuri hidroenergetice" }, { "text": "Itaipu", "given": true }, { "text": "Samara" }, { "text": "Nasser" }, { "text": "Trei Defilee" }],
+					[{ "text": "Lacuri tectonice", "given": true }, { "text": "Titicaca" }, { "text": "Balaton", "given": true }, { "text": "Malawi" }, { "text": "Aral" }]
+				]
+			},
+			{
+				"rows": [
+					[{ "text": "Continente" }, { "text": "AMERICA", "given": true }, { "text": "Europa" }, { "text": "AFRICA", "given": true }, { "text": "Asia" }],
+					[{ "text": "Fluvii" }, { "text": "Paraná", "given": true }, { "text": "Dunărea" }, { "text": "Zambezi" }, { "text": "Yangtze" }],
+					[{ "text": "Lacuri glaciare", "given": true }, { "text": "Sclavilor" }, { "text": "Onega" }, { "text": "Nu există", "given": true }, { "text": "Ororotse Tso", "given": true }],
+					[{ "text": "Lacuri hidroenergetice" }, { "text": "Itaipu", "given": true }, { "text": "Porțile de Fier" }, { "text": "Kariba" }, { "text": "Trei Defilee" }],
+					[{ "text": "Lacuri tectonice", "given": true }, { "text": "Titicaca" }, { "text": "Balaton", "given": true }, { "text": "Tanganyika" }, { "text": "Baikal" }]
+				]
+			},
+			{
+				"rows": [
+					[{ "text": "Continente" }, { "text": "AMERICA", "given": true }, { "text": "Europa" }, { "text": "AFRICA", "given": true }, { "text": "Asia" }],
+					[{ "text": "Fluvii" }, { "text": "Paraná", "given": true }, { "text": "Volga" }, { "text": "Nil" }, { "text": "Yangtze" }],
+					[{ "text": "Lacuri glaciare", "given": true }, { "text": "Urșilor" }, { "text": "Ladoga" }, { "text": "Nu există", "given": true }, { "text": "Ororotse Tso", "given": true }],
+					[{ "text": "Lacuri hidroenergetice" }, { "text": "Itaipu", "given": true }, { "text": "Samara" }, { "text": "Nasser" }, { "text": "Trei Defilee" }],
+					[{ "text": "Lacuri tectonice", "given": true }, { "text": "Titicaca" }, { "text": "Balaton", "given": true }, { "text": "Victoria" }, { "text": "Balhaș" }]
+				]
+			}
+		]
+	}
+}

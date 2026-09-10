@@ -1,0 +1,8 @@
+{
+	"src": "C:/Users/Liliana/Downloads/imagini pentru site/",
+	"maxWidth": 1800,
+	"images": [
+		{ "file": "etape evolutia stelelor.png", "name": "a06-etapele-evolutiei-stelelor", "trim": false, "quality": 90 },
+		{ "file": "meteoriti.jpg", "name": "b13-asteroizii", "trim": false, "quality": 90 }
+	]
+}

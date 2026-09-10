@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Catedra — opțiuni de animație</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Spectral:wght@500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#FDF6EC;--surface:#FFFFFF;--ink:#22333B;--muted:#5C6B73;--primary:#2A6F97;
+    --primary-strong:#245F82;--accent:#E07A5F;--sand:#F2CC8F;--border:rgba(34,51,59,.12);
+    --fh:'Spectral',serif;--fb:'Inter',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--fb);line-height:1.5;padding:32px 20px 80px}
+  .wrap{max-width:920px;margin:0 auto}
+  h1{font-family:var(--fh);font-size:34px;font-weight:700;margin-bottom:6px}
+  .sub{color:var(--muted);margin-bottom:32px;max-width:60ch}
+  h2{font-family:var(--fh);font-size:22px;font-weight:600;margin-bottom:4px}
+  .secdesc{color:var(--muted);font-size:14px;margin-bottom:16px}
+  section{margin-bottom:44px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px;margin-bottom:14px}
+  .opts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .opt{border:1.5px solid var(--border);background:var(--surface);color:var(--ink);border-radius:10px;padding:8px 14px;font:inherit;font-size:14px;font-weight:600;cursor:pointer;transition:border-color .15s,background .15s}
+  .opt.active{border-color:var(--primary);background:color-mix(in srgb,var(--primary) 10%,transparent);color:var(--primary)}
+  .btn{background:var(--primary);color:#fff;border:none;border-radius:10px;padding:9px 16px;font:inherit;font-size:14px;font-weight:600;cursor:pointer;transition:background .15s,transform .15s,box-shadow .15s}
+  .btn:hover{background:var(--primary-strong)}
+  .tag{font-size:12px;color:var(--muted)}
+  code{background:rgba(34,51,59,.06);padding:1px 6px;border-radius:5px;font-size:13px}
+
+  /* ---- mock browser for page transitions ---- */
+  .mock{border:1px solid var(--border);border-radius:14px;overflow:hidden;background:var(--bg)}
+  .mockbar{display:flex;gap:6px;padding:10px 14px;background:var(--surface);border-bottom:1px solid var(--border)}
+  .dot{width:10px;height:10px;border-radius:50%}
+  .screen{position:relative;height:230px;overflow:hidden}
+  .pane{position:absolute;inset:0;padding:26px;display:flex;flex-direction:column;gap:10px}
+  .pane h3{font-family:var(--fh);font-size:24px}
+  .pane.b{background:var(--bg)}
+  .pill{align-self:flex-start;background:color-mix(in srgb,var(--accent) 16%,transparent);color:#9a4a32;border-radius:999px;padding:4px 12px;font-size:13px;font-weight:600}
+  .line{height:12px;border-radius:6px;background:var(--border)}
+
+  /* transition styles applied to the incoming pane */
+  .anim-none{animation:none}
+  .anim-fade{animation:fadeIn .35s ease both}
+  .anim-slide{animation:slideUp .42s cubic-bezier(.22,1,.36,1) both}
+  .anim-scale{animation:scaleIn .4s cubic-bezier(.22,1,.36,1) both}
+  @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+  @keyframes slideUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+  @keyframes scaleIn{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
+
+  /* ---- entrance demo ---- */
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  @media(max-width:640px){.grid{grid-template-columns:1fr}}
+  .tile{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px;height:96px}
+  .tile h4{font-family:var(--fh);font-size:16px}
+  .reveal{opacity:0}
+  .play .reveal{animation:slideUp .5s cubic-bezier(.22,1,.36,1) both}
+  .play.stagger .reveal:nth-child(1){animation-delay:0s}
+  .play.stagger .reveal:nth-child(2){animation-delay:.08s}
+  .play.stagger .reveal:nth-child(3){animation-delay:.16s}
+  .play.stagger .reveal:nth-child(4){animation-delay:.24s}
+  .play.stagger .reveal:nth-child(5){animation-delay:.32s}
+  .play.stagger .reveal:nth-child(6){animation-delay:.40s}
+  .play.scale .reveal{animation-name:scaleIn}
+
+  /* ---- hover playground ---- */
+  .hovrow{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .h-lift{transition:transform .18s,box-shadow .18s}
+  .h-lift:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(34,51,59,.12)}
+  .h-scale{transition:transform .15s}
+  .h-scale:hover{transform:scale(1.05)}
+  .h-glow{transition:box-shadow .2s,transform .15s}
+  .h-glow:hover{box-shadow:0 0 0 4px color-mix(in srgb,var(--primary) 22%,transparent);transform:translateY(-1px)}
+  .hcard{width:150px;height:90px;background:var(--surface);border:1px solid var(--border);border-radius:12px;display:grid;place-items:center;font-weight:600;cursor:pointer}
+  .ulink{position:relative;color:var(--primary);font-weight:600;text-decoration:none}
+  .ulink::after{content:'';position:absolute;left:0;bottom:-2px;height:2px;width:100%;background:var(--primary);transform:scaleX(0);transform-origin:left;transition:transform .22s}
+  .ulink:hover::after{transform:scaleX(1)}
+
+  /* ---- loading ---- */
+  .bar{height:3px;background:transparent;overflow:hidden;border-radius:999px;margin-bottom:14px}
+  .bar.run::after{content:'';display:block;height:100%;width:40%;background:var(--primary);border-radius:999px;animation:slide 1.1s ease-in-out infinite}
+  @keyframes slide{0%{transform:translateX(-120%)}100%{transform:translateX(320%)}}
+  .spin{display:inline-block;width:15px;height:15px;border:2px solid rgba(255,255,255,.5);border-top-color:#fff;border-radius:50%;animation:rot .7s linear infinite;vertical-align:-2px;margin-right:7px}
+  @keyframes rot{to{transform:rotate(360deg)}}
+
+  .note{background:color-mix(in srgb,var(--sand) 30%,transparent);border-radius:12px;padding:14px 16px;font-size:14px}
+  .pick{display:inline-block;margin-top:10px;font-size:13px;color:var(--primary);font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Opțiuni de animație</h1>
+  <p class="sub">Apasă butoanele și trece cu mouse-ul peste elemente ca să le simți. Spune-mi ce alegi la fiecare secțiune (ex. „tranziții: Fade + Slide; intrare: în cascadă; hover: ridicare"). Totul respectă „reduce motion".</p>
+
+  <!-- 1. PAGE TRANSITIONS -->
+  <section>
+    <h2>1 · Tranziții între pagini</h2>
+    <p class="secdesc">Cum se schimbă conținutul când navighezi între ecrane.</p>
+    <div class="card">
+      <div class="opts" id="ptOpts">
+        <button class="opt" data-pt="anim-none">Fără (instant)</button>
+        <button class="opt active" data-pt="anim-fade">Fade</button>
+        <button class="opt" data-pt="anim-slide">Fade + Slide ↑</button>
+        <button class="opt" data-pt="anim-scale">Fade + Zoom</button>
+      </div>
+      <div class="mock">
+        <div class="mockbar"><span class="dot" style="background:#E07A5F"></span><span class="dot" style="background:#F2CC8F"></span><span class="dot" style="background:#2A6F97"></span></div>
+        <div class="screen" id="ptScreen"></div>
+      </div>
+      <p class="pick">↑ Apasă o opțiune ca să vezi tranziția (se schimbă ecranul).</p>
+    </div>
+  </section>
+
+  <!-- 2. ENTRANCE -->
+  <section>
+    <h2>2 · Intrarea elementelor</h2>
+    <p class="secdesc">Cum apar cardurile/secțiunile la încărcarea unei pagini.</p>
+    <div class="card">
+      <div class="opts" id="enOpts">
+        <button class="opt active" data-en="">Simplu (toate odată)</button>
+        <button class="opt" data-en="stagger">În cascadă</button>
+        <button class="opt" data-en="scale">Zoom ușor</button>
+      </div>
+      <button class="btn" id="enReplay">↻ Reia</button>
+      <div class="grid" id="enGrid" style="margin-top:14px">
+        <div class="tile reveal"><h4>Vulcanii</h4><div class="tag">Lecție video</div></div>
+        <div class="tile reveal"><h4>Continente</h4><div class="tag">Joc</div></div>
+        <div class="tile reveal"><h4>Test grilă</h4><div class="tag">Examen</div></div>
+        <div class="tile reveal"><h4>Circuitul apei</h4><div class="tag">Prezentare</div></div>
+        <div class="tile reveal"><h4>Galerie</h4><div class="tag">Foto</div></div>
+        <div class="tile reveal"><h4>Vremea</h4><div class="tag">Lecție scrisă</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. HOVER / MICRO -->
+  <section>
+    <h2>3 · Hover & micro-interacțiuni</h2>
+    <p class="secdesc">Trece cu mouse-ul peste ele.</p>
+    <div class="card">
+      <div class="hovrow">
+        <div class="hcard h-lift">Card — ridicare</div>
+        <div class="hcard h-scale">Card — zoom</div>
+        <div class="hcard h-glow">Card — halou</div>
+        <button class="btn h-lift">Buton — ridicare</button>
+        <button class="btn h-scale">Buton — zoom</button>
+        <a href="#" class="ulink" onclick="return false">Link — linie animată</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. LOADING -->
+  <section>
+    <h2>4 · Stări de încărcare</h2>
+    <p class="secdesc">Bara de progres la navigare + spinner pe butoane la trimitere.</p>
+    <div class="card">
+      <div class="bar" id="loadBar"></div>
+      <div class="hovrow">
+        <button class="btn" id="barBtn">Pornește bara 1.5s</button>
+        <button class="btn" id="spinBtn">Trimite (spinner)</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. INTENSITY -->
+  <section>
+    <h2>5 · Intensitatea generală</h2>
+    <p class="secdesc">Cât de „vie" să fie întreaga interfață.</p>
+    <div class="card">
+      <div class="opts">
+        <button class="opt active" data-int="subtle">Discret (recomandat)</button>
+        <button class="opt" data-int="medium">Echilibrat</button>
+        <button class="opt" data-int="playful">Jucăuș</button>
+      </div>
+      <p class="tag">Recomandare: <b>Discret</b> pentru profesori/public, cu un pic mai mult joc pe partea de elevi mici. Putem și diferenția pe rol.</p>
+    </div>
+  </section>
+
+  <div class="note">♿ Toate animațiile se opresc automat dacă utilizatorul are activat „Reduce motion" în sistem. Nimic nu va încetini pagina.</div>
+</div>
+
+<script>
+  // page transitions
+  const screen = document.getElementById('ptScreen');
+  let ptClass = 'anim-fade', showA = true;
+  const paneA = () => `<div class="pane a"><span class="pill">Pagina principală</span><h3>Geografia, într-un loc</h3><div class="line" style="width:80%"></div><div class="line" style="width:60%"></div></div>`;
+  const paneB = () => `<div class="pane b"><span class="pill">Clasa a 6-a</span><h3>Relieful Terrei</h3><div class="line" style="width:70%"></div><div class="line" style="width:50%"></div><div class="line" style="width:65%"></div></div>`;
+  function render(){ screen.innerHTML = (showA?paneA():paneB()); screen.firstElementChild.classList.add(ptClass); }
+  render();
+  document.querySelectorAll('#ptOpts .opt').forEach(b=>b.addEventListener('click',()=>{
+    document.querySelectorAll('#ptOpts .opt').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active'); ptClass=b.dataset.pt; showA=!showA; render();
+  }));
+
+  // entrance
+  const grid = document.getElementById('enGrid');
+  let enMode='';
+  function replay(){ grid.classList.remove('play','stagger','scale'); void grid.offsetWidth; grid.classList.add('play'); if(enMode) grid.classList.add(enMode); }
+  document.querySelectorAll('#enOpts .opt').forEach(b=>b.addEventListener('click',()=>{
+    document.querySelectorAll('#enOpts .opt').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active'); enMode=b.dataset.en; replay();
+  }));
+  document.getElementById('enReplay').addEventListener('click',replay);
+  replay();
+
+  // loading
+  const bar=document.getElementById('loadBar');
+  document.getElementById('barBtn').addEventListener('click',()=>{ bar.classList.add('run'); setTimeout(()=>bar.classList.remove('run'),1500); });
+  document.getElementById('spinBtn').addEventListener('click',function(){ const o=this.innerHTML; this.innerHTML='<span class="spin"></span>Se trimite…'; this.disabled=true; setTimeout(()=>{this.innerHTML=o;this.disabled=false;},1400); });
+
+  // intensity (just visual selection)
+  document.querySelectorAll('[data-int]').forEach(b=>b.addEventListener('click',()=>{
+    document.querySelectorAll('[data-int]').forEach(x=>x.classList.remove('active')); b.classList.add('active');
+  }));
+</script>
+</body>
+</html>

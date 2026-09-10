@@ -1,0 +1,57 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# builds
+dist/
+build/
+.react-router/
+.wrangler/
+.cache/
+
+# env & secrets
+.dev.vars
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# cloudflare
+.mf/
+wrangler.toml.bak
+.atmosfera-work/
+.playwright-mcp/
+graphify-out/
+.claude/
+World-Rivers-Map-Image-AglaSem-Schools.webp
+app/drizzle/ingest.sql
+app/drizzle/ingest-games.sql
+app/drizzle/ingest-docs.sql
+app/drizzle/ingest-pages.sql
+app/drizzle/ingest-interactive.sql
+app/drizzle/replace-gallery.sql
+app/drizzle/update-medii.sql
+app/drizzle/ingest-questions-medii.sql
+app/drizzle/rebalance-questions.sql
+app/drizzle/fix-link-sinelg.sql
+
+# Copii de siguranță D1 (conțin hash-uri de parole și de tokenuri — niciodată în git)
+backups/
+
+# Fișiere de lucru pentru agenți AI — rămân local, nu se publică
+CLAUDE.md
+GEMINI.md
+AGENTS.md
+docs/superpowers/
+docs/handoffs/

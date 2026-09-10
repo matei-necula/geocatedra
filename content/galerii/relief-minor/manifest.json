@@ -1,0 +1,169 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "relieful-minor",
+		"slug": "relieful-minor-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/relief-minor/01-versanti.webp",
+				"caption": "Relief fluvial — Versanți"
+			},
+			{
+				"file": "../content/galerii/relief-minor/02-talveg.webp",
+				"caption": "Relief fluvial — Talveg"
+			},
+			{
+				"file": "../content/galerii/relief-minor/03-lunca.webp",
+				"caption": "Relief fluvial — Luncă"
+			},
+			{
+				"file": "../content/galerii/relief-minor/04-meandre.webp",
+				"caption": "Relief fluvial — Meandre"
+			},
+			{
+				"file": "../content/galerii/relief-minor/05-terase.webp",
+				"caption": "Relief fluvial — Terase"
+			},
+			{
+				"file": "../content/galerii/relief-minor/06-vale-in-chei.webp",
+				"caption": "Relief fluvial — Vale în chei"
+			},
+			{
+				"file": "../content/galerii/relief-minor/07-canion.webp",
+				"caption": "Relief fluvial — Canion"
+			},
+			{
+				"file": "../content/galerii/relief-minor/08-rigola.webp",
+				"caption": "Relief de pluviodenudare (șiroire) — Rigolă"
+			},
+			{
+				"file": "../content/galerii/relief-minor/09-torent.webp",
+				"caption": "Relief torențial — Torent"
+			},
+			{
+				"file": "../content/galerii/relief-minor/10-prabusire-de-teren.webp",
+				"caption": "Relief gravitațional — Prăbușire de teren"
+			},
+			{
+				"file": "../content/galerii/relief-minor/11-alunecare-de-teren.webp",
+				"caption": "Relief gravitațional — Alunecare de teren"
+			},
+			{
+				"file": "../content/galerii/relief-minor/12-solifluxiune.webp",
+				"caption": "Relief gravitațional — Solifluxiune"
+			},
+			{
+				"file": "../content/galerii/relief-minor/13-circ-glaciar.webp",
+				"caption": "Relief glaciar montan — Circ glaciar"
+			},
+			{
+				"file": "../content/galerii/relief-minor/14-vale-glaciara.webp",
+				"caption": "Relief glaciar montan — Vale glaciară"
+			},
+			{
+				"file": "../content/galerii/relief-minor/15-fiord.webp",
+				"caption": "Relief glaciar montan — Fiord"
+			},
+			{
+				"file": "../content/galerii/relief-minor/16-banchiza.webp",
+				"caption": "Relief glaciar de calotă — Banchiză"
+			},
+			{
+				"file": "../content/galerii/relief-minor/17-aisberg.webp",
+				"caption": "Relief glaciar de calotă — Aisberg"
+			},
+			{
+				"file": "../content/galerii/relief-minor/18-hamada.webp",
+				"caption": "Relief deșertic — Hamadă"
+			},
+			{
+				"file": "../content/galerii/relief-minor/19-ued.webp",
+				"caption": "Relief deșertic — Ued"
+			},
+			{
+				"file": "../content/galerii/relief-minor/20-inselberg.webp",
+				"caption": "Relief deșertic — Inselberg"
+			},
+			{
+				"file": "../content/galerii/relief-minor/21-duna-de-nisip.webp",
+				"caption": "Relief deșertic — Dună de nisip"
+			},
+			{
+				"file": "../content/galerii/relief-minor/22-erg.webp",
+				"caption": "Relief deșertic — Erg"
+			},
+			{
+				"file": "../content/galerii/relief-minor/23-tarm-cu-riass.webp",
+				"caption": "Relief litoral — Țărm cu riass"
+			},
+			{
+				"file": "../content/galerii/relief-minor/24-tarm-dalmatin.webp",
+				"caption": "Relief litoral — Țărm dalmatin"
+			},
+			{
+				"file": "../content/galerii/relief-minor/25-tarm-cu-laguna.webp",
+				"caption": "Relief litoral — Țărm cu lagună"
+			},
+			{
+				"file": "../content/galerii/relief-minor/26-tarm-cu-delta.webp",
+				"caption": "Relief fluvio-maritim — Țărm cu deltă"
+			},
+			{
+				"file": "../content/galerii/relief-minor/27-tarm-cu-liman.webp",
+				"caption": "Relief fluvio-maritim — Țărm cu liman"
+			},
+			{
+				"file": "../content/galerii/relief-minor/28-tarm-cu-estuar.webp",
+				"caption": "Relief fluvio-maritim — Țărm cu estuar"
+			},
+			{
+				"file": "../content/galerii/relief-minor/29-dolina.webp",
+				"caption": "Relief carstic — Dolină"
+			},
+			{
+				"file": "../content/galerii/relief-minor/30-pestera.webp",
+				"caption": "Relief carstic — Peșteră"
+			},
+			{
+				"file": "../content/galerii/relief-minor/31-con-vulcanic.webp",
+				"caption": "Relief vulcanic — Con vulcanic"
+			},
+			{
+				"file": "../content/galerii/relief-minor/32-crov.webp",
+				"caption": "Relief pe loess — Crov"
+			},
+			{
+				"file": "../content/galerii/relief-minor/33-capatana-de-zahar.webp",
+				"caption": "Relief pe roci magmatice — Căpățână de zahăr"
+			},
+			{
+				"file": "../content/galerii/relief-minor/34-cuesta.webp",
+				"caption": "Relief structural — Cuestă"
+			},
+			{
+				"file": "../content/galerii/relief-minor/35-anticlinal-sinclinal.webp",
+				"caption": "Relief structural — Anticlinal și sinclinal"
+			},
+			{
+				"file": "../content/galerii/relief-minor/36-horst.webp",
+				"caption": "Relief structural — Horst"
+			},
+			{
+				"file": "../content/galerii/relief-minor/37-graben.webp",
+				"caption": "Relief structural — Graben"
+			},
+			{
+				"file": "../content/galerii/relief-minor/38-terase-agricole.webp",
+				"caption": "Relief antropic — Terase agricole"
+			},
+			{
+				"file": "../content/galerii/relief-minor/39-vale-in-rambleu.webp",
+				"caption": "Relief antropic — Vale în rambleu"
+			},
+			{
+				"file": "../content/galerii/relief-minor/40-vale-in-debleu.webp",
+				"caption": "Relief antropic — Vale în debleu"
+			}
+		]
+	}
+]

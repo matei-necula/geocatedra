@@ -1,0 +1,446 @@
+{
+	"maxWidth": 1400,
+	"quality": 88,
+	"images": [
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 1.jpg",
+			"name": "01-versanti",
+			"box": [
+				92,
+				942,
+				691,
+				1363
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 1.jpg",
+			"name": "02-talveg",
+			"box": [
+				97,
+				350,
+				901,
+				663
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 1.jpg",
+			"name": "03-lunca",
+			"box": [
+				1000,
+				348,
+				1817,
+				682
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 1.jpg",
+			"name": "04-meandre",
+			"box": [
+				779,
+				959,
+				1366,
+				1361
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 1.jpg",
+			"name": "05-terase",
+			"box": [
+				1915,
+				346,
+				2720,
+				663
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 1.jpg",
+			"name": "06-vale-in-chei",
+			"box": [
+				1453,
+				923,
+				2003,
+				1360
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 1.jpg",
+			"name": "07-canion",
+			"box": [
+				2090,
+				1014,
+				2725,
+				1360
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "08-rigola",
+			"box": [
+				88,
+				363,
+				515,
+				664
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "09-torent",
+			"box": [
+				579,
+				363,
+				986,
+				665
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "10-prabusire-de-teren",
+			"box": [
+				1505,
+				397,
+				1873,
+				671
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "11-alunecare-de-teren",
+			"box": [
+				1069,
+				386,
+				1443,
+				672
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "12-solifluxiune",
+			"box": [
+				1935,
+				352,
+				2304,
+				628
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "13-circ-glaciar",
+			"box": [
+				90,
+				1024,
+				614,
+				1352
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "14-vale-glaciara",
+			"box": [
+				691,
+				1041,
+				1159,
+				1328
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "15-fiord",
+			"box": [
+				1232,
+				1000,
+				1685,
+				1367
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "16-banchiza",
+			"box": [
+				1754,
+				1037,
+				2200,
+				1350
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "17-aisberg",
+			"box": [
+				2270,
+				996,
+				2729,
+				1349
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "18-hamada",
+			"box": [
+				1730,
+				408,
+				2192,
+				682
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "19-ued",
+			"box": [
+				1179,
+				386,
+				1654,
+				682
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "20-inselberg",
+			"box": [
+				640,
+				381,
+				1103,
+				682
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "21-duna-de-nisip",
+			"box": [
+				88,
+				403,
+				564,
+				677
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 3.jpg",
+			"name": "22-erg",
+			"box": [
+				2269,
+				389,
+				2727,
+				682
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "23-tarm-cu-riass",
+			"box": [
+				1881,
+				1054,
+				2273,
+				1351
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "24-tarm-dalmatin",
+			"box": [
+				2323,
+				1045,
+				2732,
+				1343
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "25-tarm-cu-laguna",
+			"box": [
+				86,
+				1047,
+				490,
+				1351
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "26-tarm-cu-delta",
+			"box": [
+				991,
+				1038,
+				1382,
+				1334
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "27-tarm-cu-liman",
+			"box": [
+				548,
+				1051,
+				940,
+				1351
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "28-tarm-cu-estuar",
+			"box": [
+				1438,
+				1042,
+				1830,
+				1334
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "29-dolina",
+			"box": [
+				1445,
+				368,
+				2041,
+				584
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "30-pestera",
+			"box": [
+				775,
+				348,
+				1371,
+				616
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "31-con-vulcanic",
+			"box": [
+				122,
+				380,
+				669,
+				618
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 2.jpg",
+			"name": "32-crov",
+			"box": [
+				2363,
+				382,
+				2731,
+				637
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "33-capatana-de-zahar",
+			"box": [
+				2141,
+				358,
+				2701,
+				615
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "34-cuesta",
+			"box": [
+				165,
+				886,
+				621,
+				1050
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "35-anticlinal-sinclinal",
+			"box": [
+				816,
+				891,
+				1331,
+				1065
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "36-horst",
+			"box": [
+				1450,
+				892,
+				2034,
+				1065
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "37-graben",
+			"box": [
+				2118,
+				901,
+				2723,
+				1066
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "38-terase-agricole",
+			"box": [
+				1875,
+				1264,
+				2191,
+				1462
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "39-vale-in-rambleu",
+			"box": [
+				162,
+				1290,
+				860,
+				1406
+			],
+			"trim": false
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/imagini pentru site/plansa 4.jpg",
+			"name": "40-vale-in-debleu",
+			"box": [
+				1056,
+				1285,
+				1760,
+				1406
+			],
+			"trim": false
+		}
+	]
+}

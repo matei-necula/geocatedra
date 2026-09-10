@@ -1,0 +1,57 @@
+{
+  "name": "c-users-liliana-catedra-app",
+  "private": true,
+  "description": "Build a full-stack web application with React Router 7.",
+  "type": "module",
+  "scripts": {
+    "build": "react-router build",
+    "build:liber": "cross-env CLOUDFLARE_ENV=liber react-router build",
+    "cf-typegen": "wrangler types && react-router typegen",
+    "cf-typegen:liber": "cross-env CLOUDFLARE_ENV=liber wrangler types --env liber",
+    "check": "tsc && react-router build && wrangler deploy --dry-run",
+    "deploy": "npm run typecheck && npm test && react-router build && wrangler deploy",
+    "deploy:liber": "npm run typecheck && npm test && npm run build:liber && wrangler deploy --env liber",
+    "dev": "react-router dev",
+    "preview": "npm run build && vite preview",
+    "test": "vitest run",
+    "typecheck": "cross-env ROUTES_TYPEGEN_ALL=1 react-router typegen && tsc -b"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.2",
+    "isbot": "5.1.32",
+    "motion": "^13.2.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "react-router": "7.18.2"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.15.3",
+    "@react-router/dev": "7.18.2",
+    "@tailwindcss/vite": "4.1.17",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "cross-env": "^10.1.0",
+    "drizzle-kit": "^0.31.10",
+    "mupdf": "^1.28.0",
+    "sharp": "^0.35.3",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "vite": "^7.0.0",
+    "vite-tsconfig-paths": "5.1.4",
+    "vitest": "^4.1.10",
+    "wrangler": "^4.129.0"
+  },
+  "cloudflare": {
+    "label": "React Router Framework Starter",
+    "products": [
+      "Workers"
+    ],
+    "categories": [
+      "storage"
+    ],
+    "preview_icon_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/36a99c4a-8919-4e6e-ac9e-e55974407200/public",
+    "preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/65455e96-7992-425f-44e4-30f3e7d7f900/preview",
+    "publish": true
+  }
+}

@@ -1,0 +1,6 @@
+-- „Universul (partea a II-a) — galerie foto": adaugă denumirile pentru cele 5 imagini
+-- cu sateliții planetelor (idx 19–23), care apăreau fără titlu în galerie.
+-- Materialul: 82a8acb0-1584-42a3-816b-d3d279b9eef7 (foto, clasa a 9-a).
+UPDATE material_translations
+SET body = '{"captions":["Structura internă a Soarelui, de la nucleu la coroană","Coroana solară, vizibilă în timpul unei eclipse totale de Soare","Formarea Sistemului Solar dintr-un disc protoplanetar","Sistemul Solar — Soarele și cele opt planete","Centura de asteroizi, dintre Marte și Jupiter","Centura Kuiper, la marginea Sistemului Solar","O cometă, cu coada orientată dinspre Soare","Mercur","Venus","Terra","Luna","Fazele Lunii","Eclipsa de Soare și eclipsa de Lună (umbra și penumbra)","Marte, „planeta roșie”","Jupiter","Marea Pată Roșie a lui Jupiter","Saturn și inelele sale","Uranus","Neptun","Sateliții (lunile) planetei Marte: Phobos și Deimos","Sateliții galileeni ai lui Jupiter: Ganymede, Callisto, Io și Europa","Principalii sateliți ai lui Saturn: Mimas, Enceladus, Tethys, Dione, Rhea, Titan și Iapetus","Principalii sateliți ai lui Uranus: Miranda, Ariel, Umbriel, Titania și Oberon","Sateliții planetei Neptun: Triton (cel mai mare) și sateliții interiori"]}'
+WHERE material_id = '82a8acb0-1584-42a3-816b-d3d279b9eef7' AND locale = 'ro';

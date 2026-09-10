@@ -1,0 +1,10 @@
+-- Scoate cele 3 imagini cu detaliile inelelor lui Saturn (idx 19–21), renumerotează sateliții (idx 19–23)
+-- și actualizează legenda. Redenumește și slug-ul galeriei părții I pentru convenția butonului de legătură.
+DELETE FROM material_assets WHERE id IN ('163595bd-83d5-44d0-ba04-eb5b8cee14f2','cf568923-b21f-417e-90cd-964e63427b6a','c0cadbef-8655-4899-adf4-987ff69dc640');
+UPDATE material_assets SET idx=19 WHERE id='6929551d-5e4d-404f-aecf-c2b034d8a9eb';
+UPDATE material_assets SET idx=20 WHERE id='e59df1b1-7137-4fac-9097-5a62a4e5dc20';
+UPDATE material_assets SET idx=21 WHERE id='d01e7595-8631-42bf-842e-8262c87ba66d';
+UPDATE material_assets SET idx=22 WHERE id='d75a07ba-2b3f-466a-90e5-5f8a78e74bac';
+UPDATE material_assets SET idx=23 WHERE id='284031c4-a97b-473a-8aa7-40c0d3e6e83c';
+UPDATE material_translations SET body='{"caption":"Galerie ilustrativă pentru lecția «Universul (partea a II-a)»: (1) structura internă a Soarelui, de la nucleu la coroană; (2) coroana solară, vizibilă în timpul unei eclipse totale de Soare; (3) formarea Sistemului Solar dintr-un disc protoplanetar; (4) Sistemul Solar — Soarele și cele opt planete; (5) centura de asteroizi, dintre Marte și Jupiter; (6) centura Kuiper, la marginea Sistemului Solar; (7) o cometă, cu coada orientată dinspre Soare; (8) Mercur; (9) Venus; (10) Terra; (11) Luna; (12) fazele Lunii; (13) eclipsa de Soare și eclipsa de Lună (umbra și penumbra); (14) Marte, „planeta roșie”; (15) Jupiter; (16) Marea Pată Roșie a lui Jupiter; (17) Saturn și inelele sale; (18) Uranus; (19) Neptun; (20) sateliții lui Marte: Phobos și Deimos; (21) cei mai mari sateliți ai lui Jupiter: Ganimede, Callisto, Io și Europa; (22) cei mai mari sateliți ai lui Saturn (Titan, Rhea, Iapetus și alții); (23) cei mai importanți sateliți ai lui Uranus (Titania, Oberon, Ariel, Umbriel, Miranda); (24) Neptun și sateliții săi, printre care Triton."}' WHERE material_id='82a8acb0-1584-42a3-816b-d3d279b9eef7' AND locale='ro';
+UPDATE materials SET slug='universul-partea-1-galerie-foto', updated_at=1782770400000 WHERE id='ddd52d50-62ae-4a6c-a4ca-ec7005fb4f7f';

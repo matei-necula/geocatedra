@@ -1,0 +1,100 @@
+{
+	"gradeId": "9",
+	"topicSlug": "pamantul-reprezentare-harti",
+	"slug": "laboratorul-de-proiectii",
+	"title": "Laboratorul de proiecții",
+	"description": "Ești cartograful șef: alege harta potrivită pentru fiecare client și descoperă de ce nicio hartă plană nu poate fi perfectă.",
+	"position": 20,
+	"status": "published",
+	"assets": ["proj-mercator.jpg", "proj-peters.jpg", "proj-robinson.jpg", "proj-azimutala.jpg"],
+	"body": {
+		"kind": "asociere",
+		"imageFit": "contain",
+		"rounds": [
+			{
+				"title": "Comanda clientului și harta potrivită",
+				"layout": "rows",
+				"pairs": [
+					{
+						"left": { "img": 0, "label": "Proiecția Mercator" },
+						"right": {
+							"text": "Un marinar vrea o hartă pe care drumul dat de busolă să fie mereu o linie dreaptă."
+						},
+						"group": "mercator"
+					},
+					{
+						"left": { "img": 1, "label": "Proiecția Gall–Peters" },
+						"right": {
+							"text": "Un profesor vrea o hartă pe care Groenlanda să nu pară, greșit, la fel de mare ca Africa."
+						},
+						"group": "peters"
+					},
+					{
+						"left": { "img": 2, "label": "Proiecția Robinson" },
+						"right": {
+							"text": "Un editor de atlase vrea o hartă de perete, plăcută la privit, cu toate continentele arătând firesc."
+						},
+						"group": "robinson"
+					},
+					{
+						"left": { "img": 3, "label": "Proiecția azimutală polară" },
+						"right": {
+							"text": "Un cercetător polar vrea o hartă centrată pe Pol, bună pentru cea mai scurtă rută aeriană spre nord."
+						},
+						"group": "azimutala"
+					}
+				]
+			},
+			{
+				"title": "Proiecția și deformarea ei",
+				"pairs": [
+					{
+						"left": { "text": "Proiecția Mercator" },
+						"right": { "text": "Unghiurile rămân corecte, dar suprafețele cresc enorm spre cei doi poli" },
+						"group": "mercator"
+					},
+					{
+						"left": { "text": "Proiecția Peters" },
+						"right": { "text": "Suprafețele rămân corecte, dar formele continentelor se alungesc vizibil" },
+						"group": "peters"
+					},
+					{
+						"left": { "text": "Proiecția Robinson" },
+						"right": { "text": "Nici unghiurile, nici suprafețele nu sunt exacte, dar aspectul general e echilibrat" },
+						"group": "robinson"
+					},
+					{
+						"left": { "text": "Proiecția azimutală polară" },
+						"right": { "text": "Direcțiile din centrul hărții rămân corecte, dar deformarea crește spre margini" },
+						"group": "azimutala2"
+					}
+				]
+			},
+			{
+				"title": "Tipul de proiecție și rețeaua de meridiane și paralele",
+				"pairs": [
+					{
+						"left": { "text": "Proiecție cilindrică" },
+						"right": { "text": "Meridianele și paralelele sunt toate linii drepte, care se taie în unghi drept; ținuturile polare ies mult prea întinse" },
+						"group": "cilindrica"
+					},
+					{
+						"left": { "text": "Proiecție pseudocilindrică" },
+						"right": { "text": "Paralelele rămân linii drepte, dar meridianele se curbează și se strâng spre poli, iar harta capătă formă de elipsă" },
+						"group": "pseudocilindrica"
+					},
+					{
+						"left": { "text": "Proiecție azimutală" },
+						"right": { "text": "Harta iese rotundă, cu un pol în mijloc: meridianele pleacă din centru ca spițele unei roți, iar paralelele sunt cercuri" },
+						"group": "azimutala3"
+					},
+					{
+						"left": { "text": "Proiecție conică" },
+						"right": { "text": "Harta iese ca un evantai: paralelele sunt arce, iar meridianele se adună spre un vârf aflat deasupra hărții; se potrivește latitudinilor medii" },
+						"group": "conica"
+					}
+				]
+			}
+		]
+	}
+}

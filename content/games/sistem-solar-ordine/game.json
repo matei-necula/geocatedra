@@ -1,0 +1,52 @@
+{
+	"gradeId": "9",
+	"topicSlug": "universul-partea-1",
+	"slug": "temperatura-stelelor",
+	"title": "Temperatura stelelor",
+	"description": "Așază stelele în ordinea corectă.",
+	"position": 21,
+	"assets": [
+		"stea-rosie.png",
+		"stea-portocalie.png",
+		"stea-galbena.png",
+		"stea-alba.png",
+		"stea-albastra.png"
+	],
+	"body": {
+		"kind": "ordonare",
+		"rounds": [
+			{
+				"title": "Stelele, de la cele mai reci la cele mai fierbinți",
+				"startLabel": "cele mai reci",
+				"endLabel": "cele mai fierbinți",
+				"cards": [
+					{
+						"label": "Stele roșii",
+						"img": 0,
+						"order": 1
+					},
+					{
+						"label": "Stele portocalii",
+						"img": 1,
+						"order": 2
+					},
+					{
+						"label": "Stele galbene",
+						"img": 2,
+						"order": 3
+					},
+					{
+						"label": "Stele albe",
+						"img": 3,
+						"order": 4
+					},
+					{
+						"label": "Stele albastre",
+						"img": 4,
+						"order": 5
+					}
+				]
+			}
+		]
+	}
+}

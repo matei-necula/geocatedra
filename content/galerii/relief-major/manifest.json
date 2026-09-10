@@ -1,0 +1,29 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "relieful-major",
+		"slug": "relieful-major-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/relief-major/1-elementele-morfologice.webp",
+				"caption": "Elementele morfologice ale reliefului: altitudinea (absolută și relativă), fragmentarea (în adâncime și ca densitate) și panta"
+			},
+			{
+				"file": "../content/galerii/relief-major/2-treptele-de-relief.webp",
+				"caption": "Treptele de relief: muntele (sus-stânga), dealul (sus-dreapta), podișul (jos-stânga) și câmpia (jos-dreapta)"
+			},
+			{
+				"file": "../content/galerii/relief-major/3-formarea-muntilor.webp",
+				"caption": "Formarea munților (orogeneza): sedimentarea în geosinclinal, cutarea straturilor sub presiune laterală și înălțarea lanțului muntos"
+			},
+			{
+				"file": "../content/galerii/relief-major/4-peneplena-si-pediplena.webp",
+				"caption": "Evoluția formelor de nivelare: peneplena (climat temperat, cu monadnockuri) și pediplena (climat cald, cu inselberguri)"
+			},
+			{
+				"file": "../content/galerii/relief-major/5-relief-suboceanic.webp",
+				"caption": "Relieful suboceanic: platforma litorală, abruptul continental, câmpia abisală cu insule submerse, dorsala oceanică pe axa căreia urcă magma, și fosa oceanică."
+			}
+		]
+	}
+]

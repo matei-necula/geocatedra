@@ -1,0 +1,210 @@
+{
+	"gradeId": "9",
+	"topicSlug": "climatele-terrei",
+	"slug": "verdict-climatic",
+	"title": "Verdict climatic",
+	"description": "Primești datele unei stații meteo, fără să știi unde se află. Din temperaturi, precipitații, vegetație și felul în care trăiesc oamenii, deduci climatul — și explici de ce.",
+	"position": 21,
+	"status": "published",
+	"assets": [],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Stația A — dosar fără nume",
+				"questions": [
+					{
+						"hint": "Temperatura medie a fiecărei luni: între 25 și 27 °C. Precipitații: peste 2000 mm pe an, în fiecare lună. Vegetație: pădure deasă, cu arbori de peste 40 m, dispuși în mai multe etaje.",
+						"text": "Care este climatul stației A?",
+						"options": [
+							"Climat ecuatorial",
+							"Climat musonic",
+							"Climat de savană",
+							"Climat oceanic"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Căldură mare fără variație și ploi în toate lunile — semnătura climatului ecuatorial.",
+							"Fals. La musonic ar exista un sezon clar ploios și unul secetos, nu ploi egale tot anul.",
+							"Fals. Savana are un sezon secetos lung, care aici lipsește complet.",
+							"Fals. Oceanicul are ierni răcoroase și veri blânde, nu 26 °C constant."
+						]
+					},
+					{
+						"hint": "Aceeași stație A.",
+						"text": "Ce dovadă din dosar exclude cel mai sigur climatul de savană?",
+						"options": [
+							"Temperatura ridicată în absolut toate lunile anului",
+							"Lipsa oricărei luni cu secetă în cursul anului",
+							"Prezența unei păduri dese de arbori foioși",
+							"Cantitatea foarte mare de precipitații anuale"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Și savana are temperaturi ridicate tot anul — asta nu le deosebește.",
+							"Corect! Savana se definește prin alternanța ploios/secetos. Fără secetă, nu e savană.",
+							"Fals. Dosarul descrie pădure ecuatorială etajată, nu foioase.",
+							"Fals. Cantitatea ajută, dar decisiv e cum se împarte ploaia peste an."
+						]
+					}
+				]
+			},
+			{
+				"title": "Stația B — două stații, aceeași latitudine",
+				"questions": [
+					{
+						"hint": "Două stații se află amândouă la 45° latitudine nordică. B1: iarna 4 °C, vara 17 °C, ploaie în toate lunile. B2: iarna −12 °C, vara 22 °C, precipitații puține, mai ales vara.",
+						"text": "Aceeași latitudine, climate diferite. Care este explicația?",
+						"options": [
+							"B1 e mult mai aproape de ocean, iar B2 în interiorul continentului",
+							"B1 se află la o altitudine mult mai mare decât se află B2",
+							"B2 primește mult mai puțină radiație solară decât primește B1",
+							"B1 se află în emisfera sudică, iar B2 se află în cea nordică"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Oceanul temperează: ierni blânde, veri răcoroase, ploi tot anul.",
+							"Fals. Altitudinea ar coborî temperaturile în ambele anotimpuri, nu ar mări diferența.",
+							"Fals. La aceeași latitudine, radiația primită este practic identică.",
+							"Fals. Enunțul spune că amândouă sunt la 45° latitudine nordică."
+						]
+					},
+					{
+						"hint": "Aceleași două stații.",
+						"text": "Cum se numesc, în ordine, cele două climate?",
+						"options": [
+							"B1 temperat continental, B2 temperat oceanic",
+							"B1 temperat oceanic, B2 temperat continental",
+							"B1 mediteraneean, B2 subpolar",
+							"B1 subpolar, B2 mediteraneean"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Numele sunt inversate: amplitudinea mică aparține oceanicului.",
+							"Corect! Amplitudine mică și ploi uniforme = oceanic; amplitudine mare = continental.",
+							"Fals. Mediteraneeanul are veri secetoase și ierni ploioase.",
+							"Fals. Subpolarul are veri sub 10 °C, iar aici vara ajunge la 22 °C."
+						]
+					}
+				]
+			},
+			{
+				"title": "Stația C — anul rupt în două",
+				"questions": [
+					{
+						"hint": "Stația C, în sudul Asiei. Din noiembrie până în mai: cer senin, aproape fără ploaie, aer uscat. Din iunie până în septembrie: ploi torențiale zilnice, peste 80% din precipitațiile anului. Cald tot anul. Cultura de bază: orezul.",
+						"text": "Care este climatul stației C?",
+						"options": [
+							"Climat musonic, cu vânturi care își schimbă sensul sezonier",
+							"Climat ecuatorial, cu ploi bogate răspândite peste tot anul",
+							"Climat deșertic, cu ploi rare și foarte neregulate ca moment",
+							"Climat mediteraneean, cu veri secetoase și ierni ploioase"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Un anotimp uscat și unul torențial, la latitudini calde, e semnătura musonului.",
+							"Fals. La ecuatorial ploaia e repartizată în toate lunile, fără sezon uscat.",
+							"Fals. Un deșert nu primește 80% din ploaia anului în patru luni.",
+							"Fals. La mediteraneean iarna e ploioasă și vara secetoasă — aici e invers."
+						]
+					},
+					{
+						"hint": "Aceeași stație C.",
+						"text": "De ce își schimbă vântul sensul de două ori pe an?",
+						"options": [
+							"Fiindcă uscatul se încălzește și se răcește mai repede decât oceanul",
+							"Fiindcă Pământul își schimbă sensul de rotație de două ori pe an",
+							"Fiindcă distanța dintre Pământ și Soare se schimbă foarte mult",
+							"Fiindcă munții din nord opresc vântul jumătate din anul acela"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Vara uscatul se încălzește tare, aerul urcă, iar dinspre ocean vine aer umed; iarna, invers.",
+							"Fals. Sensul de rotație al Pământului nu se schimbă niciodată.",
+							"Fals. Variația distanței e mică și ar afecta la fel toată planeta.",
+							"Fals. Munții influențează cantitatea de ploaie, nu sensul vântului."
+						]
+					}
+				]
+			},
+			{
+				"title": "Stația D — vara uscată, iarna udă",
+				"questions": [
+					{
+						"hint": "Stația D, la 38° latitudine nordică, pe litoral. Iulie: 26 °C, 5 mm de ploaie. Ianuarie: 9 °C, 90 mm de ploaie. Vegetație: arbuști scunzi, cu frunze mici, tari și lucioase, adesea cerate.",
+						"text": "Care este climatul stației D?",
+						"options": [
+							"Climat temperat mediteraneean",
+							"Climat temperat oceanic",
+							"Climat musonic de latitudini mici",
+							"Climat temperat continental arid"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Vară caldă și uscată, iarnă blândă și ploioasă — tiparul mediteraneean.",
+							"Fals. Oceanicul are ploaie în toate lunile, inclusiv vara.",
+							"Fals. La muson ploaia cade vara, nu iarna.",
+							"Fals. Continentalul arid are iarnă geroasă, nu iarnă blândă de 9 °C."
+						]
+					},
+					{
+						"hint": "Aceeași stație D.",
+						"text": "La ce folosesc plantelor frunzele mici, tari și cerate?",
+						"options": [
+							"Le ajută să reziste la ger în timpul iernilor foarte lungi",
+							"Le ajută să piardă cât mai puțină apă în vara secetoasă",
+							"Le ajută să prindă mai multă lumină în zilele înnorate",
+							"Le ajută să crească mult mai repede decât plantele vecine"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Iarna mediteraneeană e blândă; problema plantei e vara, nu gerul.",
+							"Corect! Suprafața mică și stratul de ceară reduc evaporarea — adaptare la seceta de vară.",
+							"Fals. Vara mediteraneeană e foarte însorită, nu înnorată.",
+							"Fals. Plantele de aici cresc lent, tocmai fiindcă apa e puțină."
+						]
+					}
+				]
+			},
+			{
+				"title": "Stația E — pe muchia dintre stepă și deșert",
+				"questions": [
+					{
+						"hint": "Stația E, în interiorul unui continent, la 47° latitudine nordică. Precipitații: 320 mm pe an, mai ales primăvara. Ianuarie: −16 °C. Iulie: 24 °C. Vegetație: ierburi joase, fără arbori. Fără nicio mare pe o rază de 1500 km.",
+						"text": "Care este climatul stației E?",
+						"options": [
+							"Climat temperat continental arid, de stepă",
+							"Climat deșertic cald, cu veri toride tot anul",
+							"Climat subpolar, cu veri scurte și foarte reci",
+							"Climat temperat oceanic, cu ploi tot timpul"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Amplitudine uriașă, ploaie puțină și ierburi fără arbori: stepa continentală.",
+							"Fals. Un deșert cald nu coboară la −16 °C în ianuarie.",
+							"Fals. La subpolar vara nu ajunge la 24 °C.",
+							"Fals. Oceanicul cere apropierea de mare, iar aici marea e la 1500 km."
+						]
+					},
+					{
+						"hint": "Sinteză finală, peste toate cele cinci stații.",
+						"text": "Ce ne învață stațiile A–E despre citirea unui climat?",
+						"options": [
+							"Latitudinea singură ajunge ca să stabilim climatul oricărui loc",
+							"Contează și latitudinea, și distanța față de ocean, și relieful",
+							"Numai cantitatea totală de precipitații contează cu adevărat",
+							"Vegetația nu ne spune nimic sigur despre climatul unui loc"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. B1 și B2 au aceeași latitudine și climate cu totul diferite.",
+							"Corect! Latitudinea dă cadrul, restul factorilor explică abaterile de la el.",
+							"Fals. C și D pot avea totaluri apropiate, dar repartiție peste an opusă.",
+							"Fals. Frunzele cerate de la D și ierburile de la E au fost indicii decisive."
+						]
+					}
+				]
+			}
+		]
+	}
+}

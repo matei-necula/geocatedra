@@ -1,0 +1,90 @@
+{
+	"gradeId": "9",
+	"topicSlug": "solurile-terrei",
+	"slug": "aseaza-solurile-pe-harta",
+	"title": "Așază solurile pe hartă",
+	"description": "Trage fiecare profil de sol peste zona de vegetație în care se formează.",
+	"position": 23,
+	"assets": [
+		"harta-zone-vegetatie.png",
+		"sol-1-laterit.jpg",
+		"sol-2-feralitic.jpg",
+		"sol-3-nisipos.jpg",
+		"sol-4-terra-rosa.jpg",
+		"sol-5-molisol.jpg",
+		"sol-6-argiluvisol.jpg",
+		"sol-7-podzol.jpg",
+		"sol-8-turbos.jpg"
+	],
+	"body": {
+		"kind": "plaseaza-pe-harta",
+		"map": 0,
+		"reveal": "below",
+		"targets": [
+			{
+				"id": "laterit",
+				"x": 33.3,
+				"y": 51.7,
+				"label": "Laterit — pădurea ecuatorială",
+				"img": 1,
+				"caption": "Laterit"
+			},
+			{
+				"id": "feralitic",
+				"x": 57.8,
+				"y": 58.3,
+				"label": "Sol feralitic — savana",
+				"img": 2,
+				"caption": "Sol feralitic"
+			},
+			{
+				"id": "nisipos",
+				"x": 54.2,
+				"y": 37.8,
+				"label": "Sol nisipos — deșertul cald",
+				"img": 3,
+				"caption": "Sol nisipos"
+			},
+			{
+				"id": "terra-rosa",
+				"x": 51.4,
+				"y": 27.8,
+				"label": "Terra rossa — vegetația mediteraneană",
+				"img": 4,
+				"caption": "Terra rossa"
+			},
+			{
+				"id": "molisol",
+				"x": 66.7,
+				"y": 23.3,
+				"label": "Molisol (cernoziom) — stepa",
+				"img": 5,
+				"caption": "Molisol (cernoziom)"
+			},
+			{
+				"id": "argiluvisol",
+				"x": 27.2,
+				"y": 28.9,
+				"label": "Argiluvisol — pădurea de foioase",
+				"img": 6,
+				"caption": "Argiluvisol"
+			},
+			{
+				"id": "podzol",
+				"x": 75.0,
+				"y": 15.6,
+				"label": "Podzol — taigaua",
+				"img": 7,
+				"caption": "Podzol"
+			},
+			{
+				"id": "turbos",
+				"x": 23.6,
+				"y": 11.1,
+				"label": "Sol turbos — tundra",
+				"img": 8,
+				"caption": "Sol turbos"
+			}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"src": "C:/Users/Liliana/Downloads/",
+	"maxWidth": 1600,
+	"quality": 86,
+	"images": [
+		{ "file": "1. profil sol.jfif", "name": "1-profilul-solului", "trim": false },
+		{ "file": "2. factori pedogenetici.jfif", "name": "2-factori-pedogenetici", "trim": false },
+		{ "file": "3. compozitia sol.jfif", "name": "3-compozitia-solului", "trim": false },
+		{ "file": "4. componente sol.jpg", "name": "4-componentele-solului", "trim": false },
+		{ "file": "5. struct sol.jpg", "name": "5-structura-solului", "trim": false },
+		{ "file": "6. text sol.jpg", "name": "6-textura-solului", "trim": false },
+		{ "file": "7. sol 1.jfif", "name": "7-tipuri-zonale-1", "trim": false },
+		{ "file": "8. sol 2.jfif", "name": "8-tipuri-zonale-2", "trim": false }
+	]
+}

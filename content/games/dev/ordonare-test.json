@@ -1,0 +1,26 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "universul-partea-2",
+		"type": "joc",
+		"title": "TEST ordonare (dev)",
+		"status": "draft",
+		"body": {
+			"kind": "ordonare",
+			"rounds": [
+				{
+					"title": "Stelele după temperatură",
+					"startLabel": "cele mai reci",
+					"endLabel": "cele mai fierbinți",
+					"cards": [
+						{ "label": "stele roșii", "order": 1 },
+						{ "label": "stele portocalii", "order": 2 },
+						{ "label": "stele galbene", "order": 3 },
+						{ "label": "stele albe", "order": 4 },
+						{ "label": "stele albastre", "order": 5 }
+					]
+				}
+			]
+		}
+	}
+]

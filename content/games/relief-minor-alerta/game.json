@@ -1,0 +1,264 @@
+{
+	"gradeId": "9",
+	"topicSlug": "relieful-minor",
+	"slug": "alerta-de-teren",
+	"title": "Alertă de teren",
+	"description": "Ești geograf de teren: citești raportul echipei, afli care agent extern a modelat relieful și dai verdictul. Cinci cazuri, din munte până pe țărm.",
+	"position": 23,
+	"status": "published",
+	"assets": [],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Cazul 1 — O vale în formă de U, la 2000 m altitudine",
+				"questions": [
+					{
+						"text": "Echipa raportează o vale largă, cu fundul plat și versanți abrupți, în formă de literă U. Ce agent a săpat-o?",
+						"options": [
+							"Ghețarul, care a măturat valea în timpul glaciațiunilor",
+							"Râul, care taie de obicei văi înguste, în formă de V",
+							"Vântul, care șlefuiește stânca la nivelul solului",
+							"Valurile mării, care lovesc baza falezei necontenit"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Ghețarul e lat și greu: rade fundul și pereții deodată, lăsând profilul în U.",
+							"Fals. Râul erodează mai ales în adâncime, pe un fir îngust — de aici profilul în V.",
+							"Fals. Vântul modelează forme mici, nu o vale întreagă de munte.",
+							"Fals. Suntem la 2000 m altitudine, departe de orice țărm."
+						]
+					},
+					{
+						"text": "Pe fundul văii se află o grămadă dezordonată de blocuri, de mărimi foarte diferite și nerotunjite. Ce este?",
+						"options": [
+							"Un con de dejecție, lăsat de un torent la ieșirea din munte",
+							"O morenă, materialul cărat și lăsat în urmă de ghețar",
+							"O plajă fosilă, rămasă de la o mare de acum milioane de ani",
+							"O dună de nisip, adusă de vânt din câmpia învecinată"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Conul de dejecție are material sortat pe mărimi de apa curgătoare, în evantai.",
+							"Corect! Ghețarul cară totul de-a valma și îl lasă nesortat și colțuros.",
+							"Fals. Marea rotunjește pietrele prin rostogolire; acestea sunt colțuroase.",
+							"Fals. Dunele sunt din nisip fin, nu din blocuri de piatră."
+						]
+					},
+					{
+						"text": "La obârșia văii se vede o adâncitură în formă de jilț, cu pereți abrupți. Cum se numește forma?",
+						"options": [
+							"Circ glaciar",
+							"Crater vulcanic",
+							"Dolină carstică",
+							"Meandru părăsit"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Circul glaciar este locul unde s-a adunat zăpada și s-a format ghețarul.",
+							"Fals. Craterul aparține unui vulcan, deci reliefului creat de agenții interni.",
+							"Fals. Dolina apare prin dizolvarea calcarului și are formă de pâlnie.",
+							"Fals. Meandrul este o buclă a unui râu, pe teren aproape plat."
+						]
+					}
+				]
+			},
+			{
+				"title": "Cazul 2 — Peșteri și izvoare care ies din piatră",
+				"questions": [
+					{
+						"text": "Într-un masiv de calcar, apa dispare într-o gaură și reapare la 3 km depărtare. Ce relief a modelat zona?",
+						"options": [
+							"Relief glaciar, modelat de gheața care înaintează lent",
+							"Relief carstic, modelat prin dizolvarea calcarului de apă",
+							"Relief eolian, modelat de vântul încărcat cu nisip fin",
+							"Relief litoral, modelat de valurile care lovesc țărmul"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Gheața nu poate săpa galerii subterane lungi de kilometri.",
+							"Corect! Apa cu dioxid de carbon dizolvă calcarul și sapă goluri pe dinăuntru.",
+							"Fals. Vântul nu pătrunde în rocă și nu o dizolvă.",
+							"Fals. Nu suntem pe țărm, iar valurile lucrează doar la contactul cu marea."
+						]
+					},
+					{
+						"text": "Care este condiția de bază pentru ca acest relief să se poată forma?",
+						"options": [
+							"O rocă solubilă, precum calcarul, și apă care circulă prin ea",
+							"Un climat foarte rece, cu zăpadă care nu se topește niciodată",
+							"Un vânt puternic, care bate mereu din aceeași direcție",
+							"O rocă foarte dură și impermeabilă, cum este granitul"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Fără rocă solubilă și fără apă care s-o străbată, carstul nu apare.",
+							"Fals. Acela este relieful glaciar, cu totul alt mecanism.",
+							"Fals. Vântul dă relief eolian, la suprafață, nu goluri în adânc.",
+							"Fals. Granitul nu se dizolvă; apa doar se scurge pe el."
+						]
+					},
+					{
+						"text": "În peșteră atârnă formațiuni din tavan și cresc altele de pe podea. Cum se numesc, în ordine?",
+						"options": [
+							"Stalagmite din tavan, stalactite de pe podea",
+							"Stalactite din tavan, stalagmite de pe podea",
+							"Amândouă se numesc doline",
+							"Amândouă se numesc lapiezuri"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Numele sunt inversate.",
+							"Corect! Stalactita atârnă din tavan, stalagmita crește de jos în sus.",
+							"Fals. Dolina este o adâncitură la suprafață, nu o formațiune din peșteră.",
+							"Fals. Lapiezurile sunt șănțulețe săpate pe roca de la suprafață."
+						]
+					}
+				]
+			},
+			{
+				"title": "Cazul 3 — Nisip care se mișcă și stânci ciudate",
+				"questions": [
+					{
+						"text": "Într-o regiune aridă, echipa fotografiază valuri de nisip care își schimbă poziția de la un an la altul. Cine lucrează aici?",
+						"options": [
+							"Vântul, care transportă nisipul și îl adună în dune",
+							"Ghețarul, care împinge materialul înaintea frunții sale",
+							"Râul, care depune aluviuni fine în lunca sa largă",
+							"Marea, care aruncă nisip pe plajă la fiecare furtună"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! În climat arid vântul e agentul principal, iar dunele sunt forma lui tipică.",
+							"Fals. Într-o regiune aridă și caldă nu există ghețari.",
+							"Fals. Aluviunile rămân în albie și în luncă, nu migrează pe suprafețe întinse.",
+							"Fals. Nu suntem pe litoral."
+						]
+					},
+					{
+						"text": "În apropiere se ridică o stâncă subțiată la bază și mai groasă sus, ca o ciupercă. De ce tocmai jos?",
+						"options": [
+							"Fiindcă roca de la bază este întotdeauna mai moale decât cea de sus",
+							"Fiindcă vântul cară nisipul aproape de sol și izbește mai tare jos",
+							"Fiindcă ploaia se scurge pe stâncă și o roade numai la bază",
+							"Fiindcă stânca a crescut de la sine, întâi în partea de sus"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Uneori roca chiar diferă, dar forma apare și în rocă la fel de dură peste tot.",
+							"Corect! Nisipul, fiind greu, e purtat la câțiva zeci de cm de sol: acolo macină cel mai mult.",
+							"Fals. Ploaia e rară în deșert și n-ar da o subțiere atât de regulată.",
+							"Fals. Rocile nu cresc; ele sunt roase de agenții externi."
+						]
+					},
+					{
+						"text": "Ce alt agent extern lucrează pe ascuns în același deșert, mai ales noaptea?",
+						"options": [
+							"Variațiile mari de temperatură, care sfărâmă roca de la suprafață",
+							"Gheața permanentă, care desprinde bucăți din stâncă la dezgheț",
+							"Apa subterană, care dizolvă granitul și lasă goluri în adânc",
+							"Vegetația bogată, ale cărei rădăcini crapă roca în adâncime"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Ziua torid, noaptea rece: roca se dilată și se contractă până crapă (dezagregare).",
+							"Fals. În deșertul cald nu există gheață permanentă.",
+							"Fals. Granitul nu se dizolvă, iar apa subterană e rară în deșert.",
+							"Fals. Tocmai lipsa vegetației lasă roca descoperită în fața agenților externi."
+						]
+					}
+				]
+			},
+			{
+				"title": "Cazul 4 — Un mal care se prăbușește în mare",
+				"questions": [
+					{
+						"text": "Pe litoral, un perete abrupt de calcar se retrage câțiva metri la fiecare furtună. Cum se numește forma?",
+						"options": [
+							"Faleză, tăiată de valuri la baza țărmului înalt",
+							"Deltă, construită de fluviu la vărsarea în mare",
+							"Fiord, o vale glaciară invadată apoi de apa mării",
+							"Liman, un golf închis de un cordon de nisip"
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Valurile sapă o scobitură la bază, iar peretele de deasupra se prăbușește.",
+							"Fals. Delta se construiește prin depunere, nu prin retragerea unui mal.",
+							"Fals. Fiordul e o vale glaciară inundată, tipică pentru țărmuri nordice.",
+							"Fals. Limanul apare prin bararea unei guri de vale, nu prin eroziune."
+						]
+					},
+					{
+						"text": "La 200 m de mal, în apă, a rămas un pinten de stâncă izolat. Cum s-a format?",
+						"options": [
+							"A fost adus de ghețari și lăsat acolo la topirea lor",
+							"A rămas dintr-un fost mal, mai dur, pe care marea l-a ocolit",
+							"A fost aruncat acolo de o erupție vulcanică submarină",
+							"A crescut din depunerea lentă a nisipului adus de valuri"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Nu suntem într-o regiune modelată de ghețari.",
+							"Corect! Valurile au ros roca moale din jur și au lăsat porțiunea mai rezistentă.",
+							"Fals. O erupție ar lăsa rocă vulcanică, nu un rest din vechiul mal.",
+							"Fals. Depunerea dă plaje și cordoane, nu pinteni izolați și abrupți."
+						]
+					},
+					{
+						"text": "Primăria vrea să oprească retragerea falezei. Ce măsură atacă direct cauza?",
+						"options": [
+							"Plantarea de copaci chiar pe muchia de sus a falezei",
+							"Diguri care sparg valurile înainte să ajungă la bază",
+							"Betonarea drumului care trece pe deasupra falezei",
+							"Interzicerea accesului turiștilor pe plaja de dedesubt"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Rădăcinile țin pământul de sus, dar valurile continuă să sape la bază.",
+							"Corect! Eroziunea începe la bază: dacă valurile nu mai lovesc acolo, retragerea încetinește.",
+							"Fals. Betonul de deasupra nu împiedică valurile să macine baza.",
+							"Fals. Turiștii nu sunt cauza; marea este."
+						]
+					}
+				]
+			},
+			{
+				"title": "Cazul 5 — Verdictul final",
+				"questions": [
+					{
+						"text": "Echipa găsește, în aceeași vale, o morenă și, deasupra ei, dune de nisip. Ce s-a întâmplat?",
+						"options": [
+							"Cele două forme s-au făcut în același timp, de agenți diferiți",
+							"Clima s-a schimbat: după ghețar a urmat o perioadă uscată",
+							"Morena a fost adusă acolo de vânt, odată cu nisipul de sus",
+							"Dunele au fost îngropate de ghețar, apoi scoase la lumină"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Gheață și deșert nu pot coexista în același loc și moment.",
+							"Corect! Ordinea straturilor arată ordinea în timp: întâi ghețarul, apoi aridizarea.",
+							"Fals. Vântul nu poate transporta blocuri de piatră de mărimea celor din morenă.",
+							"Fals. Dunele stau deasupra, deci s-au format după, nu înainte."
+						]
+					},
+					{
+						"text": "Ce concluzie generală se desprinde din toate cele cinci cazuri?",
+						"options": [
+							"Relieful minor e creat de agenții interni: vulcanism și tectonică",
+							"Forma reliefului arată ce agent extern a lucrat și în ce climat",
+							"Toate formele de relief minor se datorează apei curgătoare",
+							"Relieful minor se formează numai la altitudini mari, în munți"
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Agenții interni dau relieful major; aici am urmărit modelarea externă.",
+							"Corect! Fiecare agent lasă o semnătură, iar clima hotărăște care agent e cel mai activ.",
+							"Fals. Am întâlnit gheață, vânt și valuri, nu numai apă curgătoare.",
+							"Fals. Carstul, dunele și faleza apar și la altitudini mici."
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,161 @@
+{
+  "gradeId": "9",
+  "topicSlug": "pamantul-caracteristici",
+  "slug": "terra-situatii-practice",
+  "title": "Dacă Pământul ar fi altfel",
+  "description": "Situații practice în care proprietățile fizice ale Terrei — înclinarea axei, forța Coriolis, căldura internă, câmpul magnetic — schimbă răspunsul.",
+  "position": 24,
+  "status": "published",
+  "body": {
+    "kind": "grila",
+    "rounds": [
+      {
+        "title": "Runda 1 — Dacă axa ar fi altfel înclinată",
+        "questions": [
+          {
+            "text": "Presupune că axa Pământului ar deveni perpendiculară pe planul orbitei. Ce s-ar întâmpla cu anotimpurile?",
+            "hint": "Anotimpurile vin din faptul că emisferele primesc, pe rând, raze mai drepte.",
+            "options": [
+              "S-ar inversa între emisfere",
+              "Ar rămâne la fel, doar mai scurte",
+              "Ar dispărea, vremea ar fi la fel",
+              "Ar deveni mult mai puternice"
+            ],
+            "answer": 2
+          },
+          {
+            "text": "Dacă înclinarea axei ar crește de la 23,5° la 40°, unde s-ar muta Cercul polar arctic?",
+            "hint": "Cercul polar se află la 90° minus înclinarea axei.",
+            "options": [
+              "La 50°, mai spre Ecuator",
+              "La 80°, mai spre pol",
+              "Ar rămâne neschimbat, la 66°33′",
+              "Ar dispărea cu totul"
+            ],
+            "answer": 0
+          },
+          {
+            "text": "La 21 martie și 23 septembrie ziua e egală cu noaptea pe tot globul. De ce tocmai atunci?",
+            "hint": "Gândește-te unde cad razele perpendiculare la echinocții.",
+            "options": [
+              "Pământul e cel mai aproape de Soare",
+              "Razele cad drept pe Ecuator",
+              "Viteza de revoluție e maximă",
+              "Axa devine pentru o zi dreaptă"
+            ],
+            "answer": 1
+          },
+          {
+            "text": "Un elev spune: „vara e cald fiindcă atunci Pământul e mai aproape de Soare”. Unde greșește?",
+            "hint": "Pământul e cel mai aproape de Soare pe 3 ianuarie.",
+            "options": [
+              "În ianuarie e cel mai aproape, dar la noi e iarnă",
+              "Temperatura ține doar de durata zilei",
+              "Distanța până la Soare nu se schimbă deloc",
+              "Vara Pământul e mai departe, deci ar trebui să fie frig"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "title": "Runda 2 — Traiectorii abătute de forța Coriolis",
+        "questions": [
+          {
+            "text": "Un avion pleacă din nordul Europei drept spre sud, fără corecție de direcție. Unde ajunge față de țintă?",
+            "hint": "În emisfera nordică, corpurile în mișcare sunt deviate spre dreapta.",
+            "options": [
+              "Mai la nord, împins înapoi",
+              "Mai la vest, deviat spre dreapta",
+              "Exact la țintă, forța e slabă",
+              "Mai la est, fiindcă e deviat stânga"
+            ],
+            "answer": 1
+          },
+          {
+            "text": "Un ciclon se formează în emisfera sudică. În ce sens se rotesc vânturile în jurul centrului său?",
+            "hint": "În sud devierea e spre stânga, deci invers față de nord.",
+            "options": [
+              "În sensul acelor de ceasornic",
+              "Invers acelor de ceasornic",
+              "Alternativ, în ambele sensuri",
+              "Deloc, converg drept la centru"
+            ],
+            "answer": 0
+          },
+          {
+            "text": "De ce forța Coriolis nu abate un corp care se mișcă exact de-a lungul Ecuatorului?",
+            "hint": "Efectul crește de la Ecuator spre poli, unde e cel mai puternic.",
+            "options": [
+              "Fiindcă acolo nu bat vânturi",
+              "Fiindcă acolo devierea este zero",
+              "Fiindcă viteza de rotație e mică",
+              "Fiindcă gravitația e mai mare"
+            ],
+            "answer": 1
+          },
+          {
+            "text": "Alizeele bat dinspre tropice spre Ecuator. De ce în emisfera nordică sunt de nord-est, nu de nord?",
+            "hint": "Aerul pleacă spre sud și e abătut spre dreapta pe drum.",
+            "options": [
+              "Fiindcă Pământul se rotește spre vest",
+              "Fiindcă Ecuatorul e mai cald",
+              "Munții le schimbă direcția",
+              "Coriolis le abate spre dreapta"
+            ],
+            "answer": 3
+          }
+        ]
+      },
+      {
+        "title": "Runda 3 — Căldura din adânc și busola",
+        "questions": [
+          {
+            "text": "Într-o mină temperatura crește cu 1 °C la fiecare 33 m adâncime. La suprafață sunt 10 °C. Cât va fi la 990 m?",
+            "hint": "990 : 33 = 30, deci temperatura crește cu 30 °C față de suprafață.",
+            "options": [
+              "30 °C",
+              "20 °C",
+              "50 °C",
+              "40 °C"
+            ],
+            "answer": 3
+          },
+          {
+            "text": "Un tunel se sapă la 660 m adâncime, iar la suprafață sunt 8 °C. Cu același gradient, ce temperatură vor găsi acolo?",
+            "hint": "Împarte adâncimea la 33, apoi adună rezultatul la temperatura de la suprafață.",
+            "options": [
+              "20 °C",
+              "28 °C",
+              "12 °C",
+              "36 °C"
+            ],
+            "answer": 1
+          },
+          {
+            "text": "Cu busola în mână, acul arată spre nordul magnetic. De ce nu e același lucru cu nordul geografic?",
+            "hint": "Polii magnetici nu coincid cu cei geografici și se mai și mută.",
+            "options": [
+              "Busola arată de fapt spre sud",
+              "Nordul geografic se mută anual",
+              "Acul e tras de gravitație",
+              "Polii magnetici sunt în alt loc"
+            ],
+            "answer": 3
+          },
+          {
+            "text": "Dacă magnetosfera Pământului ar dispărea, care ar fi urmarea cea mai gravă pentru viață?",
+            "hint": "Fără scut, particulele încărcate de la Soare ajung nestingherite până jos.",
+            "options": [
+              "Radiațiile ar ajunge direct la sol",
+              "Am pierde doar aurorele polare",
+              "Busolele n-ar mai funcționa",
+              "Pământul s-ar răci foarte repede"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ]
+  }
+}

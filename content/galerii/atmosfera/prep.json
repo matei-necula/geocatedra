@@ -1,0 +1,82 @@
+{
+	"src": "C:/Users/Liliana/Downloads/imagini pentru site/",
+	"maxWidth": 1800,
+	"images": [
+		{
+			"file": "atmosfera-structura.jpg",
+			"name": "01-structura-atmosferei"
+		},
+		{
+			"file": "unde radio.jfif",
+			"name": "02-unde-radio-ionosfera"
+		},
+		{
+			"file": "centurile de radiații Van Allen.jfif",
+			"name": "03-centuri-van-allen"
+		},
+		{
+			"file": "aurore polare.jfif",
+			"name": "04-aurore-polare"
+		},
+		{
+			"file": "geneza vanturilor.jpg",
+			"name": "05-geneza-vanturilor"
+		},
+		{
+			"file": "circulatia generala a aerului.jfif",
+			"name": "06-circulatia-generala"
+		},
+		{
+			"file": "migrarea ZCIT.jfif",
+			"name": "07-migrarea-zcit"
+		},
+		{
+			"file": "JET STREAM 2jpg.jpg",
+			"name": "08-curentii-jet"
+		},
+		{
+			"file": "musoni.jfif",
+			"name": "09-musonii"
+		},
+		{
+			"file": "brize marine.jfif",
+			"name": "10-brize-marine"
+		},
+		{
+			"file": "brize montane.jfif",
+			"name": "11-brize-montane"
+		},
+		{
+			"file": "foehn.jfif",
+			"name": "12-foehn"
+		},
+		{
+			"file": "inversiune termica.jfif",
+			"name": "13-inversiune-termica"
+		},
+		{
+			"file": "T ianuarie.jfif",
+			"name": "14-izoterme-ianuarie"
+		},
+		{
+			"file": "T iuie.jfif",
+			"name": "15-izoterme-iulie"
+		},
+		{
+			"file": "pres ianuarie.jpg",
+			"name": "16-presiune-ianuarie"
+		},
+		{
+			"file": "P iulie.jfif.jpg",
+			"name": "17-presiune-iulie"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/backup-galerii-atmosfera/pastrate/izoterme-anuale.png",
+			"name": "18-izoterme-anuale"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/backup-galerii-atmosfera/pastrate/izohiete-anuale.png",
+			"name": "19-izohiete-anuale"
+		}
+	]
+}

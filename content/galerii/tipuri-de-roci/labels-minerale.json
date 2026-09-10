@@ -1,0 +1,4 @@
+[
+	{ "_": "Planșa marca grupa pirită+galenă drept SULFAȚI; sunt SULFURI. Fundal de hârtie texturată, deci ștergerea copiază textura vecină (copyDx) în loc s-o interpoleze." },
+	{ "name": "sulfati->sulfuri", "box": [2227, 599, 2417, 635], "anchor": "SULFURI", "anchorH": 37, "fitBy": "h", "weight": 400, "font": "Georgia, Times New Roman, serif", "text": "SULFURI", "cx": 2322, "pad": 16, "copyDx": -320, "ink": "dark", "thr": 150 }
+]

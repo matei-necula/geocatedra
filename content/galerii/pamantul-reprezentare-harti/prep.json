@@ -1,0 +1,12 @@
+{
+	"src": "C:/Users/Liliana/AppData/Local/Temp/claude/C--Users-Liliana-catedra/03b4bc87-a99b-4209-b89d-a091ea78200f/scratchpad/harti/",
+	"maxWidth": 1500,
+	"quality": 86,
+	"images": [
+		{ "file": "1.jpg", "name": "1-tipuri-de-proiectii",   "box": [0,   0, 2720,  681], "trim": false },
+		{ "file": "1.jpg", "name": "2-planiglob-proiectii",   "box": [0, 682, 2720, 1413], "trim": false },
+		{ "file": "2.jpg", "name": "3-de-la-relief-la-harta",  "trim": false },
+		{ "file": "3.jpg", "name": "4-citirea-reliefului",     "trim": false },
+		{ "file": "4.jpg", "name": "5-forme-de-relief-curbe",  "trim": false }
+	]
+}

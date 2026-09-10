@@ -1,0 +1,23 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "tipuri-de-roci",
+		"type": "joc",
+		"title": "TEST asociere (dev)",
+		"status": "draft",
+		"body": {
+			"kind": "asociere",
+			"rounds": [
+				{
+					"title": "Roci și categorii",
+					"pairs": [
+						{ "left": { "text": "granit" }, "right": { "text": "rocă magmatică intruzivă" }, "group": "mag-i" },
+						{ "left": { "text": "marmură" }, "right": { "text": "rocă metamorfică" }, "group": "meta" },
+						{ "left": { "text": "cărbune" }, "right": { "text": "rocă sedimentară organogenă" }, "group": "sed-o" },
+						{ "left": { "text": "conglomerat" }, "right": { "text": "rocă sedimentară detritică" }, "group": "sed-d" }
+					]
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,148 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "universul-partea-1",
+		"slug": "universul-partea-1-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/universul/a01-etapele-big-bang.webp",
+				"caption": "Etapele Big Bang — de la marea explozie la Universul de azi"
+			},
+			{
+				"file": "../content/galerii/universul/a02-calea-lactee-ca-disc.webp",
+				"caption": "Calea Lactee văzută din profil — un disc subțire, cu bulbul luminos în mijloc"
+			},
+			{
+				"file": "../content/galerii/universul/a03-calea-lactee-in-plan.webp",
+				"caption": "Calea Lactee, așa cum ar arăta privită din plan: o galaxie spirală, cu brațe"
+			},
+			{
+				"file": "../content/galerii/universul/a04-calea-lactee-pe-bolta-cereasca.webp",
+				"caption": "Calea Lactee pe bolta cerească, ca un brâu luminos de stele"
+			},
+			{
+				"file": "../content/galerii/universul/a05-nebuloasa.webp",
+				"caption": "Nebuloasă — nor uriaș de gaz și praf, locul în care se nasc stelele"
+			},
+			{
+				"file": "../content/galerii/universul/a06-etapele-evolutiei-stelelor.webp",
+				"caption": "Evoluția stelelor, după masă: stele medii (tip Soare) și stele gigant"
+			},
+			{
+				"file": "../content/galerii/universul/a07-stelele-dupa-culoare-si-marime.webp",
+				"caption": "Stelele după culoare și mărime, de la cele mai reci (roșii) la cele mai fierbinți (albastre)"
+			},
+			{
+				"file": "../content/galerii/universul/a08-constelatiile.webp",
+				"caption": "Constelațiile Carul Mare și Carul Mic; Steaua Polară arată nordul"
+			}
+		]
+	},
+	{
+		"gradeId": "9",
+		"topicSlug": "universul-partea-2",
+		"slug": "universul-partea-2-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/universul/b00-formarea-sistemului-solar.webp",
+				"caption": "Formarea Sistemului Solar dintr-un disc protoplanetar de gaz și praf"
+			},
+			{
+				"file": "../content/galerii/universul/b01-sistemul-solar.webp",
+				"caption": "Sistemul Solar — Soarele, cele opt planete și centurile de corpuri mici"
+			},
+			{
+				"file": "../content/galerii/universul/b03-soarele.webp",
+				"caption": "Soarele — steaua din centrul Sistemului Solar"
+			},
+			{
+				"file": "../content/galerii/universul/b03a-structura-interna-a-soarelui.webp",
+				"caption": "Structura internă a Soarelui: nucleu, zona radiativă, zona convectivă, fotosferă, cromosferă, coroană"
+			},
+			{
+				"file": "../content/galerii/universul/b04-mercur.webp",
+				"caption": "Mercur — prima planetă de la Soare"
+			},
+			{
+				"file": "../content/galerii/universul/b05-venus.webp",
+				"caption": "Venus — a doua planetă de la Soare"
+			},
+			{
+				"file": "../content/galerii/universul/b06-terra.webp",
+				"caption": "Terra (Pământul) — a treia planetă de la Soare"
+			},
+			{
+				"file": "../content/galerii/universul/b07-luna.webp",
+				"caption": "Luna — satelitul natural al Terrei"
+			},
+			{
+				"file": "../content/galerii/universul/b08-eclipsa-de-luna.webp",
+				"caption": "Eclipsa de Lună — Terra se așază între Soare și Lună"
+			},
+			{
+				"file": "../content/galerii/universul/b09-eclipsa-de-soare.webp",
+				"caption": "Eclipsa de Soare — Luna se așază între Soare și Terra"
+			},
+			{
+				"file": "../content/galerii/universul/b10-marte.webp",
+				"caption": "Marte — „planeta roșie”"
+			},
+			{
+				"file": "../content/galerii/universul/b11-marte-si-satelitii.webp",
+				"caption": "Marte și sateliții săi: Phobos și Deimos"
+			},
+			{
+				"file": "../content/galerii/universul/b12-centura-de-asteroizi.webp",
+				"caption": "Centura de asteroizi, dintre Marte și Jupiter"
+			},
+			{
+				"file": "../content/galerii/universul/b13-asteroizii.webp",
+				"caption": "Asteroizi și meteoriți care intră în atmosfera Terrei"
+			},
+			{
+				"file": "../content/galerii/universul/b14-jupiter.webp",
+				"caption": "Jupiter — cea mai mare planetă a Sistemului Solar"
+			},
+			{
+				"file": "../content/galerii/universul/b15-jupiter-si-satelitii.webp",
+				"caption": "Jupiter și sateliții galileeni: Io, Europa, Ganymede și Callisto"
+			},
+			{
+				"file": "../content/galerii/universul/b16-saturn.webp",
+				"caption": "Saturn și inelele sale"
+			},
+			{
+				"file": "../content/galerii/universul/b17-saturn-si-satelitii.webp",
+				"caption": "Saturn și satelitul său Titan"
+			},
+			{
+				"file": "../content/galerii/universul/b18-uranus.webp",
+				"caption": "Uranus — planetă gigantă de gheață"
+			},
+			{
+				"file": "../content/galerii/universul/b19-uranus-si-satelitii.webp",
+				"caption": "Uranus și satelitul său Titania"
+			},
+			{
+				"file": "../content/galerii/universul/b20-neptun.webp",
+				"caption": "Neptun — cea mai îndepărtată planetă de Soare"
+			},
+			{
+				"file": "../content/galerii/universul/b21-neptun-si-satelitii.webp",
+				"caption": "Neptun și satelitul său Triton"
+			},
+			{
+				"file": "../content/galerii/universul/b22-centura-kuiper.webp",
+				"caption": "Centura Kuiper, dincolo de orbita lui Neptun"
+			},
+			{
+				"file": "../content/galerii/universul/b23-norul-lui-oort.webp",
+				"caption": "Norul lui Oort, la marginea Sistemului Solar"
+			},
+			{
+				"file": "../content/galerii/universul/b24-cometa.webp",
+				"caption": "O cometă, cu coada orientată dinspre Soare"
+			}
+		]
+	}
+]

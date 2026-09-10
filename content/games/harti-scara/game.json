@@ -1,0 +1,125 @@
+{
+	"gradeId": "9",
+	"topicSlug": "pamantul-reprezentare-harti",
+	"slug": "raliul-cartografic",
+	"title": "Raliul cartografic",
+	"description": "Ești la volanul unei expediții: măsoară distanța pe hartă, citește scara și calculează câți kilometri reali te despart de următorul popas.",
+	"position": 21,
+	"status": "published",
+	"assets": [
+		"bucuresti-londra.png",
+		"cairo-roma.png",
+		"paris-madrid.png",
+		"plan-cartier.png",
+		"berlin-viena.png",
+		"lisabona-varsovia.png",
+		"roma-atena.png",
+		"poteca-munte.png",
+		"madrid-berlin-necunoscut.png",
+		"harta-a-harta-b.png",
+		"scara-200000.png",
+		"patru-scari.png"
+	],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Scara numerică",
+				"questions": [
+					{
+						"img": 0,
+						"text": "Măsoară distanța pe hartă între București și Londra. Harta are scara 1:30.000.000. Introdu distanța reală în kilometri la bordul vehiculului pentru a porni.",
+						"hint": "1 cm pe hartă = 30.000.000 cm în realitate = 300 km.",
+						"options": ["2.100 km", "210 km", "21.000 km", "700 km"],
+						"answer": 0
+					},
+					{
+						"img": 1,
+						"text": "Următorul popas e la Roma. Pe harta cu scara 1:20.000.000, distanța Cairo–Roma măsoară 11 cm. Câți kilometri reali sunt?",
+						"hint": "1 cm pe hartă = 20.000.000 cm în realitate = 200 km.",
+						"options": ["220 km", "2.200 km", "22.000 km", "1.100 km"],
+						"answer": 1
+					},
+					{
+						"img": 2,
+						"text": "De la Paris la Madrid, pe o hartă cu scara 1:15.000.000, ruta măsoară 7 cm. Ce distanță reală introduci în bordul de călătorie?",
+						"hint": "1 cm pe hartă = 15.000.000 cm în realitate = 150 km.",
+						"options": ["105 km", "10.500 km", "1.050 km", "700 km"],
+						"answer": 2
+					},
+					{
+						"img": 3,
+						"text": "Vehiculul intră acum în oraș: pe planul de cartier, cu scara 1:25.000, bulevardul evidențiat măsoară 10 cm. Ce distanță reală are?",
+						"hint": "1 cm pe plan = 25.000 cm în realitate = 250 m.",
+						"options": ["0,25 km", "25 km", "250 km", "2,5 km"],
+						"answer": 3
+					}
+				]
+			},
+			{
+				"title": "Scara grafică",
+				"questions": [
+					{
+						"img": 4,
+						"text": "Harta Berlin–Viena are doar scară grafică. Citește pe bară cât reprezintă 1 cm, apoi calculează distanța reală pentru cei 7 cm măsurați între orașe.",
+						"hint": "Bara arată: 1 cm = 75 km.",
+						"options": ["525 km", "52,5 km", "5.250 km", "150 km"],
+						"answer": 0
+					},
+					{
+						"img": 5,
+						"text": "Pe harta Lisabona–Varșovia, tot cu scară grafică, distanța măsurată e de 11 cm. Ce distanță reală corespunde?",
+						"hint": "Bara arată: 1 cm = 250 km.",
+						"options": ["275 km", "2.750 km", "27.500 km", "500 km"],
+						"answer": 1
+					},
+					{
+						"img": 6,
+						"text": "Roma–Atena măsoară 7 cm pe harta cu scară grafică. Folosește bara pentru a afla distanța reală.",
+						"hint": "Bara arată: 1 cm = 150 km.",
+						"options": ["105 km", "10.500 km", "1.050 km", "300 km"],
+						"answer": 2
+					},
+					{
+						"img": 7,
+						"text": "Pe harta unei poteci montane, cu scară grafică în metri, traseul evidențiat măsoară 12 cm. Ce lungime reală are poteca?",
+						"hint": "Bara arată: 1 cm = 250 m.",
+						"options": ["300 m", "0,3 km", "30 km", "3 km"],
+						"answer": 3
+					}
+				]
+			},
+			{
+				"title": "Invers și mărunțiș",
+				"questions": [
+					{
+						"img": 8,
+						"text": "Distanța reală dintre Madrid și Berlin este de 1.800 km, iar harta are scara 1:9.000.000. Ce distanță trebuie să măsori pe hartă ca să setezi traseul?",
+						"hint": "1 cm pe hartă = 9.000.000 cm în realitate = 90 km.",
+						"options": ["20 cm", "2 cm", "200 cm", "18 cm"],
+						"answer": 0
+					},
+					{
+						"img": 9,
+						"text": "Harta A are scara 1:50.000, iar Harta B are scara 1:500.000. Care hartă are scara mai mare (deci arată mai multe detalii)?",
+						"options": ["Harta B", "Harta A", "Ambele au aceeași scară", "Nu se poate ști sigur"],
+						"answer": 1
+					},
+					{
+						"img": 10,
+						"text": "Scara unei hărți este 1 : 200.000. Cât reprezintă pe teren 1 centimetru de pe hartă?",
+						"options": ["1 cm = 200 km", "1 cm = 20 km", "1 cm = 2 km", "1 cm = 0,2 km"],
+						"answer": 2
+					},
+					{
+						"img": 11,
+						"text": "Pentru un traseu montan pe jos, cu poteci și puncte de belvedere, ai nevoie de o hartă amănunțită. Ce scară alegi dintre cele patru?",
+						"hint": "Scara mai mare (numitor mai mic) = hartă mai detaliată.",
+						"options": ["1 : 5.000.000", "1 : 1.000.000", "1 : 500.000", "1 : 25.000"],
+						"answer": 3
+					}
+				]
+			}
+		]
+	}
+}

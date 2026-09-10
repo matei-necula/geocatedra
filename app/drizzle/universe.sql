@@ -1,0 +1,97 @@
+-- Universul (partea I): lecție scrisă + 20 grile (gândire critică) — clasa a 9-a
+INSERT INTO materials (id, grade_id, topic_slug, type, library, slug, position, status, is_teaser, created_at, updated_at) VALUES ('c45e54a9-f4ad-4c51-bf56-84065c997496','9','geografie-fizica','scris','student','universul-partea-1',1,'published',0,1782737746391,1782737746391);
+INSERT INTO material_translations (material_id, locale, title, description, body) VALUES ('c45e54a9-f4ad-4c51-bf56-84065c997496','ro','Universul (partea I)','Definiția Universului, forțele fundamentale, unitățile de măsură și structurile sale: Calea Lactee, nebuloase, stele și constelații.','# Universul (partea I)
+
+Universul cuprinde tot ce există: materie, energie și spațiul în care acestea se află. În această lecție vedem ce este Universul, ce forțe îl guvernează, cum măsurăm distanțele uriașe din el și care sunt principalele lui structuri.
+
+# Ce este Universul
+
+- Definiție: Universul reprezintă materie și energie într-un spațiu infinit, aflat într-o evoluție continuă, din care au rezultat și rezultă structuri extrem de variate.
+- Metagalaxia = Universul observabil (partea pe care o putem observa).
+- Geneză: Universul a luat naștere în urmă cu circa 13,8 miliarde de ani, printr-o expansiune extrem de rapidă a materiei și a spațiului, pornind dintr-o stare inițială foarte densă și fierbinte — expansiune care continuă și astăzi (Teoria Big Bang).
+
+# Forțele fundamentale
+
+Patru forțe fundamentale guvernează Universul:
+
+- Forța gravitațională — atrage materia și o concentrează (de la stele la galaxii).
+- Forța electromagnetică — răspunzătoare de legătura dintre electroni și nucleele atomilor.
+- Forța nucleară tare — asigură coeziunea dintre protoni și neutroni în nucleul atomului.
+- Forța nucleară slabă — responsabilă de dezintegrarea radioactivă (radioactivitatea) și implicată în reacțiile de fuziune din stele.
+
+# Unități de măsură a distanțelor
+
+- Unitatea astronomică (u.a.) = 150 milioane km (1,5·10⁸ km) — distanța Terra–Soare.
+- Anul-lumină (a.l.) = circa 9·10¹² km = 63 000 u.a. — distanța parcursă de lumină într-un an.
+- Parsecul (pc) = circa 31·10¹² km = 3,26 ani-lumină.
+- Kiloparsecul (kpc) = 10³ pc (o mie de parseci).
+
+# Structurile Universului: Calea Lactee
+
+- Este o galaxie spirală care conține 100–200 de miliarde de stele.
+- Diametrul: aproximativ 100 000 de ani-lumină.
+- Este alcătuită dintr-un nucleu turtit și mai multe brațe spiralate (printre cele principale: Perseu și Săgetător); Soarele se află într-un braț secundar, numit brațul Orion. În brațe se găsesc cele mai multe stele tinere.
+- Proiecția sa pe bolta cerească are forma unui brâu luminos.
+
+# Nebuloasele
+
+- Sunt aglomerări de materie interstelară (gaze și praf cosmic).
+- Pot fi gazoase sau pulverulente.
+- Din nebuloase se nasc noi stele, iar nebuloasele intră în alcătuirea galaxiilor.
+
+# Stelele
+
+- Iau naștere din nebuloase, prin concentrarea materiei sub efectul gravitației, după sau concomitent cu formarea galaxiilor.
+- Sunt considerate veriga de bază în lanțul evolutiv al materiei în Univers și sunt alcătuite predominant din hidrogen (H) și heliu (He).
+- Evoluția unei stele depinde de masa (mărimea) ei.
+
+Cele două drumuri posibile în evoluția unei stele:
+
+- Stea de masă mică sau medie: nebuloasă → protostea → stea → gigantă roșie → nebuloasă planetară → pitică albă → pitică neagră.
+- Stea masivă: nebuloasă → protostea → stea → gigantă roșie → supernovă → stea neutronică sau gaură neagră.
+
+# Constelațiile
+
+- Două constelații ușor de recunoscut: Ursa Mare (Carul Mare) și Ursa Mică (Carul Mic).
+- Cea mai strălucitoare stea din Carul Mic este Steaua Polară (Steaua Ciobanului).
+- Steaua Polară este folosită în orientare pentru că are o poziție aproape fixă pe cer, foarte aproape de polul nord ceresc.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('8a2307e3-6a9e-4119-aba3-e49123efafde','9','geografie-fizica','published',0,1,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('8a2307e3-6a9e-4119-aba3-e49123efafde','ro','Forța nucleară slabă stă la baza dezintegrării radioactive și este implicată în reacțiile de fuziune din stele. Ce concluzie corectă putem trage?','["Aceeași forță fundamentală se manifestă în procese foarte diferite — de la radioactivitatea de pe Pământ până la producerea energiei în stele.","Radioactivitatea și fuziunea stelară sunt, de fapt, unul și același proces.","Stelele produc energie prin dezintegrare radioactivă, la fel ca rocile radioactive.","Forța gravitațională este cea care declanșează dezintegrarea radioactivă."]','O aceeași forță fundamentală (cea nucleară slabă) poate sta la baza unor fenomene foarte diferite ca scară: dezintegrarea radioactivă a atomilor și pasul inițial al fuziunii care alimentează stelele.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('d0b1d1ae-e6e6-4d25-82fa-fb78ebab7892','9','geografie-fizica','published',1,2,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('d0b1d1ae-e6e6-4d25-82fa-fb78ebab7892','ro','De ce este folosită Steaua Polară pentru orientare, deși există stele mult mai strălucitoare pe cer?','["Pentru că este cea mai strălucitoare stea de pe cer.","Pentru că își păstrează poziția aproape fixă, foarte aproape de polul nord ceresc.","Pentru că se află în brațul Orion, lângă Soare.","Pentru că răsare mereu exact la est."]','Utilitatea ei pentru orientare vine din poziția aproape fixă pe cer, nu din strălucire.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('a1bb1a49-538e-4070-8910-0bf4f6fc1ba2','9','geografie-fizica','published',2,3,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('a1bb1a49-538e-4070-8910-0bf4f6fc1ba2','ro','Teoria Big Bang afirmă că Universul este într-o expansiune continuă. Care observație ar susține cel mai bine această idee?','["Stelele sunt alcătuite din hidrogen și heliu.","Nebuloasele dau naștere la stele.","Galaxiile îndepărtate se depărtează unele de altele.","Calea Lactee are forma de spirală."]','Expansiunea înseamnă că structurile mari (galaxiile) se îndepărtează unele de altele.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('614d0586-9e28-4065-874d-19197f8e8c23','9','geografie-fizica','published',3,4,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('614d0586-9e28-4065-874d-19197f8e8c23','ro','Un an-lumină este de circa 63 000 de ori mai mare decât o unitate astronomică. Ce ne spune acest lucru?','["Soarele se află la 63 000 de stele distanță.","Un an-lumină se măsoară în interiorul Sistemului Solar.","Unitatea astronomică se folosește pentru distanțe dintre galaxii.","Distanțele dintre stele sunt enorm mai mari decât distanța Terra–Soare."]','Raportul uriaș arată cât de mari sunt distanțele dintre stele față de distanța Terra–Soare (1 u.a.).');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('65fb5a24-d1ba-4327-8388-3049256563ac','9','geografie-fizica','published',0,5,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('65fb5a24-d1ba-4327-8388-3049256563ac','ro','De ce preferă astronomii să exprime distanțele dintre stele în ani-lumină, și nu în kilometri?','["Pentru că numărul de kilometri ar fi uriaș și greu de folosit.","Pentru că anul-lumină măsoară timp, nu distanță.","Pentru că kilometrul nu se poate folosi în spațiu.","Pentru că un an-lumină este mai mic decât un kilometru."]','Anul-lumină este o unitate de distanță potrivită scării cosmice; în km numerele ar fi imense și incomode.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('6c83198b-ce32-4b9c-a060-f138102356c4','9','geografie-fizica','published',2,6,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('6c83198b-ce32-4b9c-a060-f138102356c4','ro','Știind că 1 parsec = 3,26 ani-lumină, care dintre aceste distanțe este cea mai mare?','["1 unitate astronomică","1 an-lumină","1 parsec","Sunt toate egale"]','Ordinea crescătoare este: u.a. < an-lumină < parsec (1 pc = 3,26 a.l.).');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('66add17d-0ff2-4752-bded-4a0cdaf8d7bb','9','geografie-fizica','published',1,7,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('66add17d-0ff2-4752-bded-4a0cdaf8d7bb','ro','Care este ordinea corectă a etapelor în evoluția unei stele masive?','["Stea → nebuloasă → protostea → pitică albă","Nebuloasă → protostea → stea → gigantă roșie → supernovă → gaură neagră","Supernovă → stea → nebuloasă → protostea","Pitică neagră → gigantă roșie → stea → nebuloasă"]','Steaua masivă pornește din nebuloasă, devine stea, apoi gigantă roșie, explodează ca supernovă și ajunge stea neutronică sau gaură neagră.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('d592bc46-5d68-4300-b6b1-323c5e7b53ff','9','geografie-fizica','published',3,8,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('d592bc46-5d68-4300-b6b1-323c5e7b53ff','ro','Două stele pornesc amândouă dintr-o nebuloasă, dar una sfârșește ca pitică neagră, iar cealaltă ca gaură neagră. Care este, cel mai probabil, deosebirea dintre ele?','["Culoarea luminii pe care o emit la naștere.","Galaxia în care se află.","Faptul că una este nebuloasă, iar cealaltă stea.","Masa lor — stelele mai masive pot ajunge gaură neagră."]','Drumul evolutiv al unei stele depinde de masa (mărimea) ei: stelele masive pot sfârși ca gaură neagră.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('8b488e13-61b5-49aa-810e-d0c08aa2e658','9','geografie-fizica','published',0,9,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('8b488e13-61b5-49aa-810e-d0c08aa2e658','ro','Din ce cauză sunt considerate nebuloasele „locul de naștere” al stelelor?','["Pentru că sunt aglomerări de materie din care, prin concentrare, se formează stele.","Pentru că sunt stele foarte bătrâne.","Pentru că sunt galaxii de mici dimensiuni.","Pentru că reflectă lumina Soarelui."]','Nebuloasele sunt aglomerări de gaz și praf; prin concentrarea materiei sub efectul gravitației se nasc stele.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('0c199829-a456-4c3c-a971-1e0fda633255','9','geografie-fizica','published',1,10,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('0c199829-a456-4c3c-a971-1e0fda633255','ro','Ce forță fundamentală face ca materia dintr-o nebuloasă să se adune și să formeze o stea?','["Forța electromagnetică","Forța gravitațională","Forța nucleară tare","Forța nucleară slabă"]','Gravitația concentrează materia nebuloasei până se formează o stea.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('cc53052c-7023-45a5-a490-5e426c389a63','9','geografie-fizica','published',2,11,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('cc53052c-7023-45a5-a490-5e426c389a63','ro','Forța nucleară tare asigură coeziunea protonilor și neutronilor în nucleu. Ce s-ar întâmpla, teoretic, dacă ea ar dispărea brusc?','["Planetele ar ieși de pe orbită.","Stelele ar deveni mai strălucitoare.","Nucleele atomilor nu s-ar mai putea menține unite.","Galaxiile s-ar roti mai repede."]','Fără forța nucleară tare, protonii și neutronii nu ar mai fi ținuți împreună, iar nucleele s-ar destrăma.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('33567dd2-9321-41a1-b507-f765506295a1','9','geografie-fizica','published',0,12,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('33567dd2-9321-41a1-b507-f765506295a1','ro','Termenul „Metagalaxie” este folosit pentru Universul observabil. Ce sugerează existența acestui termen?','["Că putem observa doar o parte din Univers, nu pe tot.","Că Universul are exact dimensiunea Metagalaxiei.","Că Metagalaxia este o singură galaxie uriașă.","Că dincolo de Metagalaxie nu există nimic."]','Cuvântul „observabil” arată că vedem doar partea din Univers din care lumina a ajuns la noi.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('12dd5b40-ea16-4000-93b1-2397f7d8cb15','9','geografie-fizica','published',1,13,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('12dd5b40-ea16-4000-93b1-2397f7d8cb15','ro','Soarele se află în brațul Orion al Căii Lactee. Ce concluzie putem trage despre poziția noastră în galaxie?','["Suntem exact în nucleul galaxiei.","Ne aflăm într-unul dintre brațe, nu în centrul galaxiei.","Suntem în afara Căii Lactee.","Soarele este centrul Căii Lactee."]','Brațele sunt periferice față de nucleul turtit; aflându-ne în brațul Orion, nu suntem în centru.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('4d4f12c1-e4ba-46a3-8fb1-aa12acec00b0','9','geografie-fizica','published',0,14,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('4d4f12c1-e4ba-46a3-8fb1-aa12acec00b0','ro','De ce vedem Calea Lactee pe cer sub forma unui brâu luminos, și nu ca o spirală văzută de sus?','["Pentru că o privim din interiorul ei, dintr-unul dintre brațe.","Pentru că este foarte mică.","Pentru că se rotește prea repede ca să-i vedem forma.","Pentru că este o nebuloasă, nu o galaxie."]','Fiind în interiorul galaxiei, privim discul „din muchie”, de aceea apare ca un brâu luminos.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('20798356-d8ed-4e29-b9d0-7e15eb16970b','9','geografie-fizica','published',0,15,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('20798356-d8ed-4e29-b9d0-7e15eb16970b','ro','Stelele sunt alcătuite predominant din hidrogen și heliu, cele mai simple elemente. Ce idee susține acest fapt?','["Ideea că stelele sunt o verigă de bază, timpurie, în evoluția materiei.","Ideea că stelele sunt formate din roci, ca planetele.","Faptul că stelele sunt mai reci decât planetele.","Faptul că stelele nu conțin energie."]','Hidrogenul și heliul sunt elementele cele mai simple și mai vechi, ceea ce susține rolul stelelor de verigă de bază în evoluția materiei.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('9b386d50-c83f-4292-a1e7-1be37f5247e5','9','geografie-fizica','published',2,16,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('9b386d50-c83f-4292-a1e7-1be37f5247e5','ro','Diametrul Căii Lactee este de aproximativ 100 000 de ani-lumină. Ce înseamnă concret acest lucru?','["Calea Lactee are 100 000 km în diametru.","Calea Lactee conține 100 000 de stele.","Lumina are nevoie de circa 100 000 de ani ca să o străbată dintr-o margine în alta.","Calea Lactee s-a format acum 100 000 de ani."]','Anul-lumină este o distanță; un diametru de 100 000 ani-lumină înseamnă că lumina îl parcurge în circa 100 000 de ani.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('40071b97-941e-442e-9628-38cf3fbb952d','9','geografie-fizica','published',1,17,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('40071b97-941e-442e-9628-38cf3fbb952d','ro','Spre deosebire de o planetă, o stea produce singură lumină și căldură. Care este, cel mai probabil, sursa acestei energii?','["Reflectarea luminii altor stele.","Reacțiile de fuziune nucleară din interiorul stelei.","Arderea lemnului și a cărbunelui.","Mișcarea ei de rotație."]','Stelele eliberează energie prin fuziune nucleară; planetele doar reflectă lumina primită.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('76cc4b63-cda3-4753-af82-9115771e62c4','9','geografie-fizica','published',3,18,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('76cc4b63-cda3-4753-af82-9115771e62c4','ro','În evoluția unei stele de masă mică, după gigantă roșie urmează o nebuloasă planetară și apoi o pitică albă. O pitică albă este, de fapt:','["O planetă nou-formată.","O stea tânără, abia născută.","O nebuloasă din care se nasc stele.","Rămășița densă și fierbinte a unei stele care și-a consumat „combustibilul”."]','Pitica albă este restul stelar rămas după ce steaua și-a epuizat combustibilul; se va răci treptat devenind pitică neagră.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('d3b03bc6-d567-404e-a11c-b11638f03edd','9','geografie-fizica','published',0,19,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('d3b03bc6-d567-404e-a11c-b11638f03edd','ro','Forța electromagnetică leagă electronii de nucleul atomului. Fără ea, ce ar deveni imposibil?','["Existența atomilor stabili și, deci, a materiei obișnuite.","Rotația galaxiilor.","Expansiunea Universului.","Formarea nebuloaselor din praf cosmic."]','Fără forța electromagnetică, electronii nu ar fi legați de nucleu, deci atomii stabili — și materia obișnuită — nu ar exista.');
+INSERT INTO questions (id, grade_id, topic_slug, status, correct_index, position, created_at, updated_at) VALUES ('2e003c4f-5e54-445e-b744-0af7e7cbd36b','9','geografie-fizica','published',1,20,1782737746391,1782737746391);
+INSERT INTO question_translations (question_id, locale, stem, options_json, explanation) VALUES ('2e003c4f-5e54-445e-b744-0af7e7cbd36b','ro','Universul a luat naștere în urmă cu miliarde de ani, dar expansiunea „continuă și astăzi”. Ce idee transmite cuvântul „continuă”?','["Că Universul s-a oprit din creștere imediat după Big Bang.","Că Universul nu este static, ci se află într-o evoluție permanentă.","Că Universul se micșorează.","Că Universul a rămas neschimbat de la naștere."]','Definiția subliniază „evoluție continuă”: Universul se schimbă și se extinde în permanență.');

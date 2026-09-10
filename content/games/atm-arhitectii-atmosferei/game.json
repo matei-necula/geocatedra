@@ -1,0 +1,47 @@
+{
+ "gradeId": "9",
+ "topicSlug": "atmosfera-caracteristici-climatice",
+ "slug": "arhitectii-atmosferei",
+ "position": 21,
+ "status": "published",
+ "title": "Arhitecții atmosferei",
+ "description": "Fiecare fenomen, gaz și temperatură la etajul lui: troposferă, stratosferă, mezosferă sau termosferă.",
+ "assets": [],
+ "body": {
+  "kind": "sortare",
+  "buckets": [
+   { "label": "Troposfera" },
+   { "label": "Stratosfera" },
+   { "label": "Mezosfera" },
+   { "label": "Termosfera" }
+  ],
+  "rounds": [
+   {
+    "title": "Unde se petrece fenomenul?",
+    "cards": [
+     { "text": "Aici se formează norii și cad precipitațiile", "bucket": 0 },
+     { "text": "Aici bat vânturile și se schimbă vremea", "bucket": 0 },
+     { "text": "Stratul de ozon, care oprește razele ultraviolete", "bucket": 1 },
+     { "text": "Aerul e liniștit, fără nori — pe aici zboară avioanele de linie", "bucket": 1 },
+     { "text": "Aici ard meteoriții care intră în atmosferă", "bucket": 2 },
+     { "text": "Aici se atinge cea mai scăzută temperatură din atmosferă (circa −90 °C)", "bucket": 2 },
+     { "text": "Aici se aprind aurorele polare", "bucket": 3 },
+     { "text": "Pe aici orbitează stația spațială internațională", "bucket": 3 }
+    ]
+   },
+   {
+    "title": "Fiecare strat cu semnele lui",
+    "cards": [
+     { "text": "Cuprinde circa 75% din masa întregii atmosfere", "bucket": 0 },
+     { "text": "Temperatura scade cu înălțimea, circa 0,6 °C la fiecare 100 m", "bucket": 0 },
+     { "text": "Aici stau vaporii de apă și dioxidul de carbon, care fac efectul de seră", "bucket": 0 },
+     { "text": "Temperatura crește cu înălțimea, pentru că ozonul absoarbe radiația solară", "bucket": 1 },
+     { "text": "Se întinde până la circa 50 km înălțime", "bucket": 1 },
+     { "text": "Temperatura scade din nou cu înălțimea, până la limita ei superioară", "bucket": 2 },
+     { "text": "Aerul e atât de rarefiat încât nu mai transmite sunetul", "bucket": 3 },
+     { "text": "Temperatura urcă la sute de grade, dar aerul e prea rar ca să încălzească un corp", "bucket": 3 }
+    ]
+   }
+  ]
+ }
+}

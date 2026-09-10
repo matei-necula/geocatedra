@@ -1,0 +1,110 @@
+{
+	"gradeId": "9",
+	"topicSlug": "universul-partea-2",
+	"slug": "evadare-din-inima-soarelui",
+	"title": "Evadare din inima Soarelui",
+	"description": "Escape room: sonda ta a rămas blocată în nucleul Soarelui. Urcă strat cu strat, de la nucleu până în coroană, deblocând fiecare barieră cu răspunsul corect.",
+	"position": 22,
+	"status": "published",
+	"assets": [],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Urcă spre coroană, strat cu strat",
+				"questions": [
+					{
+						"hint": "Nucleul · 0 km de centru — Scutul termic al sondei ține, dar motoarele s-au oprit. Ești exact în inima Soarelui, la circa 15 milioane °C. Computerul de bord cere parola primului strat.",
+						"text": "„Aici se naște toată energia stelei. În fiecare secundă transform 600 de milioane de tone de hidrogen. Ce proces mă ține aprins?”",
+						"options": [
+							"Arderea hidrogenului, ca a unui combustibil obișnuit, în prezența oxigenului.",
+							"Fuziunea nucleară: nucleele de hidrogen se unesc și formează heliu.",
+							"Fisiunea nucleară: atomii grei se rup în atomi mai ușori."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. În Soare nu există oxigen liber, iar arderea chimică ar fi de milioane de ori prea slabă.",
+							"Corect! Din fuziune rezultă heliu, iar diferența de masă se transformă în energie.",
+							"Fals. Fisiunea rupe atomi grei (uraniu); în Soare atomii ușori se unesc, nu se rup."
+						]
+					},
+					{
+						"hint": "Zona radiativă · ai ieșit din nucleu — Sonda avansează, dar extrem de greu. Energia din jur pare că se învârte pe loc de o veșnicie.",
+						"text": "„Prin mine, energia înaintează sub formă de lumină, dar este absorbită și reemisă la nesfârșit. Cât durează drumul unui foton prin acest strat?”",
+						"options": [
+							"Câteva secunde, fiindcă lumina se mișcă foarte repede.",
+							"Aproximativ opt minute, cât face lumina de la Soare la Pământ.",
+							"Zeci sau sute de mii de ani, din cauza nenumăratelor ciocniri."
+						],
+						"answer": 2,
+						"why": [
+							"Fals. În vid ar fi rapid, dar aici plasma este atât de densă încât drumul devine un zigzag fără sfârșit.",
+							"Fals. Cele opt minute sunt drumul prin spațiul gol, după ce lumina a părăsit deja Soarele.",
+							"Corect! Energia care ne încălzește azi a pornit din nucleu cu zeci de mii de ani în urmă."
+						]
+					},
+					{
+						"hint": "Zona convectivă · ai depășit jumătatea drumului — Aici totul fierbe. Sonda este ridicată de coloane uriașe de plasmă fierbinte care urcă, se răcesc și coboară la loc.",
+						"text": "„În mine, energia nu mai călătorește ca lumină, ci este cărată de materia însăși. Cu ce fenomen de pe Pământ mă asemăn cel mai bine?”",
+						"options": [
+							"Cu apa care fierbe într-o oală și se rotește în bule mari.",
+							"Cu razele de soare care încălzesc o piatră expusă pe plajă.",
+							"Cu o lingură de metal care se încălzește ținută în ceai."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Este convecție: materia fierbinte urcă, cea rece coboară, exact ca în oala cu apă.",
+							"Fals. Aceea este radiație — mecanismul stratului de dedesubt, pe care tocmai l-ai părăsit.",
+							"Fals. Aceea este conducție, care transmite căldura fără ca materia să se deplaseze."
+						]
+					},
+					{
+						"hint": "Fotosfera · suprafața vizibilă — Ai ajuns la stratul pe care îl vedem de pe Pământ. Temperatura a scăzut brusc, la circa 5500 °C, iar pe ecran apar niște zone mai întunecate.",
+						"text": "„Pe mine se văd pete întunecate, care vin și pleacă într-un ritm de circa 11 ani. De ce arată aceste pete mai închise la culoare?”",
+						"options": [
+							"Sunt găuri prin care se vede interiorul, mult mai rece, al Soarelui.",
+							"Sunt zone mai reci, unde câmpul magnetic frânează convecția.",
+							"Sunt nori de praf cosmic care plutesc deasupra fotosferei."
+						],
+						"answer": 1,
+						"why": [
+							"Fals. Interiorul Soarelui este mult mai fierbinte, nu mai rece — nu s-ar vedea întunecat.",
+							"Corect! Câmpul magnetic frânează convecția, zona se răcește cu ~1500 °C și pare întunecată prin contrast.",
+							"Fals. Niciun praf nu ar rezista la temperaturile fotosferei."
+						]
+					},
+					{
+						"hint": "Cromosfera · ai părăsit suprafața — Ciudat: pe măsură ce urci, temperatura nu mai scade, ci începe să crească. În jur se ridică limbi de gaz roșiatic.",
+						"text": "„Sunt aproape invizibilă în lumina obișnuită, dar în timpul unui anumit eveniment mă vezi ca un inel roșiatic în jurul Soarelui. Când?”",
+						"options": [
+							"În timpul unei eclipse totale de Soare, când discul e acoperit.",
+							"În fiecare seară, la apusul Soarelui, când cerul se înroșește.",
+							"În timpul unei eclipse de Lună, când Pământul umbrește satelitul."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Doar când Luna acoperă fotosfera strălucitoare se vede cromosfera, ca un inel roșiatic.",
+							"Fals. Culoarea roșie a apusului vine din împrăștierea luminii în atmosfera Pământului.",
+							"Fals. La o eclipsă de Lună, Soarele nu este acoperit deloc — nu se vede nimic din straturile lui."
+						]
+					},
+					{
+						"hint": "Coroana · ultimul strat — Sonda este liberă! Dar senzorii arată ceva care pare imposibil: aici, cel mai departe de nucleu, este mult mai cald decât la suprafață.",
+						"text": "„Sunt atmosfera exterioară a Soarelui și depășesc un milion de grade, deși fotosfera de sub mine are doar 5500 °C. Ce pornește din mine și ajunge până la Pământ?”",
+						"options": [
+							"Vântul solar, un flux de particule care dă aurorele polare.",
+							"Razele ultraviolete, oprite în întregime de stratul de ozon.",
+							"Meteoriții, care se desprind din Soare și cad către planete."
+						],
+						"answer": 0,
+						"why": [
+							"Corect! Vântul solar pleacă din coroană; când întâlnește câmpul magnetic terestru, apar aurorele.",
+							"Fals. Radiația ultravioletă vine mai ales din straturile de dedesubt, iar ozonul o filtrează doar parțial.",
+							"Fals. Meteoriții sunt fragmente de rocă din Sistemul Solar, nu bucăți desprinse din Soare."
+						]
+					}
+				]
+			}
+		]
+	}
+}

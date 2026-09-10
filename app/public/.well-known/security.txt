@@ -1,0 +1,10 @@
+# Cine găsește o problemă de securitate în Geo-catedra ne poate scrie aici, în loc
+# s-o facă publică. Adresa e o redirectare Cloudflare Email Routing (nu o cutie).
+#
+# `public/` e servit de AMÂNDOUĂ desfășurările (geocatedra.com și instanța cu clase
+# de pe workers.dev), deci fișierul nu conține nicio adresă de site — doar `mailto:`.
+#
+# `Expires` trebuie reînnoit anual (vezi calendarul din docs/08-runbook-lansare-publica.md).
+Contact: mailto:contact@geocatedra.com
+Expires: 2027-09-07T00:00:00.000Z
+Preferred-Languages: ro, en

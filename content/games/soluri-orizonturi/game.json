@@ -1,0 +1,31 @@
+{
+	"gradeId": "9",
+	"topicSlug": "solurile-terrei",
+	"slug": "orizonturile-solului",
+	"title": "Orizonturile solului, de sus în jos",
+	"description": "Așază orizonturile solului în ordinea corectă, de la suprafață spre adâncime.",
+	"position": 22,
+	"assets": [
+		"orizont-1-litiera.webp", "orizont-2-humus.webp", "orizont-3-eluvial.webp",
+		"orizont-4-acumulare.webp", "orizont-5-regolit.webp", "orizont-6-roca-mama.webp"
+	],
+	"body": {
+		"kind": "ordonare",
+		"imageFit": "contain",
+		"rounds": [
+			{
+				"title": "Orizonturile solului",
+				"startLabel": "suprafață",
+				"endLabel": "adâncime",
+				"cards": [
+					{ "label": "Litieră (resturi organice)", "order": 1, "img": 0 },
+					{ "label": "Bogat în humus", "order": 2, "img": 1 },
+					{ "label": "Eluvial (mineral, spălat)", "order": 3, "img": 2 },
+					{ "label": "De acumulare", "order": 4, "img": 3 },
+					{ "label": "Roca alterată", "order": 5, "img": 4 },
+					{ "label": "Roca-mamă", "order": 6, "img": 5 }
+				]
+			}
+		]
+	}
+}

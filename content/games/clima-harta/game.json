@@ -1,0 +1,36 @@
+{
+	"gradeId": "9",
+	"topicSlug": "climatele-terrei",
+	"slug": "aseaza-climogramele-pe-harta",
+	"title": "Așază climogramele pe hartă",
+	"description": "Trage fiecare climogramă peste zona climatică potrivită de pe hartă.",
+	"position": 20,
+	"assets": [
+		"harta-zone-climatice.png",
+		"climograma-ecuatorial.png",
+		"climograma-subecuatorial.png",
+		"climograma-tropical-uscat.png",
+		"climograma-musonic.png",
+		"climograma-mediteranean.png",
+		"climograma-temperat-oceanic.png",
+		"climograma-temperat-continental.png",
+		"climograma-subpolar.png",
+		"climograma-polar.png"
+	],
+	"body": {
+		"kind": "plaseaza-pe-harta",
+		"map": 0,
+		"reveal": "below",
+		"targets": [
+			{ "id": "ecuatorial", "x": 32.8, "y": 52.2, "label": "Climat ecuatorial", "img": 1 },
+			{ "id": "subecuatorial", "x": 56.9, "y": 44.4, "label": "Climat subecuatorial", "img": 2 },
+			{ "id": "tropical-uscat", "x": 52.8, "y": 36.7, "label": "Climat tropical-uscat", "img": 3 },
+			{ "id": "musonic", "x": 71.7, "y": 37.8, "label": "Climat musonic", "img": 4 },
+			{ "id": "mediteranean", "x": 54.2, "y": 28.9, "label": "Climat mediteranean", "img": 5 },
+			{ "id": "temperat-oceanic", "x": 50.0, "y": 22.2, "label": "Climat temperat-oceanic", "img": 6 },
+			{ "id": "temperat-continental", "x": 59.7, "y": 21.1, "label": "Climat temperat-continental", "img": 7 },
+			{ "id": "subpolar", "x": 80.6, "y": 13.3, "label": "Climat subpolar", "img": 8 },
+			{ "id": "polar", "x": 38.3, "y": 10.0, "label": "Climat polar", "img": 9 }
+		]
+	}
+}

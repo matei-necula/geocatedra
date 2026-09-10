@@ -1,0 +1,65 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "tipuri-de-roci",
+		"slug": "tipuri-de-roci-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/tipuri-de-roci/1-elemente-native.webp",
+				"caption": "Elemente native – minerale formate dintr-un singur element chimic. Aurul și cuprul se găsesc în natură ca metal curat, de aceea au fost primele folosite de om."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/2-silicati.webp",
+				"caption": "Silicați – cea mai numeroasă categorie, peste 90% din scoarța terestră. Cuarțul dă duritatea granitului și e materia primă a sticlei; olivina vine din adâncul mantalei."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/3-oxizi.webp",
+				"caption": "Oxizi – metal legat de oxigen; multe sunt minereuri. Hematitul e principalul minereu de fier; corindonul, în varietăți colorate, dă rubinul și safirul – pietre prețioase."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/4-carbonati.webp",
+				"caption": "Carbonați – fac efervescență în contact cu acizii. Calcitul alcătuiește calcarul și marmura, folosite la construcții și la var; malachitul, verde, e minereu de cupru și piatră semiprețioasă."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/5-sulfuri.webp",
+				"caption": "Sulfuri – metal legat de sulf, cu luciu metalic. Pirita e numită „aurul nebunilor” fiindcă seamănă cu aurul; galena e principalul minereu de plumb."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/6-halogenuri.webp",
+				"caption": "Halogenuri – combinații cu clor sau fluor. Halitul este sarea gemă, adică sarea de bucătărie; fluorina, colorată în violet și verde, se folosește în industrie și ca piatră ornamentală."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/7-sulfati.webp",
+				"caption": "Sulfați – conțin gruparea sulfat. Din gips se face ipsosul, folosit în construcții și în medicină; celestina, albastră, e sursă de stronțiu."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/8-fosfati.webp",
+				"caption": "Fosfați – conțin gruparea fosfat. Apatitul este materia primă a îngrășămintelor cu fosfor; turcoazul, albastru-verzui, este piatră semiprețioasă folosită din antichitate la bijuterii."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/09-magmatice-intruzive.webp",
+				"caption": "Roci magmatice intruzive (plutonice), solidificate încet în adâncime — de aceea au cristale mari, vizibile cu ochiul liber: granit, gabrou, diorit, sienit."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/10-magmatice-efuzive.webp",
+				"caption": "Roci magmatice efuzive (vulcanice), răcite brusc la suprafață: bazalt, andezit, riolit, obsidian (sticlă naturală) și piatra ponce."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/11-sedimentare-detritice.webp",
+				"caption": "Roci sedimentare detritice, formate din fragmente transportate și cimentate: gresie, conglomerat, argilă."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/12-precipitare-chimica.webp",
+				"caption": "Roci sedimentare de precipitare chimică, depuse din soluții: sarea gemă (halit), gipsul și calcarul chimic."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/13-organogene.webp",
+				"caption": "Roci sedimentare organogene, din resturi de plante și animale: cărbunele, calcarul organogen (cu fosile) și creta."
+			},
+			{
+				"file": "../content/galerii/tipuri-de-roci/14-metamorfice.webp",
+				"caption": "Roci metamorfice, transformate în adânc de presiune și temperatură: gnais, marmură, cuarțit și ardezie."
+			}
+		]
+	}
+]

@@ -1,0 +1,38 @@
+{
+	"gradeId": "9",
+	"topicSlug": "zonele-biogeografice",
+	"slug": "vegetatia-si-arealul-ei",
+	"title": "Vegetația și arealul ei",
+	"description": "Asociază fiecare formațiune vegetală cu arealul ei de pe hartă.",
+	"position": 20,
+	"assets": [
+		"biom-ecuatorial.jpg", "biom-savana.jpg", "biom-desert-cald.jpg", "biom-mediteranean.jpg",
+		"biom-stepa.jpg", "biom-foioase.jpg", "biom-taiga.jpg", "biom-tundra.jpg",
+		"areal-ecuatorial.png", "areal-savana.png", "areal-desert.png", "areal-mediteranean.png",
+		"areal-stepa.png", "areal-foioase.png", "areal-taiga.png", "areal-tundra.png"
+	],
+	"body": {
+		"kind": "asociere",
+		"layout": "rows",
+		"rounds": [
+			{
+				"title": "Runda 1",
+				"pairs": [
+					{ "left": { "img": 0, "label": "Pădurea ecuatorială" }, "right": { "img": 8 }, "group": "ecuatorial" },
+					{ "left": { "img": 1, "label": "Savana" }, "right": { "img": 9 }, "group": "savana" },
+					{ "left": { "img": 2, "label": "Deșertul" }, "right": { "img": 10 }, "group": "desert" },
+					{ "left": { "img": 3, "label": "Vegetația mediteraneană" }, "right": { "img": 11 }, "group": "mediteranean" }
+				]
+			},
+			{
+				"title": "Runda 2",
+				"pairs": [
+					{ "left": { "img": 4, "label": "Stepa" }, "right": { "img": 12 }, "group": "stepa" },
+					{ "left": { "img": 5, "label": "Pădurea de foioase" }, "right": { "img": 13 }, "group": "foioase" },
+					{ "left": { "img": 6, "label": "Taigaua" }, "right": { "img": 14 }, "group": "taiga" },
+					{ "left": { "img": 7, "label": "Tundra" }, "right": { "img": 15 }, "group": "tundra" }
+				]
+			}
+		]
+	}
+}

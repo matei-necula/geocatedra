@@ -1,0 +1,58 @@
+{
+	"gradeId": "9",
+	"topicSlug": "universul-partea-1",
+	"slug": "evolutia-universului",
+	"title": "Evoluția Universului",
+	"description": "Așază etapele evoluției Universului în ordinea corectă, de la Big Bang până azi.",
+	"position": 20,
+	"assets": [
+		"univers-1.jpg",
+		"univers-2.jpg",
+		"univers-3.jpg",
+		"univers-4.jpg",
+		"univers-5.jpg",
+		"univers-6.jpg"
+	],
+	"body": {
+		"kind": "ordonare",
+		"rounds": [
+			{
+				"title": "Evoluția Universului, de la Big Bang până azi",
+				"startLabel": "Big Bang",
+				"endLabel": "azi",
+				"cards": [
+					{
+						"label": "",
+						"img": 0,
+						"order": 1
+					},
+					{
+						"label": "",
+						"img": 1,
+						"order": 2
+					},
+					{
+						"label": "",
+						"img": 2,
+						"order": 3
+					},
+					{
+						"label": "",
+						"img": 3,
+						"order": 4
+					},
+					{
+						"label": "",
+						"img": 4,
+						"order": 5
+					},
+					{
+						"label": "",
+						"img": 5,
+						"order": 6
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"src": "C:/Users/Liliana/Downloads/",
+	"maxWidth": 1800,
+	"images": [
+		{
+			"file": "C:/Users/Liliana/Downloads/backup-galerii-climatele/pastrate/00-ansamblu.webp",
+			"name": "00-harta-de-ansamblu"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/ecuatorial.jpg",
+			"name": "01-ecuatoriala-harta"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/subecuatorial.jpg",
+			"name": "03-subecuatoriala-harta"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/musonic.jpg",
+			"name": "05-musonica-harta"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/tropical-arid.jpg",
+			"name": "07-tropical-arida-harta"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/subtropipcal.jpg",
+			"name": "09-subtropicala-harta"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/temperat.jpg",
+			"name": "12-temperata-harta"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/temperat-rece.jpg",
+			"name": "16-temperat-rece-harta"
+		},
+		{
+			"file": "C:/Users/Liliana/Downloads/subpolar si polar.jpg",
+			"name": "18-subpolara-polara-harta"
+		}
+	],
+	"climograme": "Cele 12 climograme NU se mai construiesc de aici. Sunt decupajul din dreapta (x 803..1600) al panourilor de vegetație din galeria „Zonele biogeografice” — content/galerii/zonele-biogeografice/*-vegetatie.webp. Musonic (Bangkok) și temperat-continental (Moscova) n-au panou în Biosfera, așa că au fost desenate pe un panou-șablon cu `node scripts/draw-climograms.mjs`, din content/games/gen/climate-data.mjs. O rulare de prep-gallery nu le atinge, fiindcă nu mai apar în `images`."
+}

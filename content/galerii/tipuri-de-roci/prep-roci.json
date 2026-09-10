@@ -1,0 +1,13 @@
+{
+	"src": "C:/Users/Liliana/AppData/Local/Temp/claude/C--Users-Liliana-catedra/03b4bc87-a99b-4209-b89d-a091ea78200f/scratchpad/",
+	"maxWidth": 1500,
+	"quality": 88,
+	"images": [
+		{ "file": "roci-plansa.jpg", "name": "09-magmatice-intruzive",  "box": [  60,  245, 1400,  655], "trim": false },
+		{ "file": "roci-plansa.jpg", "name": "10-magmatice-efuzive",    "box": [1402,  245, 2762,  655], "trim": false },
+		{ "file": "roci-plansa.jpg", "name": "11-sedimentare-detritice","box": [  60,  725,  948, 1125], "trim": false },
+		{ "file": "roci-plansa.jpg", "name": "12-precipitare-chimica",  "box": [ 955,  725, 1880, 1125], "trim": false },
+		{ "file": "roci-plansa.jpg", "name": "13-organogene",           "box": [1888,  725, 2766, 1125], "trim": false },
+		{ "file": "roci-plansa.jpg", "name": "14-metamorfice",          "box": [  36, 1120, 2780, 1535], "trim": false }
+	]
+}

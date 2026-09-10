@@ -1,0 +1,230 @@
+{
+  "gradeId": "9",
+  "topicSlug": "pamantul-reprezentare-harti",
+  "slug": "relief-curbe-de-nivel",
+  "title": "Din profil pe hartă",
+  "description": "Două runde a câte șase exerciții: întâi alegi profilul care se potrivește hărții cu curbe de nivel, apoi harta care se potrivește profilului.",
+  "position": 25,
+  "status": "published",
+  "assets": [
+    "R1-1.webp",
+    "R1-2.webp",
+    "R1-3.webp",
+    "R1-4.webp",
+    "R1-5.webp",
+    "R1-6.webp",
+    "R2-1.webp",
+    "R2-2.webp",
+    "R2-3.webp",
+    "R2-5.webp",
+    "R2-6.webp",
+    "R2-7.webp"
+  ],
+  "body": {
+    "kind": "grila",
+    "rounds": [
+      {
+        "title": "Runda 1 — De pe hartă, în profil",
+        "questions": [
+          {
+            "img": 0,
+            "text": "În stânga e harta cu curbe de nivel. Care dintre profilele din dreapta i se potrivește?",
+            "hint": "Curbele închise stau strânse în treimea din stânga, apoi urmează o întindere lungă și goală.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 2,
+            "why": [
+              "Aici vârful e în dreapta, dar pe hartă curbele strânse sunt în stânga.",
+              "Profilul are două vârfuri, iar harta arată un singur grup de curbe închise.",
+              "Vârf abrupt în stânga, cu o coadă lungă și domoală spre dreapta — exact ce arată harta."
+            ]
+          },
+          {
+            "img": 1,
+            "text": "Care profil se potrivește acestei hărți?",
+            "hint": "Trei curbe aproape concentrice, la distanțe egale: pante regulate de jur împrejur.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 0,
+            "why": [
+              "Un singur vârf, cu pante regulate de o parte și de alta — se potrivește curbelor egal depărtate.",
+              "Vârf ascuțit în stânga și o coadă lungă; harta nu are curbele împinse spre un capăt.",
+              "Două trepte, dar harta arată o singură ridicătură."
+            ]
+          },
+          {
+            "img": 2,
+            "text": "Care profil se potrivește acestei hărți?",
+            "hint": "Doar trei niveluri, iar cercul cel mic stă spre capătul din stânga.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 1,
+            "why": [
+              "Punctul cel mai înalt e spre dreapta, invers față de hartă.",
+              "Înălțimea maximă e în stânga, apoi terenul coboară lin spre dreapta — ca pe hartă.",
+              "Vârful e spre mijloc-dreapta, nu la capătul din stânga."
+            ]
+          },
+          {
+            "img": 3,
+            "text": "Care profil se potrivește acestei hărți?",
+            "hint": "Patru curbe concentrice, egal depărtate, cu vârful chiar în mijloc.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 0,
+            "why": [
+              "Cupolă simetrică, cu vârful în mijloc — exact ce arată curbele concentrice.",
+              "Vârful e împins spre dreapta, dar curbele sunt centrate.",
+              "Profil neregulat, cu două ridicături; harta arată o singură culme."
+            ]
+          },
+          {
+            "img": 4,
+            "text": "Care profil se potrivește acestei hărți?",
+            "hint": "Un oval alungit (o culme lată) și, în interiorul lui, două cerculețe mici, la capete.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 2,
+            "why": [
+              "Două vârfuri ascuțite care pornesc direct din bază; lipsește culmea lată dintre ele.",
+              "Un singur vârf dominant, dar harta arată două cerculețe, deci două vârfuri.",
+              "Masiv cu vârful lat și două ridicături mici la capete — cele două cerculețe de pe culme."
+            ]
+          },
+          {
+            "img": 5,
+            "text": "Care profil se potrivește acestei hărți?",
+            "hint": "În stânga, un grup de patru curbe strânse — un vârf mult mai înalt decât movila marcată cu un singur cerculeț în dreapta.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 1,
+            "why": [
+              "Vârful din stânga e prea scund față de treapta de sub el; harta arată patru curbe strânse, deci o înălțime mult mai mare.",
+              "Vârf înalt în stânga, care coboară repede, și o movilă mică în dreapta — cele patru curbe față de cerculețul singuratic.",
+              "Aici înălțimea mare e în dreapta, adică invers față de hartă."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Runda 2 — Din profil, pe hartă",
+        "questions": [
+          {
+            "img": 6,
+            "text": "În stânga e profilul terenului. Care dintre hărțile din dreapta îl reprezintă?",
+            "hint": "Uită-te și la forma conturului exterior: strangularea de la mijloc este șaua dintre masiv și movilă.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 0,
+            "why": [
+              "Contur comun, strangulat la mijloc, cu mai multe curbe în stânga decât în dreapta — masivul înalt și movila, despărțite de șa.",
+              "Movila din dreapta e doar un cerculeț lipit de contur, fără șaua care se vede în profil.",
+              "Ambele ridicături au câte o singură curbă, deci ar ieși egale ca înălțime."
+            ]
+          },
+          {
+            "img": 7,
+            "text": "Care hartă reprezintă acest profil?",
+            "hint": "Ridicătura e domoală și stă la mijloc: e de ajuns o singură curbă închisă, nu un teanc de curbe.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 2,
+            "why": [
+              "Cerculețul stă la capătul din dreapta, dar ridicătura din profil e la mijloc.",
+              "Trei curbe strânse ar însemna o pantă mult mai abruptă decât cea din profil.",
+              "Un contur lat și o singură curbă închisă la mijloc — o ridicătură domoală pe o bază întinsă."
+            ]
+          },
+          {
+            "img": 8,
+            "text": "Care hartă reprezintă acest profil?",
+            "hint": "O singură culme, urcuș lung și lin dinspre stânga, cădere scurtă în dreapta.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 1,
+            "why": [
+              "Două grupuri separate de curbe ar însemna două ridicături.",
+              "Curbe tot mai strânse spre dreapta: pantă lină la stânga, abruptă la dreapta.",
+              "Două cerculețe depărtate, adică două vârfuri; profilul are unul singur."
+            ]
+          },
+          {
+            "img": 9,
+            "text": "Care hartă reprezintă acest profil?",
+            "hint": "Uită-te unde cade vârful: la stânga, la mijloc sau spre dreapta?",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 2,
+            "why": [
+              "Vârful e desenat la capătul din stânga.",
+              "Vârful e chiar în centru, dar în profil e mai la dreapta.",
+              "Vârful cade spre dreapta de mijloc, exact ca ridicătura din profil."
+            ]
+          },
+          {
+            "img": 10,
+            "text": "Care hartă reprezintă acest profil?",
+            "hint": "Două vârfuri distincte cer două curbe închise, bine despărțite, în interiorul aceluiași contur.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 1,
+            "why": [
+              "Cele două cerculețe sunt lipite, deci vârfurile ar sta unul în altul, fără șaua adâncă din profil.",
+              "Două curbe închise, bine despărțite în interiorul aceluiași contur — două vârfuri cu șa între ele.",
+              "Un singur cerculeț înseamnă un singur vârf."
+            ]
+          },
+          {
+            "img": 11,
+            "text": "Care hartă reprezintă acest profil?",
+            "hint": "Cupolă lată și domoală: curbele trebuie să fie rare și centrate.",
+            "options": [
+              "Varianta a",
+              "Varianta b",
+              "Varianta c"
+            ],
+            "answer": 0,
+            "why": [
+              "Curbe concentrice, egal depărtate, cu vârful în mijloc — pantă lină, ca în profil.",
+              "Vârful e împins spre dreapta, dar cupola din profil e simetrică.",
+              "Curbele sunt prea strânse: ar însemna o pantă mult mai abruptă."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

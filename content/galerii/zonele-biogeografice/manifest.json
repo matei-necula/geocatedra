@@ -1,0 +1,133 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "zonele-biogeografice",
+		"slug": "zonele-biogeografice-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/zonele-biogeografice/00-harta-de-ansamblu.webp",
+				"caption": "Zonele de vegetație ale Terrei – harta de ansamblu"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/01-ecuatoriale-harta.webp",
+				"caption": "Pădurile ecuatoriale și musonice – răspândirea pe glob"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/02-ecuatoriale-vegetatie.webp",
+				"caption": "Pădurea ecuatorială – vegetație veșnic verde, etajată pe mai multe niveluri. Climograma zonei (Iquitos): temperatură medie anuală 26,3 °C, amplitudine termică 1 °C, 2088 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/03-ecuatoriale-fauna.webp",
+				"caption": "Fauna pădurii ecuatoriale: jaguarul, urangutanul, gorila, tucanul, leneșul și papagalul ara"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/04-savana-harta.webp",
+				"caption": "Savana – răspândirea pe glob"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/05-savana-vegetatie.webp",
+				"caption": "Savana – ierburi înalte cu acacii izolate, verzi în sezonul ploios și uscate în cel secetos. Climograma zonei (Veracruz): temperatură medie anuală 28,3 °C, amplitudine termică 8 °C, 998 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/06-savana-fauna.webp",
+				"caption": "Fauna savanei: leul, elefantul african, girafa, zebra, ghepardul și rinocerul alb"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/07-pustiuri-tropicale-harta.webp",
+				"caption": "Pustiurile și semipustiurile tropicale – răspândirea pe glob"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/08-pustiuri-tropicale-vegetatie.webp",
+				"caption": "Pustiul tropical – dune și oază cu curmali, vegetație doar acolo unde există apă. Climograma zonei (Kalgoorlie): temperatură medie anuală 24,1 °C, amplitudine termică 23 °C, 15 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/09-pustiuri-tropicale-fauna.webp",
+				"caption": "Fauna pustiului tropical: dromaderul, vulpea fenec, suricata, scorpionul, antilopa oryx și șarpele cu clopoței"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/10-subtropicale-harta.webp",
+				"caption": "Zona subtropicală – maquis-ul mediteranean și pădurile subtropicale umede, răspândirea pe glob"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/11-maquis-vegetatie.webp",
+				"caption": "Maquis-ul mediteranean – tufișuri veșnic verzi, cu frunze mici și tari, adaptate la vara secetoasă. Climograma zonei (Atena): temperatură medie anuală 18,2 °C, amplitudine termică 19 °C, 430 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/13-maquis-fauna.webp",
+				"caption": "Fauna mediteraneană: râsul iberic, mistrețul, muflonul, broasca țestoasă de uscat, vipera și macacul de Gibraltar"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/12-subtropicala-umeda-vegetatie.webp",
+				"caption": "Pădurea subtropicală umedă – arbori acoperiți de ferigi și epifite, verzi tot anul. Climograma zonei (Taipei): temperatură medie anuală 22,8 °C, amplitudine termică 14 °C, 2255 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/14-subtropicala-umeda-fauna.webp",
+				"caption": "Fauna pădurilor subtropicale umede: ursul panda mare, tigrul, panda roșu, leopardul nebulos, păunul și macacii"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/15-foioase-harta.webp",
+				"caption": "Pădurea de foioase – răspândirea pe glob"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/16-foioase-vegetatie.webp",
+				"caption": "Pădurea de foioase – arbori care își pierd frunzele iarna. Climograma zonei (Londra): temperatură medie anuală 10,8 °C, amplitudine termică 13 °C, 617 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/17-foioase-fauna.webp",
+				"caption": "Fauna pădurii de foioase: cerbul, ursul brun, lupul, vulpea, mistrețul și căprioara"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/18-stepe-harta.webp",
+				"caption": "Stepele, preriile și pustiurile reci – răspândirea pe glob"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/19-stepa-vegetatie.webp",
+				"caption": "Stepa – întindere de ierburi, fără arbori, cu rădăcini adânci. Climograma zonei (Aktiubinsk): temperatură medie anuală 5,3 °C, amplitudine termică 36 °C, 290 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/21-stepa-fauna.webp",
+				"caption": "Fauna stepei, preriei și pampasului: bizonul american, nandul, hârciogul, coiotul, iepurele de câmp și antilopa saiga"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/20-pustiuri-reci-vegetatie.webp",
+				"caption": "Pustiul rece – ierburi rare și tufe pipernicite la poalele munților. Climograma zonei (Ulaanbaatar): temperatură medie anuală 0,4 °C, amplitudine termică 41 °C, 209 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/22-pustiuri-alpine-fauna.webp",
+				"caption": "Fauna pustiurilor alpine: antilopa chiru, kiangul, iacul sălbatic, puma, vizcacha și leopardul de zăpadă"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/23-conifere-harta.webp",
+				"caption": "Pădurea de conifere (taigaua) – răspândirea pe glob"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/24-conifere-vegetatie.webp",
+				"caption": "Taigaua – pădure de molizi, brazi și pini, cu frunze-ace care rezistă la ger. Climograma zonei (Iakutsk): temperatură medie anuală -9,1 °C, amplitudine termică 59 °C, 203 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/25-conifere-fauna.webp",
+				"caption": "Fauna taigalei: elanul, ursul brun, gulo (jderul-ursuleț), râsul, veverița și cocoșul de munte"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/26-tundra-polar-harta.webp",
+				"caption": "Tundra și deșerturile polare – răspândirea pe glob"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/27-tundra-vegetatie.webp",
+				"caption": "Tundra – mușchi, licheni și tufe pitice pe sol permanent înghețat în adânc. Climograma zonei (Inuvik): temperatură medie anuală -7,2 °C, amplitudine termică 45 °C, 238 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/29-tundra-fauna.webp",
+				"caption": "Fauna tundrei: ursul polar, vulpea polară, bufnița de zăpadă, renul, boul moscat și lemingul"
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/28-desert-polar-vegetatie.webp",
+				"caption": "Deșertul polar – gheață și stâncă golașă, aproape lipsit de vegetație. Climograma zonei (McMurdo): temperatură medie anuală -16,8 °C, amplitudine termică 29 °C, 83 mm de precipitații pe an."
+			},
+			{
+				"file": "../content/galerii/zonele-biogeografice/30-desert-polar-fauna.webp",
+				"caption": "Fauna zonelor polare: ursul polar și morsa în Arctica, pinguinul imperial în Antarctica, foca, beluga și iepurele arctic"
+			}
+		]
+	}
+]

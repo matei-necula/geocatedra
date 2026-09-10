@@ -1,0 +1,27 @@
+{
+	"gradeId": "9",
+	"topicSlug": "pamantul-miscari",
+	"slug": "detectivul-anotimpurilor",
+	"title": "Detectivul anotimpurilor",
+	"description": "Citește cazul și arată pe hartă regiunea unde așa ceva chiar se poate întâmpla.",
+	"position": 21,
+	"status": "published",
+	"assets": ["harta-anotimpuri.png"],
+	"body": {
+		"kind": "harta-quiz",
+		"map": 0,
+		"points": [
+			{ "n": 1, "x": 55.56, "y": 11.67, "name": "Regiunea unde pe 21 iunie, la 23: 30, Soarele e încă sus" },
+			{ "n": 2, "x": 28.33, "y": 50, "name": "Orașul unde pe 21 martie, la prânz, nu se vede nicio umbră" },
+			{ "n": 3, "x": 91.94, "y": 68.89, "name": "Regiunea unde Crăciunul cade în miezul verii" },
+			{ "n": 4, "x": 50, "y": 21.39, "name": "Regiunea unde pe 22 decembrie ziua ține doar vreo opt ore" },
+			{ "n": 5, "x": 38.89, "y": 7.78, "name": "Regiunea unde pe 22 decembrie rămâne noapte toată ziua" },
+			{ "n": 6, "x": 53.33, "y": 36.94, "name": "Paralela unde Soarele ajunge la zenit pe 22 iunie" },
+			{ "n": 7, "x": 86.94, "y": 63.06, "name": "Paralela unde Soarele ajunge la zenit pe 22 decembrie" },
+			{ "n": 8, "x": 56.11, "y": 50, "name": "Regiunea unde ziua și noaptea sunt aproape egale tot anul" },
+			{ "n": 9, "x": 55.56, "y": 93.33, "name": "Regiunea unde pe 22 decembrie e lumină 24 de ore din 24" },
+			{ "n": 10, "x": 31.94, "y": 72.22, "name": "Regiunea unde luna iulie cade în plină iarnă" }
+		],
+		"draw": 5
+	}
+}

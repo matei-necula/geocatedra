@@ -1,0 +1,85 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "atmosfera-caracteristici-climatice",
+		"slug": "atmosfera-caracteristici-climatice-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/atmosfera/01-structura-atmosferei.webp",
+				"caption": "Structura verticală a atmosferei: troposferă, stratosferă, mezosferă, termosferă, exosferă — și filtrarea razelor UV de către ozonosferă"
+			},
+			{
+				"file": "../content/galerii/atmosfera/02-unde-radio-ionosfera.webp",
+				"caption": "Propagarea undelor radio în ionosferă — straturile D, E și F reflectă undele înapoi spre Pământ"
+			},
+			{
+				"file": "../content/galerii/atmosfera/04-aurore-polare.webp",
+				"caption": "Aurorele polare — inelul auroral văzut din spațiu și aurora văzută de la sol"
+			},
+			{
+				"file": "../content/galerii/atmosfera/03-centuri-van-allen.webp",
+				"caption": "Centurile de radiații Van Allen și magnetosfera, scutul Pământului în fața vântului solar"
+			},
+			{
+				"file": "../content/galerii/atmosfera/05-geneza-vanturilor.webp",
+				"caption": "Geneza vânturilor: aerul cald urcă și lasă presiune scăzută, aerul rece coboară și dă presiune ridicată"
+			},
+			{
+				"file": "../content/galerii/atmosfera/06-circulatia-generala.webp",
+				"caption": "Circulația generală a atmosferei — celulele Hadley, Ferrel și polară, alizeele, vânturile de vest și cele polare"
+			},
+			{
+				"file": "../content/galerii/atmosfera/07-migrarea-zcit.webp",
+				"caption": "Migrarea sezonieră a Zonei de Convergență Intertropicală (ZCIT) și a celulelor de circulație, la solstiții și la echinocții"
+			},
+			{
+				"file": "../content/galerii/atmosfera/08-curentii-jet.webp",
+				"caption": "Curenții-jet polari și subtropicali, cu undele Rossby"
+			},
+			{
+				"file": "../content/galerii/atmosfera/09-musonii.webp",
+				"caption": "Musonii Asiei — musonul de vară, umed, și musonul de iarnă, uscat"
+			},
+			{
+				"file": "../content/galerii/atmosfera/10-brize-marine.webp",
+				"caption": "Brizele marine — briza de mare, ziua, și briza de uscat, noaptea"
+			},
+			{
+				"file": "../content/galerii/atmosfera/11-brize-montane.webp",
+				"caption": "Brizele montane — briza de vale, ziua, și briza de munte, noaptea"
+			},
+			{
+				"file": "../content/galerii/atmosfera/12-foehn.webp",
+				"caption": "Föhnul — aerul urcă și lasă ploi pe versantul expus, apoi coboară cald și uscat pe versantul opus"
+			},
+			{
+				"file": "../content/galerii/atmosfera/13-inversiune-termica.webp",
+				"caption": "Inversiunea termică — situația obișnuită, comparată cu aerul rece adunat pe fundul văii"
+			},
+			{
+				"file": "../content/galerii/atmosfera/14-izoterme-ianuarie.webp",
+				"caption": "Izotermele lunii ianuarie"
+			},
+			{
+				"file": "../content/galerii/atmosfera/15-izoterme-iulie.webp",
+				"caption": "Izotermele lunii iulie"
+			},
+			{
+				"file": "../content/galerii/atmosfera/16-presiune-ianuarie.webp",
+				"caption": "Presiunea atmosferică medie la nivelul mării, în ianuarie — celule de mare presiune (M) și de mică presiune (D)"
+			},
+			{
+				"file": "../content/galerii/atmosfera/17-presiune-iulie.webp",
+				"caption": "Presiunea atmosferică medie la nivelul mării, în iulie — celule de mare presiune (M) și de mică presiune (D)"
+			},
+			{
+				"file": "../content/galerii/atmosfera/18-izoterme-anuale.webp",
+				"caption": "Temperaturi medii anuale pe glob — izoterme"
+			},
+			{
+				"file": "../content/galerii/atmosfera/19-izohiete-anuale.webp",
+				"caption": "Precipitații medii anuale pe glob — izohiete"
+			}
+		]
+	}
+]

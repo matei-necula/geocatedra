@@ -1,0 +1,54 @@
+{
+	"gradeId": "9",
+	"topicSlug": "pamantul-miscari",
+	"slug": "rotatie-sau-revolutie",
+	"title": "Rotație sau revoluție?",
+	"description": "Sortează fiecare urmare pe mișcarea care o produce: rotația sau revoluția.",
+	"position": 20,
+	"status": "published",
+	"assets": [
+		"rot-axa-sens.jpg",
+		"rot-viteza.jpg",
+		"rot-zi-noapte.jpg",
+		"rot-ore.jpg",
+		"rot-magnetism.jpg",
+		"rot-coriolis.jpg",
+		"rot-fusuri.jpg",
+		"rot-geoid.jpg",
+		"rot-soare-aparent.jpg",
+		"rev-orbita.jpg",
+		"rev-an-bisect.jpg",
+		"rev-anotimpuri.jpg",
+		"rev-echinoctii.jpg",
+		"rev-solstitii.jpg",
+		"rev-unghi-raze.jpg",
+		"rev-zone-termice.jpg"
+	],
+	"body": {
+		"kind": "sortare",
+		"buckets": [{ "label": "Mișcarea de rotație" }, { "label": "Mișcarea de revoluție" }],
+		"rounds": [
+			{
+				"title": "Ce produce rotația, ce produce revoluția",
+				"cards": [
+					{ "img": 0, "bucket": 0 },
+					{ "img": 9, "bucket": 1 },
+					{ "img": 1, "bucket": 0 },
+					{ "img": 10, "bucket": 1 },
+					{ "img": 2, "bucket": 0 },
+					{ "img": 11, "bucket": 1 },
+					{ "img": 3, "bucket": 0 },
+					{ "img": 12, "bucket": 1 },
+					{ "img": 4, "bucket": 0 },
+					{ "img": 13, "bucket": 1 },
+					{ "img": 5, "bucket": 0 },
+					{ "img": 14, "bucket": 1 },
+					{ "img": 6, "bucket": 0 },
+					{ "img": 15, "bucket": 1 },
+					{ "img": 7, "bucket": 0 },
+					{ "img": 8, "bucket": 0 }
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,96 @@
+{
+ "gradeId": "9",
+ "topicSlug": "atmosfera-caracteristici-climatice",
+ "slug": "detectivul-climatic",
+ "position": 20,
+ "status": "published",
+ "title": "Detectivul climatic",
+ "description": "Trei fenomene atmosferice, fiecare cu cazul lui: inversiunea termică, deșertul litoral și ploaia orografică. Așază verigile în ordine, de la cauză la urmare.",
+ "assets": [],
+ "body": {
+  "kind": "ordonare",
+  "rounds": [
+   {
+    "title": "Inversiunea termică — cazul norului de poluare care nu se risipește",
+    "startLabel": "Cauza",
+    "endLabel": "Urmarea",
+    "cards": [
+     {
+      "label": "Orașul se află într-o depresiune închisă de munți",
+      "order": 1
+     },
+     {
+      "label": "Munții din jur opresc curenții de aer",
+      "order": 2
+     },
+     {
+      "label": "Aerul rece, fiind greu, rămâne blocat pe fundul depresiunii",
+      "order": 3
+     },
+     {
+      "label": "Peste el se așază un strat de aer mai cald — inversiune termică",
+      "order": 4
+     },
+     {
+      "label": "Fumul și praful nu se mai pot ridica și se adună: smog",
+      "order": 5
+     }
+    ]
+   },
+   {
+    "title": "Deșertul litoral — cazul secetei de pe o coastă care ar trebui să fie umedă",
+    "startLabel": "Cauza",
+    "endLabel": "Urmarea",
+    "cards": [
+     {
+      "label": "De-a lungul țărmului urcă un curent oceanic rece",
+      "order": 1
+     },
+     {
+      "label": "Aerul de deasupra apei se răcește de la ocean",
+      "order": 2
+     },
+     {
+      "label": "Aerul rece devine greu și stabil, cu presiune ridicată",
+      "order": 3
+     },
+     {
+      "label": "Aerul nu se mai poate ridica, deci nu se formează nori",
+      "order": 4
+     },
+     {
+      "label": "Coasta rămâne fără ploaie: deșert litoral",
+      "order": 5
+     }
+    ]
+   },
+   {
+    "title": "Ploaia orografică și föhnul — cazul versanților cu vreme diferită",
+    "startLabel": "Cauza",
+    "endLabel": "Urmarea",
+    "cards": [
+     {
+      "label": "O masă de aer umed venită de pe ocean întâlnește un lanț muntos",
+      "order": 1
+     },
+     {
+      "label": "Aerul este silit să urce pe versantul dinspre mare",
+      "order": 2
+     },
+     {
+      "label": "Urcând, aerul se răcește, iar vaporii de apă condensează",
+      "order": 3
+     },
+     {
+      "label": "Pe versantul dinspre mare cad ploi bogate",
+      "order": 4
+     },
+     {
+      "label": "Coborât pe celălalt versant, aerul se încălzește și se usucă",
+      "order": 5
+     }
+    ]
+   }
+  ]
+ }
+}

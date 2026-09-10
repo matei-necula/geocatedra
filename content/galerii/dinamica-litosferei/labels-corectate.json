@@ -1,0 +1,7 @@
+[
+	{ "_": "Două greșeli de tipar din planșele-sursă, rescrise în imagine înainte de urcare." },
+	{ "_": "1. „STROBOLIANĂ” → „STROMBOLIANĂ” (de la vulcanul Stromboli), pe planșa cu tipuri de erupții." },
+	{ "name": "stromboliana", "sursa": "1. eruptii vulc.jpg", "box": [317, 1235, 626, 1279], "anchor": "VULCANIANĂ", "anchorH": 45, "fitBy": "h", "weight": 700, "text": "STROMBOLIANĂ", "cx": 472, "pad": 10, "ink": "dark", "thr": 150 },
+	{ "_": "2. „DIRCȚIA DE” → „DIRECȚIA DE”, colțul din dreapta-sus al planșei cu unde seismice." },
+	{ "name": "directia", "sursa": "3. nde seismice.jfif", "box": [2336, 159, 2576, 193], "anchor": "PROPAGARE", "anchorH": 44, "fitBy": "h", "weight": 700, "text": "DIRECȚIA DE", "cx": 2456, "pad": 16, "ink": "dark", "thr": 150 }
+]

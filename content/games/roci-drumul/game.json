@@ -1,0 +1,53 @@
+{
+	"gradeId": "9",
+	"topicSlug": "tipuri-de-roci",
+	"slug": "drumul-unei-roci",
+	"title": "Drumul unei roci",
+	"description": "Nicio rocă nu rămâne pentru totdeauna ce este. Așază etapele în ordinea firească și urmărește cum aceeași materie trece dintr-o familie în alta.",
+	"position": 22,
+	"status": "published",
+	"assets": [],
+	"body": {
+		"kind": "ordonare",
+		"rounds": [
+			{
+				"title": "De la muntele de granit la piatra de construcție: pune etapele în ordinea în care se petrec.",
+				"startLabel": "la început",
+				"endLabel": "la sfârșit",
+				"cards": [
+					{ "label": "Magma se răcește lent în adânc și se formează granitul", "order": 1 },
+					{ "label": "Eroziunea îndepărtează rocile de deasupra și scoate granitul la suprafață", "order": 2 },
+					{ "label": "Înghețul și dezghețul sfărâmă granitul în fragmente colțuroase", "order": 3 },
+					{ "label": "Râul rostogolește fragmentele și le rotunjește, transformându-le în pietriș și nisip", "order": 4 },
+					{ "label": "Nisipul se depune în strate groase la vărsarea râului în mare", "order": 5 },
+					{ "label": "Sub greutatea depunerilor, nisipul este cimentat și devine gresie", "order": 6 }
+				]
+			},
+			{
+				"title": "Cum ajunge calcarul să fie marmură: așază etapele în ordine.",
+				"startLabel": "la început",
+				"endLabel": "la sfârșit",
+				"cards": [
+					{ "label": "Pe fundul unei mări calde se acumulează cochilii și schelete de viețuitoare", "order": 1 },
+					{ "label": "Straturile se îngroașă, se compactează și se formează calcarul", "order": 2 },
+					{ "label": "Două plăci tectonice se apropie, iar straturile sunt împinse în adânc", "order": 3 },
+					{ "label": "Presiunea și temperatura ridicată recristalizează roca, fără s-o topească", "order": 4 },
+					{ "label": "Rezultă marmura, cu cristale strâns unite și fără fosile", "order": 5 },
+					{ "label": "Munții se înalță, eroziunea îi retează și marmura ajunge la zi, în carieră", "order": 6 }
+				]
+			},
+			{
+				"title": "Un strat de cărbune într-o mină: așază etapele în ordine.",
+				"startLabel": "la început",
+				"endLabel": "la sfârșit",
+				"cards": [
+					{ "label": "O pădure mlăștinoasă crește într-un climat cald și umed", "order": 1 },
+					{ "label": "Plantele moarte cad în apă, unde lipsa oxigenului împiedică putrezirea completă", "order": 2 },
+					{ "label": "Peste resturile vegetale se depun strate de nisip și argilă", "order": 3 },
+					{ "label": "Greutatea depunerilor și căldura din adânc elimină treptat apa și gazele", "order": 4 },
+					{ "label": "Materia vegetală se îmbogățește în carbon și se transformă în cărbune", "order": 5 }
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,105 @@
+{
+	"gradeId": "9",
+	"topicSlug": "universul-partea-2",
+	"slug": "componentele-sistemului-solar",
+	"title": "Componentele Sistemului solar",
+	"description": "Asociază fiecare corp din Sistemul solar cu caracteristica lui principală.",
+	"position": 21,
+	"status": "published",
+	"assets": [
+		"soare.jpg",
+		"mercur.jpg",
+		"venus.jpg",
+		"pamant.jpg",
+		"marte.jpg",
+		"centura-asteroizi.jpg",
+		"jupiter.jpg",
+		"saturn.jpg",
+		"uranus.jpg",
+		"neptun.jpg",
+		"centura-planete-pitice.jpg",
+		"norul-oort.jpg"
+	],
+	"body": {
+		"kind": "asociere",
+		"imageFit": "natural",
+		"layout": "rows",
+		"rounds": [
+			{
+				"title": "Soarele și planetele interioare",
+				"pairs": [
+					{
+						"left": { "img": 0 },
+						"right": { "text": "Singura stea; strânge 99, 8% din masa întregului sistem" },
+						"group": "soare"
+					},
+					{
+						"left": { "img": 1 },
+						"right": { "text": "Cea mai mică planetă și cea mai apropiată de Soare" },
+						"group": "mercur"
+					},
+					{
+						"left": { "img": 2 },
+						"right": { "text": "Cea mai fierbinte planetă, sub un strat gros de dioxid de carbon" },
+						"group": "venus"
+					},
+					{
+						"left": { "img": 3 },
+						"right": { "text": "Singura planetă cu apă lichidă la suprafață și cu viață" },
+						"group": "pamant"
+					}
+				]
+			},
+			{
+				"title": "De la Marte la Jupiter",
+				"pairs": [
+					{
+						"left": { "img": 4 },
+						"right": { "text": "Planeta roșie, cu cel mai înalt vulcan din sistem" },
+						"group": "marte"
+					},
+					{
+						"left": { "img": 5 },
+						"right": { "text": "Mii de corpuri stâncoase, între Marte și Jupiter" },
+						"group": "asteroizi"
+					},
+					{
+						"left": { "img": 6 },
+						"right": { "text": "Cea mai mare planetă, recunoscută după Marea Pată Roșie" },
+						"group": "jupiter"
+					},
+					{
+						"left": { "img": 7 },
+						"right": { "text": "Planeta înconjurată de inele strălucitoare de gheață" },
+						"group": "saturn"
+					}
+				]
+			},
+			{
+				"title": "Marginea Sistemului solar",
+				"pairs": [
+					{
+						"left": { "img": 8 },
+						"right": { "text": "Planeta care se rotește culcată, aproape pe o parte" },
+						"group": "uranus"
+					},
+					{
+						"left": { "img": 9 },
+						"right": { "text": "Ultima planetă, cu cele mai puternice vânturi din sistem" },
+						"group": "neptun"
+					},
+					{
+						"left": { "img": 10 },
+						"right": { "text": "Inelul înghețat de dincolo de Neptun, unde se află Pluto" },
+						"group": "pitice"
+					},
+					{
+						"left": { "img": 11 },
+						"right": { "text": "Învelișul îndepărtat, sferic, de unde vin cometele" },
+						"group": "oort"
+					}
+				]
+			}
+		]
+	}
+}

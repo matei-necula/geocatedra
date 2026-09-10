@@ -1,0 +1,746 @@
+@import "tailwindcss" source(".");
+
+/* Self-hosted fonts (runbook 4.7) — replaces the fonts.googleapis.com <link> that used to leak
+   every visitor's IP to Google before first paint. Files live in public/fonts/, downloaded once
+   from Google Fonts (same files, just served from us). Inter ships as a variable font, so one
+   file covers weights 400–700; Spectral is static per weight. latin-ext is required — Romanian
+   diacritics (ă â î ș ț) live outside plain latin. */
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400 700;
+	font-display: swap;
+	src: url("/fonts/inter-latin-ext.woff2") format("woff2");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+		U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400 700;
+	font-display: swap;
+	src: url("/fonts/inter-latin.woff2") format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+		U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("/fonts/spectral-normal-500-latin-ext.woff2") format("woff2");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+		U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("/fonts/spectral-normal-500-latin.woff2") format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+		U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("/fonts/spectral-normal-600-latin-ext.woff2") format("woff2");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+		U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("/fonts/spectral-normal-600-latin.woff2") format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+		U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("/fonts/spectral-normal-700-latin-ext.woff2") format("woff2");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+		U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("/fonts/spectral-normal-700-latin.woff2") format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+		U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: italic;
+	font-weight: 500;
+	font-display: swap;
+	src: url("/fonts/spectral-italic-500-latin-ext.woff2") format("woff2");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+		U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: italic;
+	font-weight: 500;
+	font-display: swap;
+	src: url("/fonts/spectral-italic-500-latin.woff2") format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+		U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url("/fonts/spectral-italic-600-latin-ext.woff2") format("woff2");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+		U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Spectral";
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url("/fonts/spectral-italic-600-latin.woff2") format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+		U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Fonturile temei „Cobalt" (instanța liberă) — descărcate cu scripts/fetch-fonts.mjs,
+   servite de noi din același motiv ca Inter și Spectral (runbook 4.7).
+
+   Ambele instanțe declară toate patru familiile, pentru că app.css e partajat. Costul la
+   runtime e zero: un `@font-face` nefolosit nu descarcă nimic. Crește doar CSS-ul, cu
+   câteva sute de octeți — mai puțin decât ar costa despicarea foii de stil pe instanțe.
+
+   Instrument Serif are DOAR greutatea 400 (plus cursiv). Nu lipsește nimic de aici — bold
+   nu există în familie. De-aia tema definește `headingUi`, ca h3/h4 să plece pe Public Sans. */
+@font-face {
+	font-family: "Instrument Serif";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("/fonts/instrument-serif-normal-400-latin-ext.woff2") format("woff2");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+		U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Instrument Serif";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("/fonts/instrument-serif-normal-400-latin.woff2") format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+		U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Instrument Serif";
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url("/fonts/instrument-serif-italic-400-latin-ext.woff2") format("woff2");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+		U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Instrument Serif";
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url("/fonts/instrument-serif-italic-400-latin.woff2") format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+		U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* Public Sans e variabil: un fișier per subset acoperă 400–700. */
+@font-face {
+	font-family: "Public Sans";
+	font-style: normal;
+	font-weight: 400 700;
+	font-display: swap;
+	src: url("/fonts/public-sans-normal-400700-latin-ext.woff2") format("woff2");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+		U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Public Sans";
+	font-style: normal;
+	font-weight: 400 700;
+	font-display: swap;
+	src: url("/fonts/public-sans-normal-400700-latin.woff2") format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+		U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Design tokens. Defaults mirror subject.config.theme so Tailwind generates the
+   utilities (bg-primary, text-ink, ...). Their VALUES are overridden at runtime
+   from subject.config in root.tsx, so the theme is config-driven and swappable. */
+@theme {
+	--color-bg: #fdf6ec;
+	--color-surface: #ffffff;
+	--color-ink: #22333b;
+	--color-muted: #5c6b73;
+	--color-primary: #2a6f97;
+	--color-primary-strong: #245f82;
+	--color-accent: #e07a5f;
+	--color-accent-strong: #c85a3f;
+	--color-sand: #f2cc8f;
+	--color-border: rgba(34, 51, 59, 0.12);
+	/* Textul așezat PE umpluturile de temă. Există ca jeton pentru că nu e mereu alb:
+	   pe paleta Cobalt a instanței libere, coralul cere text închis (alb pe el dă 2,83:1).
+	   Valorile de aici sunt doar sămânța pentru Tailwind — cele reale vin din config. */
+	--color-on-primary: #ffffff;
+	--color-on-accent: #ffffff;
+
+	--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+	--font-heading: "Spectral", Georgia, serif;
+}
+
+/* ============ Atlasul design language ============ */
+
+/* Warm paper card surface (very subtle sand tint over surface). */
+.paper {
+	background-color: color-mix(in srgb, var(--color-surface) 96%, var(--color-sand));
+}
+
+/* Plate: fine outer rule + inner rule, like an atlas plate frame. */
+.plate {
+	position: relative;
+	border: 1px solid color-mix(in srgb, var(--color-ink) 22%, transparent);
+	border-radius: 6px;
+}
+.plate::before {
+	content: "";
+	position: absolute;
+	inset: 4px;
+	border: 1px solid color-mix(in srgb, var(--color-ink) 10%, transparent);
+	border-radius: 3px;
+	pointer-events: none;
+}
+
+/* Small caps plate label, sits on the frame. */
+.plate-label {
+	position: absolute;
+	top: -0.7em;
+	left: 14px;
+	padding: 0 8px;
+	background: var(--color-bg);
+	color: var(--color-muted);
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+/* Spectral italic eyebrow. */
+.kicker {
+	font-family: var(--font-heading);
+	font-style: italic;
+	font-weight: 500;
+	color: var(--color-primary);
+}
+
+/* Rubber stamps. */
+.stamp-circle {
+	position: relative;
+	display: grid;
+	place-items: center;
+	border: 3px solid var(--color-accent-strong);
+	border-radius: 9999px;
+	color: var(--color-accent-strong);
+	transform: rotate(-8deg);
+}
+.stamp-circle::after {
+	content: "";
+	position: absolute;
+	inset: 4px;
+	border: 1px solid var(--color-accent-strong);
+	border-radius: 9999px;
+	opacity: 0.7;
+}
+.stamp-badge {
+	display: inline-block;
+	border: 2px solid var(--color-accent-strong);
+	border-radius: 4px;
+	padding: 0 6px;
+	color: var(--color-accent-strong);
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	transform: rotate(-3deg);
+}
+
+/* Dotted leader for table-of-contents rows. */
+.dotted-leader {
+	flex: 1;
+	margin: 0 0.6em;
+	border-bottom: 2px dotted color-mix(in srgb, var(--color-sand) 55%, var(--color-muted));
+	transform: translateY(-0.3em);
+}
+
+/* Index tab on the edge of a material card. */
+.index-tab {
+	position: absolute;
+	left: -1px;
+	top: 14px;
+	width: 5px;
+	height: 34px;
+	border-radius: 0 4px 4px 0;
+}
+
+/* Short azure rule used under chapter headings. */
+.rule-azure {
+	width: 2.25rem;
+	height: 2px;
+	background: var(--color-primary);
+	opacity: 0.8;
+}
+
+/* Textura de fundal (components/SiteBackdrop.tsx).
+
+   Deliberat STATICĂ. Un strat care se mișcă încet în spatele textului, pe fiecare pagină și
+   tot timpul, obosește la citit și trage ochiul de la conținut — iar aici stau lecții de citit,
+   nu o pagină de prezentare. Vechea `ContourField` se mișca, dar acoperea doar eroul. */
+.cat-backdrop {
+	opacity: 0.9;
+}
+
+/* Culoarea de fundal stă pe `html`, iar `body` rămâne TRANSPARENT.
+   Nu e un moft: `SiteBackdrop` e un copil al lui `body` cu `z-index: -10`, iar un copil cu
+   z negativ se desenează sub fundalul propriu al părintelui. Cu `body` opac, textura există
+   în DOM, are dimensiuni corecte — și e complet invizibilă. Mutată pe `html`, textura se
+   așază între fundal și conținut, exact unde trebuie. */
+html {
+	background-color: var(--color-bg);
+}
+
+html,
+body {
+	color: var(--color-ink);
+	font-family: var(--font-sans);
+	transition:
+		background-color 0.25s ease,
+		color 0.25s ease;
+}
+
+/* Titlurile mari poartă fontul de afiș; cele mici pot pleca pe alt font.
+   Motivul e concret: Instrument Serif (instanța liberă) publică doar greutatea 400, iar un
+   h3 de 1,2rem sau un h4 de 1,05rem într-un serif subțire de 400 nu mai citește ca titlu —
+   ierarhia se prăbușește exact în paginile lungi de lecție. Temele care nu definesc
+   `headingUi` cad pe `--font-heading`, deci tema cu clase rămâne neschimbată. */
+h1,
+h2 {
+	font-family: var(--font-heading);
+}
+
+h3,
+h4 {
+	font-family: var(--font-heading-ui, var(--font-heading));
+}
+
+/* Simple prose styling for written lessons */
+.prose-ro {
+	line-height: 1.75;
+	font-size: 1.0625rem;
+}
+.prose-ro > p:first-of-type {
+	font-size: 1.1875rem;
+	color: color-mix(in srgb, var(--color-ink) 88%, var(--color-primary));
+}
+.prose-ro p {
+	margin-bottom: 1rem;
+}
+.prose-ro h2 {
+	font-size: 1.45rem;
+	margin: 1.8rem 0 0.6rem;
+}
+.prose-ro h2::after {
+	content: "";
+	display: block;
+	width: 2.25rem;
+	height: 2px;
+	margin-top: 0.35rem;
+	background: var(--color-primary);
+	opacity: 0.8;
+}
+.prose-ro ul {
+	list-style: none;
+	padding-left: 1.4rem;
+	margin-bottom: 1rem;
+}
+.prose-ro ul li {
+	position: relative;
+	margin-bottom: 0.35rem;
+}
+.prose-ro ul li::before {
+	content: "";
+	position: absolute;
+	left: -1.1rem;
+	top: 0.62em;
+	width: 0.45rem;
+	height: 0.45rem;
+	border: 1.5px solid var(--color-accent);
+	border-radius: 9999px;
+}
+.prose-ro ol {
+	list-style: none;
+	counter-reset: mdol;
+	padding-left: 1.7rem;
+	margin-bottom: 1rem;
+}
+.prose-ro ol > li {
+	position: relative;
+	margin-bottom: 0.35rem;
+	counter-increment: mdol;
+}
+.prose-ro ol > li::before {
+	content: counter(mdol) ".";
+	position: absolute;
+	left: -1.7rem;
+	top: 0;
+	font-weight: 600;
+	color: var(--color-primary);
+}
+/* Nested sub-lists read as sub-items: tighter spacing + a muted dash marker. */
+.prose-ro li ul,
+.prose-ro li ol {
+	margin: 0.3rem 0 0.5rem;
+}
+.prose-ro li ul li::before {
+	content: "";
+	top: 0.72em;
+	width: 0.6rem;
+	height: 2px;
+	border: 0;
+	border-radius: 0;
+	background: color-mix(in srgb, var(--color-ink) 42%, transparent);
+}
+.prose-ro h3 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin: 1.5rem 0 0.5rem;
+	color: color-mix(in srgb, var(--color-ink) 90%, var(--color-primary));
+}
+.prose-ro h4 {
+	font-size: 1.05rem;
+	font-weight: 600;
+	margin: 1.15rem 0 0.4rem;
+}
+.prose-ro strong {
+	font-weight: 600;
+	color: color-mix(in srgb, var(--color-ink) 82%, var(--color-primary));
+}
+.prose-ro hr {
+	border: 0;
+	height: 1px;
+	background: color-mix(in srgb, var(--color-ink) 14%, transparent);
+	margin: 2rem 0;
+}
+/* Pipe tables: scroll horizontally on small screens (students are on phones) */
+.prose-ro .prose-table-wrap {
+	overflow-x: auto;
+	margin: 1.2rem 0 1.6rem;
+	border: 1px solid var(--color-border);
+	border-radius: 0.7rem;
+	-webkit-overflow-scrolling: touch;
+}
+.prose-ro table {
+	border-collapse: collapse;
+	width: 100%;
+	min-width: 720px;
+	font-size: 0.92rem;
+	line-height: 1.5;
+}
+.prose-ro thead th {
+	background: color-mix(in srgb, var(--color-primary) 12%, var(--color-surface));
+	color: var(--color-ink);
+	font-weight: 600;
+	text-align: left;
+	vertical-align: top;
+	padding: 0.6rem 0.75rem;
+	border-bottom: 2px solid color-mix(in srgb, var(--color-primary) 38%, transparent);
+	white-space: nowrap;
+}
+.prose-ro tbody th,
+.prose-ro tbody td {
+	padding: 0.55rem 0.75rem;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid var(--color-border);
+}
+.prose-ro tbody tr:nth-child(even) {
+	background: color-mix(in srgb, var(--color-ink) 3%, transparent);
+}
+.prose-ro tbody tr:last-child th,
+.prose-ro tbody tr:last-child td {
+	border-bottom: 0;
+}
+.prose-ro tbody th {
+	font-weight: 600;
+	color: color-mix(in srgb, var(--color-ink) 85%, var(--color-primary));
+	min-width: 8.5rem;
+}
+/* No bullet/counter markers for the "zonă" list-like content inside cells */
+.prose-ro td strong,
+.prose-ro th strong {
+	color: inherit;
+}
+
+/* Tasteful, accessible motion */
+@keyframes cat-rise {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.cat-rise {
+	animation: cat-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.cat-rise-2 {
+	animation: cat-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.08s both;
+}
+.cat-rise-3 {
+	animation: cat-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.16s both;
+}
+
+@keyframes cat-progress {
+	0% { transform: translateX(-120%); }
+	100% { transform: translateX(320%); }
+}
+
+/* Staggered entrance for grids: each child rises with an increasing delay */
+.stagger > * {
+	animation: cat-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.stagger > *:nth-child(1) { animation-delay: 0.02s; }
+.stagger > *:nth-child(2) { animation-delay: 0.07s; }
+.stagger > *:nth-child(3) { animation-delay: 0.12s; }
+.stagger > *:nth-child(4) { animation-delay: 0.17s; }
+.stagger > *:nth-child(5) { animation-delay: 0.22s; }
+.stagger > *:nth-child(6) { animation-delay: 0.27s; }
+.stagger > *:nth-child(7) { animation-delay: 0.32s; }
+.stagger > *:nth-child(8) { animation-delay: 0.37s; }
+.stagger > *:nth-child(n + 9) { animation-delay: 0.4s; }
+
+/* Hover glow — colored ring + tiny lift on interactive cards */
+.glow {
+	transition: box-shadow 0.2s ease, transform 0.15s ease, border-color 0.2s ease;
+}
+.glow:hover {
+	box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-primary) 20%, transparent);
+	transform: translateY(-1px);
+}
+
+/* Student-side "playful" intensity: accent glow, a bit stronger + springier entrance */
+.motion-playful .glow:hover {
+	box-shadow: 0 0 0 5px color-mix(in srgb, var(--color-accent) 26%, transparent);
+	transform: translateY(-2px);
+}
+.motion-playful .stagger > * {
+	animation-duration: 0.55s;
+	animation-timing-function: cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+/* Page transitions — Fade + Zoom (View Transitions API) */
+@keyframes vt-in {
+	from { opacity: 0; transform: scale(0.98); }
+	to { opacity: 1; transform: none; }
+}
+@keyframes vt-out {
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+::view-transition-old(root) { animation: vt-out 0.18s ease both; }
+::view-transition-new(root) { animation: vt-in 0.32s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation: none !important;
+	}
+}
+
+/* Clear, consistent focus ring for keyboard users (accessibility) */
+:focus-visible {
+	outline: 2px solid var(--color-primary);
+	outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.001ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.001ms !important;
+	}
+}
+
+/* ---- Jocuri interactive ---- */
+:root {
+	--game-pair-1: var(--color-primary);
+	--game-pair-2: var(--color-accent);
+	--game-pair-3: #6a994e;
+	--game-pair-4: #8e6fae;
+	--game-pair-5: #b8860b;
+	--game-pair-6: #38808f;
+	--game-pair-7: #a8577a;
+	--game-pair-8: #7a6a3f;
+	--game-ok: #2e7d5b;
+	--game-bad: var(--color-accent-strong);
+}
+@keyframes game-shake {
+	0%, 100% { transform: translateX(0); }
+	25% { transform: translateX(-5px); }
+	75% { transform: translateX(5px); }
+}
+@keyframes game-pop {
+	from { transform: scale(0.6); opacity: 0; }
+	to { transform: scale(1); opacity: 1; }
+}
+@keyframes game-blink-ok {
+	0%, 100% { background-color: var(--game-ok); }
+	50% { background-color: var(--color-surface); }
+}
+@keyframes game-blink-bad {
+	0%, 100% { background-color: var(--game-bad); }
+	50% { background-color: var(--color-surface); }
+}
+@keyframes game-confetti-fall {
+	to { transform: translateY(70vh) rotate(720deg); opacity: 0; }
+}
+.game-shake { animation: game-shake 0.35s ease 2; }
+.game-pop { animation: game-pop 0.25s ease; }
+.game-blink-ok { animation: game-blink-ok 0.3s ease 3; background-color: var(--game-ok); }
+.game-blink-bad { animation: game-blink-bad 0.3s ease 3; background-color: var(--game-bad); }
+@keyframes game-pulse-hi {
+	0%, 100% { box-shadow: 0 0 0 0 rgba(245, 200, 66, 0.9); background-color: #f5c842; }
+	50% { box-shadow: 0 0 0 9px rgba(245, 200, 66, 0); background-color: #ffe27a; }
+}
+.game-pulse-hi { animation: game-pulse-hi 0.85s ease-in-out infinite; background-color: #f5c842 !important; color: #22333b !important; }
+.game-confetti span {
+	position: absolute;
+	top: -5%;
+	width: 10px;
+	height: 14px;
+	border-radius: 2px;
+	animation: game-confetti-fall 2.6s linear forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+	.game-shake, .game-pop, .game-blink-ok, .game-blink-bad, .game-pulse-hi, .game-confetti span {
+		animation: none !important;
+	}
+}
+
+/* ---- Filigran și frecare anti-copiere ----
+   Sinceritate, o dată, ca să nu se rescrie greșit mai târziu: NIMIC din acest bloc nu
+   oprește copierea. Un site rulat într-un browser nu poate opri captura de ecran, poza
+   făcută cu telefonul, sau fila „Network" din devtools. Ce urmează ridică doar costul
+   copierii din reflex și face urma vizibilă. Podeaua reală rămâne controlul de acces de
+   pe server (lib/entitlement.ts + routes/media.tsx). Vezi docs/04-anti-piracy.md. */
+
+/* Ștampila lizibilă din colțul filigranului (components/Watermark.tsx). Destul de discretă
+   cât să nu deranjeze citirea, destul de contrastantă cât să se citească într-o poză. */
+.cat-wm-stamp {
+	color: color-mix(in srgb, var(--color-ink) 52%, transparent);
+	background: color-mix(in srgb, var(--color-surface) 65%, transparent);
+}
+
+/* Imaginile și filmele venite din bibliotecă (întotdeauna servite din /media/:id, deci
+   selectorul prinde și galeriile, și jocurile, și teancurile de pagini, și orice vizualizare
+   nouă — fără să atingem componentele).
+   `-webkit-touch-callout: none` scoate meniul de la apăsare lungă pe iPhone, adică exact
+   „Salvează imaginea"; `-webkit-user-drag: none` oprește trasul imaginii pe desktop.
+   Nu afectează cititoarele de ecran, navigarea cu tastatura sau `alt`. */
+img[src^="/media/"],
+video[src^="/media/"] {
+	-webkit-user-drag: none;
+	-webkit-touch-callout: none;
+	user-select: none;
+}
+
+/* DELIBERAT NU blocăm selecția textului din lecțiile scrise (.prose-ro).
+   Un elev are nevoie să selecteze o definiție ca s-o pună în caiet sau s-o caute în
+   dicționar, iar cititoarele de ecran și traducerea automată trec prin același mecanism.
+   În plus, textul e oricum în sursa paginii — `user-select: none` ar fi supărat elevii
+   cuminți fără să încurce pe nimeni altcineva. */
+
+@media print {
+	/* Tipărirea (inclusiv „Print to PDF") rămâne posibilă — o profesoară care își tipărește
+	   propriul material n-are de ce să fie blocată, iar blocarea s-ar ocoli oricum cu o
+	   captură de ecran. Doar filigranul devine imposibil de ratat pe foaia tipărită. */
+	.cat-wm > div {
+		opacity: 0.28 !important;
+	}
+	.cat-wm-stamp {
+		color: var(--color-ink);
+		background: none;
+		font-size: 11px;
+	}
+}
+
+/* Întoarcerea paginii la materialele răsfoibile. Blocul global de mai sus pentru
+   prefers-reduced-motion o reduce automat la nimic. */
+@keyframes cat-page {
+	from { opacity: 0; transform: translateX(6px) scale(0.995); }
+	to { opacity: 1; transform: none; }
+}
+.cat-page {
+	animation: cat-page 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Stelele de la „Păreri" (/pareri) sunt cinci `input type=radio` adevărate, ascunse vizual:
+   formularul se trimite și fără JavaScript, iar tastatura și cititoarele de ecran primesc
+   un grup de radio-uri obișnuit, cu etichete („3 stele"), nu o grămadă de `div`-uri.
+
+   „Umple până la N" cere să colorezi steaua bifată ȘI pe cele dinaintea ei — dar CSS n-are
+   selector de frate ANTERIOR. De-aia ordinea din DOM e 5→1, întoarsă vizual cu
+   `flex-row-reverse`: „înaintea ei" pe ecran devine „după ea" în DOM, adică un simplu `~`.
+
+   Culorile sunt jetoane de temă, deci stelele se schimbă singure între cele două instanțe. */
+.star-rating label {
+	color: var(--color-border);
+	cursor: pointer;
+	transition: color 0.15s ease;
+}
+.star-rating label:has(input:checked),
+.star-rating label:has(input:checked) ~ label {
+	color: var(--color-accent-strong);
+}
+.star-rating:hover label:hover,
+.star-rating:hover label:hover ~ label {
+	color: var(--color-accent-strong);
+}
+/* Focalizarea de la tastatură trebuie să se vadă: radio-ul e ascuns, deci conturul se pune
+   pe etichetă, nu pe el. */
+.star-rating label:has(input:focus-visible) {
+	outline: 2px solid var(--color-primary);
+	outline-offset: 3px;
+	border-radius: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+	.star-rating label {
+		transition: none;
+	}
+}

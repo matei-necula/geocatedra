@@ -1,0 +1,25 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "pamantul-miscari",
+		"slug": "pamantul-miscari-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/pamantul-miscari/1-rotatia.webp",
+				"caption": "Mișcarea de rotație a Pământului, în jurul axei înclinate cu 23,5°"
+			},
+			{
+				"file": "../content/galerii/pamantul-miscari/2-forta-coriolis.webp",
+				"caption": "Forța Coriolis: corpurile în mișcare sunt deviate spre dreapta în emisfera nordică și spre stânga în cea sudică"
+			},
+			{
+				"file": "../content/galerii/pamantul-miscari/3-orbita-periheliu-afeliu.webp",
+				"caption": "Orbita Pământului: periheliul (3 ianuarie) și afeliul (3 iulie) — mișcarea de revoluție"
+			},
+			{
+				"file": "../content/galerii/pamantul-miscari/4-solstitii-echinoctii.webp",
+				"caption": "Poziția Pământului la solstiții (22 iunie, 22 decembrie) și la echinocții (21 martie, 23 septembrie)"
+			}
+		]
+	}
+]

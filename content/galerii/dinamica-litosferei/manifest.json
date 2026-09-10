@@ -1,0 +1,53 @@
+[
+	{
+		"gradeId": "9",
+		"topicSlug": "dinamica-litosferei",
+		"slug": "dinamica-litosferei-galerie-foto",
+		"images": [
+			{
+				"file": "../content/galerii/dinamica-litosferei/1-fragmentarea-litosferei.webp",
+				"caption": "Litosfera fragmentată în plăci care plutesc pe astenosferă și se mișcă unele față de altele"
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/2-harta-placilor.webp",
+				"caption": "Harta plăcilor tectonice: contacte divergente (dorsale), contacte convergente (fose și subducție), falii transformante și puncte fierbinți"
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/3-dinamica-sectiune.webp",
+				"caption": "Tipurile de contact — falie transformantă, zonă de rift, zonă de subducție — și o secțiune prin scoarță: arc insular, fosă, dorsală oceanică, hot-spot și rift continental"
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/4-contacte-divergente.webp",
+				"caption": "Contactul divergent, în trei etape: riftul continental (Est-African), marea tânără (Marea Roșie) și dorsala medio-oceanică (Atlantic)"
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/5-contacte-convergente.webp",
+				"caption": "Contactul convergent, în trei variante: placă oceanică sub una continentală (Anzi), oceanică sub oceanică (arc insular) și coliziune continentală (Himalaya)"
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/6-hot-spot.webp",
+				"caption": "Vulcanismul de tip hot-spot: placa alunecă peste punctul fierbinte din manta și lasă în urmă un lanț de vulcani"
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/7-hawaii.webp",
+				"caption": "Arhipelagul Hawaii: insulele sunt cu atât mai vechi și mai erodate cu cât se află mai departe spre nord-vest, iar vulcanul activ stă deasupra punctului fierbinte"
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/8-tipuri-de-eruptii.webp",
+				"caption": "Tipuri de erupții vulcanice: liniștite — islandeză (pe fisuri) și hawaiană — și explozive — stromboliană, vulcaniană, peleană și pliniană."
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/9-aparatul-vulcanic.webp",
+				"caption": "Aparatul vulcanic și corpurile magmatice: craterul, conul străpuns, caldeira și curgerea de lavă la suprafață; neck-ul, dyke-ul, sill-ul, lacolitul și batolitul în adânc."
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/10-unde-seismice.webp",
+				"caption": "Undele seismice: cele principale (P) împing și trag roca pe direcția de propagare, iar cele secundare (S) o mișcă dintr-o parte în alta — de aceea fac cele mai mari pagube."
+			},
+			{
+				"file": "../content/galerii/dinamica-litosferei/11-miscari-epirogenetice.webp",
+				"caption": "Mișcările epirogenetice și urmele lor în strate: la transgresiune marea înaintează peste uscat, la regresiune se retrage; literele A, B, C arată ordinea în care s-au depus stratele."
+			}
+		]
+	}
+]

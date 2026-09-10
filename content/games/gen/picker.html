@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ro">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Picker de coordonate (%) pentru hărțile jocurilor</title>
+	<style>
+		body { font-family: Arial, sans-serif; margin: 1rem; background: #fdf6ec; color: #22333b; }
+		#wrap { position: relative; display: inline-block; max-width: 100%; }
+		#img { max-width: 100%; display: block; border: 1px solid #ccc; }
+		.dot { position: absolute; width: 8px; height: 8px; margin: -4px 0 0 -4px; background: #e07a5f; border: 1px solid #fff; border-radius: 50%; pointer-events: none; }
+		#log { margin-top: .5rem; font-size: 14px; white-space: pre-wrap; }
+		code { background: #fff; padding: 0 4px; }
+	</style>
+</head>
+<body>
+	<h1>Picker de coordonate (x%, y%)</h1>
+	<p>Încarcă un PNG de hartă, apoi <strong>click</strong> pe imagine — se afișează <code>x%, y%</code> (o zecimală) și se copiază în clipboard.</p>
+	<input type="file" id="file" accept="image/*" />
+	<div id="wrap"><img id="img" alt="" /></div>
+	<div id="log"></div>
+	<script>
+		const file = document.getElementById("file");
+		const img = document.getElementById("img");
+		const wrap = document.getElementById("wrap");
+		const log = document.getElementById("log");
+		file.addEventListener("change", () => {
+			const f = file.files[0];
+			if (f) img.src = URL.createObjectURL(f);
+		});
+		img.addEventListener("click", (e) => {
+			const r = img.getBoundingClientRect();
+			const x = ((e.clientX - r.left) / r.width * 100).toFixed(1);
+			const y = ((e.clientY - r.top) / r.height * 100).toFixed(1);
+			const dot = document.createElement("div");
+			dot.className = "dot";
+			dot.style.left = x + "%";
+			dot.style.top = y + "%";
+			wrap.appendChild(dot);
+			const line = `"x": ${x}, "y": ${y}`;
+			log.textContent = line + "\n" + log.textContent;
+			navigator.clipboard?.writeText(line).catch(() => {});
+		});
+	</script>
+</body>
+</html>

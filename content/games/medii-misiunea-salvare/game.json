@@ -1,0 +1,140 @@
+{
+	"gradeId": "9",
+	"topicSlug": "mediile-naturale-terestre",
+	"slug": "misiunea-de-salvare",
+	"title": "Misiunea de salvare: echilibrul biomic",
+	"description": "Ești cercetător trimis în teren. Șase medii, șase crize reale: citește cazul și alege soluția pe care clima, solul și precipitațiile locului o fac cu adevărat posibilă. La fiecare variantă afli de ce merge sau de ce nu.",
+	"position": 12,
+	"status": "published",
+	"assets": [
+		"sahel-desertificare.webp",
+		"ecuatorial-defrisare.webp",
+		"musonic-inundatie.webp",
+		"mediteran-seceta.webp",
+		"stepa-suprapasunat.webp",
+		"tundra-permafrost.webp"
+	],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Runda 1 — alerte în zona caldă",
+				"questions": [
+					{
+						"img": 0,
+						"text": "Sahel, la sudul Saharei. Ploile cad trei luni pe an și tot mai puțin, deșertul înaintează spre sud, iar fântânile satului au secat. Cu ce începi?",
+						"hint": "200–500 mm/an, căzute în sezonul ploios; sol nisipos, vânt puternic în sezonul uscat.",
+						"options": [
+							"Perdele forestiere de acacia și garduri vii pe curbele de nivel",
+							"Irigare prin inundare, din apa adusă pe canal din fluviu",
+							"Plantații de eucalipt cu creștere rapidă, pentru lemn de foc și umbră",
+							"Trecerea satului la orez, cultură cu randament mult mai mare"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Acacia rezistă la secetă și fixează azotul, iar perdelele opresc vântul care spulberă solul; gardurile vii pe curbe rețin apa ploilor scurte și torențiale, în loc s-o lase să se scurgă.",
+							"Inundarea pierde cea mai mare parte a apei prin evaporare, iar într-un climat cu evaporație mare sărurile urcă la suprafață: solul se sărăturează.",
+							"Eucaliptul consumă foarte multă apă și coboară pânza freatică. Într-o regiune care deja rămâne fără apă, agravează exact problema pe care vrei s-o rezolvi.",
+							"Orezul cere apă stătătoare luni întregi. În Sahel nu există nici apa, nici regimul de ploi care să o susțină."
+						]
+					},
+					{
+						"img": 1,
+						"text": "Pădurea ecuatorială, bazinul fluviului Congo. Un exploatator taie ras parcele întregi. După două sezoane de ploi, terenul rămas gol nu mai poate fi cultivat. Ce propui?",
+						"hint": "Peste 2000 mm/an, ploi aproape zilnice; solul lateritic e sărac — materia organică stă în vegetație, nu în sol.",
+						"options": [
+							"Tăiere selectivă, sub acoperișul pădurii, cu cacao și cafea la umbră",
+							"Tăiere rasă, urmată de pășunat intensiv, mai rentabil ca lemnul",
+							"Ardere și cultivarea aceleiași parcele douăzeci de ani la rând",
+							"Înlocuirea pădurii cu plantații mari de grâu, pentru export"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Aici fertilitatea stă în vegetație, nu în sol. Cât timp acoperișul pădurii rămâne, ploaia nu spală stratul subțire de humus, iar circuitul materiei organice continuă.",
+							"Fără acoperișul pădurii, ploile spală imediat humusul, iar laterita se întărește ca o crustă. Pășunea se degradează în câțiva ani.",
+							"Solul lateritic descoperit se epuizează în doi-trei ani. Tocmai de aceea agricultura tradițională de aici este itinerantă, nu fixă.",
+							"Grâul este o cereală de climat temperat, care are nevoie de sezon uscat la coacere. În ploaia zilnică ecuatorială nu ajunge la maturitate."
+						]
+					},
+					{
+						"img": 2,
+						"text": "Delta Gangelui. Musonul de vară a venit mai puternic decât de obicei: orezăriile și satul sunt sub apă. Ce infrastructură alegi ca să salvezi culturile și casele?",
+						"hint": "2000–3000 mm strânse în patru luni, apoi sezon uscat; teren jos, aluvionar.",
+						"options": [
+							"Canale de drenaj, case pe piloni și bazine pentru sezonul uscat",
+							"Un baraj mare în amonte, care să oprească apa musonului",
+							"Mutarea satului pe teren înalt și abandonarea orezăriilor",
+							"Betonarea albiei râului pe toată lungimea, ca apa să curgă repede"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Musonul nu se oprește, se conduce: drenajul scoate surplusul, pilonii ridică locuința deasupra viiturii, iar bazinele transformă apa de vară în rezervă pentru sezonul uscat.",
+							"Un baraj nu poate reține volumele musonice fără riscuri uriașe, iar aluviunile care fertilizează câmpia s-ar depune în lacul de acumulare, nu pe câmp.",
+							"Ar însemna renunțarea la resursa principală a regiunii: tocmai aluviunile aduse de muson fac câmpia atât de fertilă.",
+							"Betonul accelerează scurgerea și mută inundația mai jos, în aval, în loc s-o rezolve."
+						]
+					}
+				]
+			},
+			{
+				"title": "Runda 2 — alerte în zonele temperate și reci",
+				"questions": [
+					{
+						"img": 3,
+						"text": "Sudul Spaniei, în august. Lacul de acumulare a coborât la un sfert, iar plantațiile cer apă exact în luna în care plouă cel mai puțin. Ce faci?",
+						"hint": "Veri calde și uscate, ierni blânde și ploioase: ploaia vine iarna, consumul e vara.",
+						"options": [
+							"Picurare noaptea, culturi de măslin și viță, apă strânsă iarna",
+							"Aspersoare pornite la prânz, pe toată suprafața plantației de măslini",
+							"Trecerea la porumb și lucernă, culturi de mare randament",
+							"Forarea de puțuri tot mai adânci, până se găsește apă"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Picurarea noaptea taie pierderea prin evaporare, iar măslinul și vița sunt exact speciile modelate de seceta de vară. Apa strânsă iarna acoperă vârful de consum din vară.",
+							"La prânz, în arșiță, o bună parte din apa aspersată se evaporă înainte să ajungă la rădăcină: consum maxim, efect minim.",
+							"Porumbul și lucerna cer apă tocmai în lunile fără ploaie. Ai dubla exact consumul pe care încerci să-l reduci.",
+							"Supraexploatarea acviferelor coboară pânza freatică, iar pe litoral atrage apă sărată în pânza dulce — o pagubă greu de întors."
+						]
+					},
+					{
+						"img": 4,
+						"text": "Stepa din Asia Centrală. Turmele au crescut, iarba nu se mai reface, iar vântul ridică praful de pe solul rămas gol. Cum oprești degradarea?",
+						"hint": "250–450 mm/an, veri secetoase, ierni geroase; cernoziomuri foarte fertile, dar cu strat subțire la suprafață.",
+						"options": [
+							"Pășunat prin rotație, cu răgaz de refacere, și perdele de vânt",
+							"Creșterea numărului de animale, ca să compenseze iarba tot mai puțină",
+							"Arătura adâncă a întregii stepe și grâu semănat an de an",
+							"Irigare masivă din râu, ca iarba să crească mai repede"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Iarba de stepă se reface dacă i se dă răgaz: rotația păstrează covorul vegetal, iar perdelele taie vântul care spulberă cernoziomul rămas descoperit.",
+							"Mai multe animale pe aceeași iarbă înseamnă degradare mai rapidă. Este cauza problemei, nu soluția ei.",
+							"Arătura adâncă și monocultura lasă solul gol între recolte. Așa s-au născut furtunile de praf care au distrus mari suprafețe de stepă în secolul XX.",
+							"Într-un climat cu evaporație mare, irigarea masivă ridică sărurile la suprafață și sărăturează tocmai cernoziomul pe care vrei să-l salvezi."
+						]
+					},
+					{
+						"img": 5,
+						"text": "Coasta siberiană. Verile sunt tot mai lungi, permafrostul de sub sat se dezgheață, iar drumul și casele se prăbușesc în mal. Ce soluție alegi?",
+						"hint": "Sol înghețat permanent în adâncime; doar stratul de la suprafață se dezgheață vara.",
+						"options": [
+							"Construcții pe piloni, cu aer rece care circulă pe sub clădire",
+							"Fundații masive de beton, turnate direct pe solul dezghețat",
+							"Încălzirea locuinței dinspre sol, ca să nu înghețe podeaua",
+							"Plantarea de arbori înalți, care să fixeze malul surpat"
+						],
+						"answer": 0,
+						"why": [
+							"Corect. Pilonii duc greutatea în stratul care rămâne înghețat, iar spațiul de sub casă lasă frigul să circule: clădirea nu-și mai topește propria fundație.",
+							"Betonul turnat pe sol transmite căldura clădirii în permafrost. Acesta se dezgheață, terenul se lasă, iar construcția crapă și se înclină.",
+							"Ar dezgheța exact stratul care susține casa — este chiar mecanismul care a provocat prăbușirile din fotografie.",
+							"În tundră arborii înalți nu cresc: sezonul cald e prea scurt, iar rădăcinile nu pot pătrunde în solul înghețat."
+						]
+					}
+				]
+			}
+		]
+	}
+}

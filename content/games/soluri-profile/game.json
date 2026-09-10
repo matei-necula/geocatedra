@@ -1,0 +1,89 @@
+{
+	"gradeId": "9",
+	"topicSlug": "solurile-terrei",
+	"slug": "recunoaste-profilul-de-sol",
+	"title": "Recunoaște profilul de sol",
+	"description": "Privește profilul și alege denumirea potrivită dintre cele patru variante.",
+	"position": 20,
+	"assets": [
+		"sol-1-laterit.jpg",
+		"sol-2-feralitic.jpg",
+		"sol-3-nisipos.jpg",
+		"sol-4-terra-rosa.jpg",
+		"sol-5-molisol.jpg",
+		"sol-6-argiluvisol.jpg",
+		"sol-7-podzol.jpg",
+		"sol-8-turbos.jpg"
+	],
+	"body": {
+		"kind": "grila",
+		"rounds": [
+			{
+				"title": "Profiluri de sol",
+				"questions": [
+					{
+						"img": 0,
+						"text": "Ce sol are acest profil?",
+						"hint": "Sub pădurea ecuatorială: ploile spală tot ce e solubil și lasă un strat gros, ruginiu, foarte sărac în humus.",
+						"options": ["Podzol", "Laterit", "Molisol (cernoziom)", "Sol turbos"],
+						"answer": 1
+					},
+					{
+						"img": 2,
+						"text": "Ce sol are acest profil?",
+						"hint": "În deșert: aproape fără humus, apa se scurge imediat printre granulele grosiere, iar vântul mută stratul de sus.",
+						"options": ["Terra rossa", "Argiluvisol", "Sol nisipos", "Laterit"],
+						"answer": 2
+					},
+					{
+						"img": 4,
+						"text": "Ce sol are acest profil?",
+						"hint": "Sub ierburile de stepă: orizont gros, închis la culoare și foarte fertil — solul grâului.",
+						"options": ["Molisol (cernoziom)", "Sol feralitic roșu", "Sol nisipos sărac", "Podzol de pădure"],
+						"answer": 0
+					},
+					{
+						"img": 6,
+						"text": "Ce sol are acest profil?",
+						"hint": "Sub pădurea de conifere: acele căzute acidifiază apa, care spală mineralele și lasă un orizont deschis, cenușiu.",
+						"options": ["Terra rossa", "Molisol (cernoziom)", "Sol feralitic", "Podzol"],
+						"answer": 3
+					}
+				]
+			},
+			{
+				"title": "Profiluri de sol",
+				"questions": [
+					{
+						"img": 1,
+						"text": "Ce sol are acest profil?",
+						"hint": "La tropicele umed-uscate: orizont subțire de humus peste un strat roșcat, bogat în oxizi de fier și aluminiu.",
+						"options": ["Sol turbos", "Sol feralitic", "Argiluvisol", "Terra rossa"],
+						"answer": 1
+					},
+					{
+						"img": 3,
+						"text": "Ce sol are acest profil?",
+						"hint": "În climatul mediteranean, pe calcar: rămâne ca reziduu insolubil după ce roca se dizolvă.",
+						"options": ["Terra rossa", "Laterit", "Podzol", "Sol nisipos"],
+						"answer": 0
+					},
+					{
+						"img": 5,
+						"text": "Ce sol are acest profil?",
+						"hint": "Sub pădurea de foioase: particulele fine sunt spălate din stratul de sus și se adună într-un orizont dens, dedesubt.",
+						"options": ["Molisol (cernoziom)", "Sol turbos", "Argiluvisol", "Sol feralitic"],
+						"answer": 2
+					},
+					{
+						"img": 7,
+						"text": "Ce sol are acest profil?",
+						"hint": "În zone reci și mereu ude: resturile vegetale nu apucă să se descompună și se strâng strat peste strat.",
+						"options": ["Argiluvisol", "Laterit", "Molisol (cernoziom)", "Sol turbos"],
+						"answer": 3
+					}
+				]
+			}
+		]
+	}
+}

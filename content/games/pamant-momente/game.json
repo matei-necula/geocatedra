@@ -1,0 +1,38 @@
+{
+	"gradeId": "9",
+	"topicSlug": "pamantul-miscari",
+	"slug": "momentele-anului-pe-orbita",
+	"title": "Momentele anului pe orbită",
+	"description": "Așază cele patru momente astronomice în ordinea calendaristică, adică așa cum se succed între 1 ianuarie și 31 decembrie — întâi pentru emisfera nordică, apoi pentru cea sudică. Atenție: datele rămân aceleași, dar în sud anotimpurile sunt inversate.",
+	"position": 22,
+	"status": "published",
+	"assets": ["moment-primavara.jpg", "moment-vara.jpg", "moment-toamna.jpg", "moment-iarna.jpg"],
+	"body": {
+		"kind": "ordonare",
+		"imageFit": "contain",
+		"rounds": [
+			{
+				"title": "Emisfera nordică: așază cele patru momente în ordinea în care se petrec de-a lungul anului calendaristic, pornind de la 1 ianuarie.",
+				"startLabel": "1 ianuarie",
+				"endLabel": "31 decembrie",
+				"cards": [
+					{ "img": 0, "label": "Ziua egală cu noaptea (21 martie)", "order": 1 },
+					{ "img": 1, "label": "Ziua cea mai lungă din an", "order": 2 },
+					{ "img": 2, "label": "Ziua egală cu noaptea (23 septembrie)", "order": 3 },
+					{ "img": 3, "label": "Ziua cea mai scurtă din an", "order": 4 }
+				]
+			},
+			{
+				"title": "Emisfera sudică: aceleași patru momente, tot în ordinea anului calendaristic, de la 1 ianuarie. Gândește-te în ce lună cade acolo ziua cea mai scurtă.",
+				"startLabel": "1 ianuarie",
+				"endLabel": "31 decembrie",
+				"cards": [
+					{ "img": 0, "label": "Ziua egală cu noaptea (21 martie)", "order": 1 },
+					{ "img": 1, "label": "Ziua cea mai lungă din an", "order": 4 },
+					{ "img": 2, "label": "Ziua egală cu noaptea (23 septembrie)", "order": 3 },
+					{ "img": 3, "label": "Ziua cea mai scurtă din an", "order": 2 }
+				]
+			}
+		]
+	}
+}

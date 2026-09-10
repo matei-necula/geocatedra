@@ -1,0 +1,8 @@
+[
+	{ "name": "dr-crusta-cont",  "box": [2624,  65, 2767,  94], "anchor": "crusta",  "anchorW": 144, "text": "crusta",       "cx": 2672, "pad": 10, "thr": 130 },
+	{ "name": "dr-continentala", "box": [2564, 115, 2833, 154], "anchor": "crusta",  "anchorW": 144, "text": "continentală", "cx": 2672, "pad": 10, "thr": 130 },
+	{ "name": "dr-oceanica",     "box": [1533, 316, 1752, 345], "anchor": "crusta",  "anchorW": 146, "text": "oceanică",                 "pad":  8, "thr": 130 },
+	{ "name": "dr-inferioara",   "box": [1544, 919, 1771, 960], "anchor": "mantaua", "anchorW": 212, "text": "inferioară",               "pad":  8, "thr": 130 },
+	{ "name": "st-superioara",   "box": [1199, 151, 1425, 192], "anchor": "mantaua", "anchorW": 211, "text": "superioară",               "pad":  6, "thr": 150 },
+	{ "name": "st-inferioara",   "box": [ 648,1146,  875,1186], "anchor": "mantaua", "anchorW": 211, "text": "inferioară",               "pad":  6, "thr": 165 }
+]
