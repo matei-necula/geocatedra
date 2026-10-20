@@ -25,7 +25,7 @@
     you got wrong.
   - Interactive games: matching pairs, putting things in order, placing photos on a
     map, and naming places on a map.
-  - A mind map for each topic, so a whole chapter fits on one screen.
+  - A mind map for each topic, so a whole chapter fits on one scredn.
 
   **For teachers**
   - A free library of teaching material: lesson plans, a methodology guide, full
@@ -72,10 +72,7 @@
 
       app/       the website: pages, game engines, database schema, scripts
       content/   the geography: galleries, games, interactive material, teaching material
-      docs/      architecture notes and the reasoning behind the big decisions
 
-  The major decisions are written up as short ADRs in `docs/adr/`, with a running
-  log in `docs/DECISIONS.md`.
 
 
   ---
