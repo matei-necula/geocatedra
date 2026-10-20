@@ -1,94 +1,84 @@
-# Catedra
+# Geo-catedra
 
-**A hosted teaching platform for the Romanian school curriculum.**
-Live at **[geocatedra.com](https://geocatedra.com)**.
+  A free geography website for Romanian high school students and their teachers.
+  Live at **[geocatedra.com](https://geocatedra.com)**.
 
-Catedra is a subject-agnostic teaching engine. Geography for grades 5 to 12 is
-its first instance, not its only possible one: the subject lives entirely in
-configuration and content, never in the engine code.
+  No account, no login and no ads. You open the site and start learning.
 
-It runs in production today, administered daily by a geography teacher who is
-not a developer.
+  ---
 
----
+  ## Why it exists
 
-## What it does
+  My mother teaches geography. Over the years she built up a huge collection of
+  lessons, photo galleries, worksheets, lesson plans and tests. Most of it lived in
+  PowerPoint files on her laptop. Geocatedra puts that work online so any student or
+  teacher in Romania can use it for free.
 
-**Two sites, one codebase, one database.**
+  It starts with grade 9 and follows the national curriculum chapter by chapter.
 
-| | Free site | Site with classes |
-|---|---|---|
-| Audience | Anyone, no account | A teacher's own students |
-| Access | Open | One shared class token |
-| Materials, images, questions | Yes | Yes |
-| Homework, results, statistics, announcements | — | Yes |
-| Teacher accounts | — | Yes |
+  ## What's on it
 
-Publishing a material from the admin console pushes it to the public internet in
-one click, on both sites, with no deployment.
+  **For students**
+  - Lessons, photo galleries, diagrams and documents, sorted by grade and chapter.
+  - **Exersează**, a practice mode. It builds a random multiple-choice test from a
+    bank of over 300 questions, gives you hints if you're stuck, and shows you what
+    you got wrong.
+  - Interactive games: matching pairs, putting things in order, placing photos on a
+    map, and naming places on a map.
+  - A mind map for each topic, so a whole chapter fits on one screen.
 
-**For students**
-- A library of lessons, galleries, documents and interactive material, organised by grade and chapter.
-- *Exersează*, a multiple-choice practice engine that draws randomised tests, offers costed hints, and reports mistakes back for review.
-- Interactive games built on a reusable engine: matching, ordering, contour-line relief, map work.
-- Mind maps per topic.
+  **For teachers**
+  - A free library of teaching material: lesson plans, a methodology guide, full
+    lesson projects, case studies on Dobrogea and model tests. You flip through each
+    one page by page in the browser.
 
-**For the teacher**
-- Material authoring with a friendly editor per material type, and a draft/publish workflow.
-- Image and PDF upload straight to object storage, streamed back only after an access check.
-- A question bank with per-question and per-chapter statistics.
-- Class tokens: one click to generate, regenerate or revoke.
-- Homework, announcements and per-student results, with anonymous-friendly analytics.
+  Everything on the site is in Romanian and written in plain language. Every photo
+  is public domain or CC0, and its source is recorded.
 
-Every interface string is in Romanian, written plainly, because the daily
-administrator is not technical.
+  ## How it's built
 
----
+  | Layer | Choice |
+  |---|---|
+  | Framework | React Router v7, running on Cloudflare Workers |
+  | Database | Cloudflare D1 (SQLite) with Drizzle ORM |
+  | Images and files | Cloudflare R2 |
+  | Language | TypeScript |
+  | Tests | Vitest |
 
-## How it is built
+  It costs nothing to run. Every piece fits inside Cloudflare's free tier, and that
+  was a goal from day one rather than luck.
 
-| Layer | Choice |
-|---|---|
-| Framework | React Router v7 on Cloudflare Workers |
-| Database | Cloudflare D1 (SQLite) via Drizzle ORM |
-| Object storage | Cloudflare R2, access-controlled |
-| Sessions | Cloudflare KV |
-| Language | TypeScript |
-| Auth | Custom, in the Worker |
+  ## A few rules the code follows
 
-Running cost: currently zero per month, by deliberate design. Every choice
-defaults to a free tier, and anything paid is flagged before it is adopted.
+  - **Nothing about you is stored.** There are no accounts and no cookies. The
+    practice tests save nothing. Visitor counts come from Cloudflare's cookieless
+    analytics, and the privacy page updates itself depending on whether they're on.
+  - **The answers stay on the server.** A practice test sends you the questions but
+    not the answers. Your test is graded on the server, so viewing the page source
+    won't help you cheat.
+  - **No guessing by length.** Students quickly learn that the longest option is
+    usually the right one. A script and a test check every question so the correct
+    answer is the longest about as often as chance would make it.
+  - **Only published material gets out.** Every page and image passes a check on the
+    server first, so drafts stay hidden no matter what URL someone tries. The public
+    build has no admin routes in it at all.
+  - **Geography is just the content.** The engine doesn't know which subject it's
+    teaching. That lives in one config file plus the content, so the same code could
+    host history or biology.
+  - **Fast on a phone.** Most visitors are students on mobile data. List pages send
+    only what they show, images get small thumbnails, and fonts load early.
 
-## Design rules the code has to satisfy
+  ## What's in the repo
 
-- **Access control is server-side, always.** Whether a role may see or stream a material is decided in the Worker. Never by hiding a button.
-- **No student accounts and no student personal data.** Students enter with a shared class token that expires at the end of the school year and is hashed at rest. The practice feature stores a self-chosen nickname and a score, nothing else.
-- **Subject-agnostic.** Grep the engine for "geography" and you should find hits only in configuration and content.
-- **Internationalisation-ready.** No user-facing string is hardcoded. Content text is stored per locale; interface strings live in message files. Romanian is the launch locale.
-- **Correct answers never reach the client.** A practice test sends the drawn question set signed, and grades on the server.
+      app/       the website: pages, game engines, database schema, scripts
+      content/   the geography: galleries, games, interactive material, teaching material
+      docs/      architecture notes and the reasoning behind the big decisions
 
-## Repository layout
+  The major decisions are written up as short ADRs in `docs/adr/`, with a running
+  log in `docs/DECISIONS.md`.
 
-```
-app/       the application: routes, engine, database schema, Worker entry
-content/   subject content: galleries, games, interactive material, pedagogy
-docs/      architecture, data model, permissions matrix, decision records
-assets/    reference images
-```
 
-Architecture decisions are recorded as ADRs under `docs/adr/`, with the running
-decision log in `docs/DECISIONS.md`.
+  ---
 
-## Authorship
-
-The application code was written by AI coding agents under my direction. I own
-the product and everything around the code: the architecture and the constraints
-above, the Cloudflare account, DNS and domain, the D1 database, R2 storage and
-KV bindings, both deployment pipelines, search indexing, the content workflow,
-and the day-to-day operation of a live site. I state this plainly rather than
-present the source as hand-written by me.
-
----
-
-**Matei Necula** · Bucharest, Romania
-[LinkedIn](https://linkedin.com/in/matei-necula) · [GitHub](https://github.com/matei-necula)
+  **Matei Necula** · Bucharest, Romania
+  [LinkedIn](https://linkedin.com/in/matei-necula) · [GitHub](https://github.com/matei-necula)
